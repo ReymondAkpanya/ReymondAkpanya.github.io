@@ -21,7 +21,7 @@ repository               : "ReymondAkpanya/reymondAkpanya.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "akpanya.png"
+  avatar           : "akpanya.jpeg"
   name             : "Reymond Akpanya"
   pronouns         : # example: "she/her"  
   bio              : "I am a PhD student in the field of simplicial surfaces under the supervision of Prof. Dr. Alice C. Niemeyer and Prof. Dr. Wilhelm Plesken."
