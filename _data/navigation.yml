@@ -17,6 +17,9 @@ main:
     
   - title: "CV"
     url: /cv/
+
+  - title: "Converences"
+    url: /conferences/
     
   - title: "Guide"
     url: /markdown/
