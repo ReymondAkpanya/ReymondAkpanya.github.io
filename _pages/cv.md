@@ -12,10 +12,11 @@ redirect_from:
 Education
 ======
 * 2021 Master of Science, RWTH Aachen University
-  Major Mathematics and minor Business Studies
+  * Major Mathematics and minor Business Studies
+  * Supervisors: 
 * 2018 Bachelor of Science, RWTH Aachen University
-  Major Mathematics and minor Business Studies
-
+  * Major Mathematics and minor Business Studies
+  * Supervisors:
 Experience Abroad 
 ======
 * 09/2023-09/2023 Research visit at RMIT University (3 weeks)
@@ -29,6 +30,8 @@ Experience Abroad
   * Projects: Classification of face-transitive surfaces; Classification of 2-transitive simplicial surfaces with singularities
 * 09/2019 – 05/2020 Erasmus Program at Queen Mary University of London (9 months)
   * Supervisor: Prof. Dr. Eva Zerz
+
+Bla 
 ======
 * Spring 2024: Academic Pages Collaborator
   * Github University
