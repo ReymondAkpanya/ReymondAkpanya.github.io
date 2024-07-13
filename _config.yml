@@ -21,7 +21,7 @@ repository               : "ReymondAkpanya/reymondAkpanya.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "akpanya.png"
   name             : "Reymond Akpanya"
   pronouns         : # example: "she/her"  
   bio              : "I am a PhD student in the field of simplicial surfaces under the supervision of Prof. Dr. Alice C. Niemeyer and Prof. Dr. Wilhelm Plesken."
@@ -34,7 +34,7 @@ author:
   arxiv            : "https://arxiv.org/search/math?searchtype=author&query=Akpanya,+R" # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/scholar?hl=nl&as_sdt=0%2C5&q=reymond+akpanya&btnG="
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0009-0009-0195-992X"
   semantic         : "https://www.semanticscholar.org/author/Reymond-Akpanya/2221265465"
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : "https://www.researchgate.net/profile/Reymond-Akpanya?ev=hdr_xprf&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6ImhvbWUiLCJwYWdlIjoiaG9tZSIsInBvc2l0aW9uIjoiZ2xvYmFsSGVhZGVyIn19"# URL

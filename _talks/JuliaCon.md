@@ -4,7 +4,7 @@ collection: talks
 type: "Talk"
 permalink: /talks/JuliaCon
 venue: "JuliaCon"
-date: 2012-07-24
+date: 2024-07-12
 location: "Eindhoven, Netherlands"
 ---
 
