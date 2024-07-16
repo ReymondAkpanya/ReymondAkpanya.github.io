@@ -13,10 +13,11 @@ Education
 ======
 * 2021 Master of Science, RWTH Aachen University
   * Major Mathematics and minor Business Studies
-  * Supervisors: 
+  * Supervisors: Prof. Dr. Alice c. Niemeyer, Prof. Dr. Wilhelm Plesken
 * 2018 Bachelor of Science, RWTH Aachen University
   * Major Mathematics and minor Business Studies
-  * Supervisors:
+  * Supervisors: Prof. Dr. Alice C. Niemeyer, Prof. Dr. Wilhelm Plesken, Dr. Markus Baumeister, Dr. Jesse Lansdown
+
 Experience Abroad 
 ======
 * 09/2023-09/2023 Research visit at RMIT University (3 weeks)
