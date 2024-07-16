@@ -15,6 +15,19 @@ Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you se
 
 Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
 
+Research interests
+======
+Simplicial Surfaces; Topological interlocking assemblies; Planar graphs; Cubic graphs; Graph Drawings; 
+Graph Drawings; Graph Colourings; Polyhedral realisations; Group actions on combinatorial structures;
+
+PhD project
+======
+A simplcial surface is the combinatorial structure that describes the incidence relations between the vertices, edges 
+and faces of a triangulated 2-dimensional manifold. The goal of my project is to analyse these surfaces and derive
+methods to construct simplicial surfaces with prescribed properties. Based on this combinatorial description I aim to 
+embed given simplicial surfaces into the Euclidean space in such a way that the embedding yields a polyhedron with 
+certain geometric properties e.g. convexity or interlocking properties. 
+
 Getting started
 ======
 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)

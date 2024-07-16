@@ -31,38 +31,45 @@ Experience Abroad
 * 09/2019 – 05/2020 Erasmus Program at Queen Mary University of London (9 months)
   * Supervisor: Prof. Dr. Eva Zerz
 
-Bla 
+Professional Experients 
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* professiional 1
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
+* Gap: Advanced
+  * Mantainer of the GAP-package SimplicialSurfaces
+  * Mantainer of the GAP-package GaPic
+* Latex: Advanced
+* 3D-printing: Advanced
+* Julia: Basic
+  * Mantainer of the Julia-Package GeoCombSurfX
+* Python, C++, Java, Maple, Matlab: Basic
+* Languages
+  * German: Native
+  * English: Fluent
   * Sub-skill 2.3
-* Skill 3
+* Social Involvements
+  * Chairman of We Won't Be Quiet association (since 2019)
+  * Member of Monada association (since 2022)
+
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
+Software
+======
+* Julia Package: GeoCombSurfX (10/2023)
+  * (Reymond Akpanya, Sascha Stüttgen)
+* Rhino Plugin: Honeycomb (10/2023)
+  * Reymond Akpanya, Tom Goertzen, Samuel Losi
+* Gap-Package: GaPic (07/2022)
+  * Reymond Akpanya, Alice C. Niemeyer, Tom goertzen, Meike Weiss, Lukas Schnelle  
+* Gap Package: SimplicialSurfaces (07/2022)
+  * Reymond Akpanya, Markus Baumeister, Tom Goertzen, Alice C. Niemeyer, Meike Weiss
 Talks
 ======
   <ul>{% for post in site.talks reversed %}
@@ -74,7 +81,7 @@ Teaching
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
+
+Personal Interests
 ======
-* Currently signed in to 43 different slack teams
+* Photography, Dancing, Volleyball, Basketball, Exercising
