@@ -1,11 +1,14 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Why is the obtuse triangle upset? - Because it is never right."
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+My name is Reymond Akpanya and I am a PhD student in the field of simplicial surfaces under the supervision of 
+Prof. Dr. Alice C. Niemeyer and Prof. Dr. Wilhelm Plesken.
 
 Research interests
 ======
@@ -20,3 +23,4 @@ methods to construct simplicial surfaces with prescribed properties. Based on th
 embed given simplicial surfaces into the Euclidean space in such a way that the embedding yields a polyhedron with 
 certain geometric properties e.g. convexity or interlocking properties. 
 
+<img src='/images/C23.png'>
