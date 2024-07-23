@@ -7,8 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-<img src='/images/platonic_solids.png' width="100" height="100">
-
+<p align="center">
+<img src='/images/platonic_solids.png' width="300" height="300">
+</p>
 My name is Reymond Akpanya and I am a PhD student in the field of simplicial surfaces under the supervision of 
 Prof. Dr. Alice C. Niemeyer and Prof. Dr. Wilhelm Plesken.
 
