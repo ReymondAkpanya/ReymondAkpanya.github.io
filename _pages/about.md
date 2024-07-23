@@ -7,6 +7,8 @@ redirect_from:
   - /about.html
 ---
 
+<img src='/images/platonic_solids.png' width="100" height="100">
+
 My name is Reymond Akpanya and I am a PhD student in the field of simplicial surfaces under the supervision of 
 Prof. Dr. Alice C. Niemeyer and Prof. Dr. Wilhelm Plesken.
 
@@ -18,9 +20,11 @@ Graph Drawings; Graph Colourings; Polyhedral realisations; Group actions on comb
 PhD project
 ======
 A simplcial surface is the combinatorial structure that describes the incidence relations between the vertices, edges 
-and faces of a triangulated 2-dimensional manifold. The goal of my project is to analyse these surfaces and derive
+and faces of a triangulated 2-dimensional manifold.
+
+ The goal of my project is to analyse these surfaces and derive
 methods to construct simplicial surfaces with prescribed properties. Based on this combinatorial description I aim to 
 embed given simplicial surfaces into the Euclidean space in such a way that the embedding yields a polyhedron with 
 certain geometric properties e.g. convexity or interlocking properties. 
 
-<img src='/images/C23.png'>
+<img src='/images/C23.png' width="100" height="100">
