@@ -11,8 +11,7 @@ location: "Aachen, Germany"
 > __Description__: From August 5 to 9, 2024, children and young people were invited to experience a creative week at the
 > Rolleferberg Youth Education Center. In cooperation with the Bleiberger Fabrik and the Werkwochen, this workshop 
 > offered young people the opportunity to experiment with concrete and realize their own creative ideas under the 
-> guidance of artists such as Andreas Robertz and Silke Franke.
-
+> guidance of artists such as Andreas Robertz and Silke Franke.<br>
 > The Concrete Art Project 2024 was enriched by the additional support of young scientists from the SFB/TRR280. These
 > young experts from various disciplines, such as mathematics and structural engineering, imparted valuable knowledge
 > to the participants. Hands-on experiments such as building a polyhedron out of paper, a hammer test for concrete 
