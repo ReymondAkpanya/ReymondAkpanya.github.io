@@ -6,7 +6,7 @@ permalink: /talks/KOLKOM2024
 venue: "KOLKOM 2024"
 date: 2024-09-29
 location: "Heidelberg, Germany"
-
+---
 
 > __Abstract__: A (simplicial) surface can be seen as the incidence geometry of the vertices, edges and faces of a
 > triangulated 2-manifold. We call such a surface face-transitive if its automorphism group acts transitively
@@ -18,6 +18,7 @@ location: "Heidelberg, Germany"
 > two cycles. In this talk, we discuss the construction of face-transitive surfaces by providing suitable 
 > CDCs of vertex-transitive cubic graphs. We demonstrate that the CDC of a given cubic graph corresponding
 > to a face-transitive surface can be constructed by exploiting suitable subgroups of the automorphism
-> group of the given cubic graph. This is a joint work with Jonathan Spreer (Usyd).
----
+> group of the given cubic graph. This is a joint work with Jonathan Spreer (Usyd).<br><br>
+
+[More information here](https://web.ifi.uni-heidelberg.de/kolkom24)
 
