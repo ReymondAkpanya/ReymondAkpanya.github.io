@@ -1,5 +1,5 @@
 ---
-title: "A Group-Theoretic Approach for Constructing Spherical-Interlocking Assemblies"
+title: "On the classification of face-transitive surfaces"
 collection: talks
 type: "Tutorial"
 permalink: /talks/usyd
