@@ -3,7 +3,7 @@ title: "GeoCombSurfX - exploring properties of polygonal complexes"
 collection: talks
 type: "Talk"
 permalink: /talks/JuliaCon
-venue: "JuliaCon"
+venue: "JuliaCon 2024"
 date: 2024-07-12
 location: "Eindhoven, Netherlands"
 ---

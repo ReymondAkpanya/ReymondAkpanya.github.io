@@ -2,7 +2,7 @@
 title: "Simplicial Surfaces and their Face Graphs"
 collection: talks
 type: "Tutorial"
-permalink: /talks/usyd
+permalink: /talks/maps
 venue: "MaPS Seminar (Usyd)"
 date: 2023-08-01
 location: "Sydney, Australia"
