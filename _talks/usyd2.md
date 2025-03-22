@@ -12,8 +12,7 @@ location: "Sydney, Australia"
 >triangulated three-dimensional polyhedron by denoting the relationships between 
 >the corresponding vertices, edges and faces. We refer to a simplicial surface as 
 >face-transitive if the corresponding automorphism group acts transitively on the 
->faces of the simplicial surface.<br><br>
-
+>faces of the simplicial surface.<br>
 >We link a simplicial surface to its dual graph, a cubic graph, by denoting the 
 >incidences between its faces and edges. While translating a surface into a cubic 
 >graph is straightforward, determining whether there exists a simplicial surface with 
