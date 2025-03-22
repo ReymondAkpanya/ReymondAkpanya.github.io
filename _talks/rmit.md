@@ -4,7 +4,7 @@ collection: talks
 type: "Tutorial"
 permalink: /talks/rmit
 venue: "Centre for Innovative Structures and Material (RMIT University)"
-date: 2013-08-11
+date: 2023-08-11
 location: "Melbourne, Australia"
 ---
 
