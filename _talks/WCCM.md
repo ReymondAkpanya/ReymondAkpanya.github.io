@@ -9,7 +9,7 @@ date: 2024-07-22
 location: "Vancouver, Canada"
 ---
 
-> __Abstract__:A topological interlocking assembly is an arrangement of several rigid blocks that are in 
+> __Abstract__: A topological interlocking assembly is an arrangement of several rigid blocks that are in 
 > contact with each other and are constrained by a fixed frame such that each subset of blocks is 
 > kinematically constrained and therefore cannot be removed from the whole assembly. The platonic 
 > solids are examples of convex blocks that allow such interlocking assemblies, see [1]. Exploiting
