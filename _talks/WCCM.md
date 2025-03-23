@@ -1,10 +1,9 @@
-
 ---
 title: "Mechanical Behaviour of Tubular Topological Interlocking Assemblies"
 collection: talks
 type: "Talk"
 permalink: /talks/WCCM
-venue: "WCCM 2024"
+venue: "WCCM2024"
 date: 2024-07-22
 location: "Vancouver, Canada"
 ---
