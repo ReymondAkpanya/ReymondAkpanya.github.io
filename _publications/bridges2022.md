@@ -3,7 +3,8 @@ title: "Topological Interlocking, Truchet Tiles and Self-Assemblies: A construct
 collection: publications
 permalink: /publication/bridges2022.md  
 #excerpt: 'Reymond Akpanya, Tom Goertzen, Sebastian Wiesenhütter, Alice C. Niemeyer, Jörg Noenning<br>
-
+paperurl: 'https://archive.bridgesmathart.org/2023/bridges2023-61.pdf'
+---
 > __Authors__: Reymond Akpanya, Tom Goertzen, Sebastian Wiesenhütter, Alice C. Niemeyer, Jörg Noenning<br> 
 > __Published__: Proceedings of the Bridges 2023: Mathematics, Art, Music, Architecture, Culture<br> 
 > __Abstract__: Topological interlocking is an abstract concept which requires that, given an assembly of blocks
@@ -21,4 +22,3 @@ date: 2024-07-01
 #slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://archive.bridgesmathart.org/2023/bridges2023-61.pdf'
 #citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
----
