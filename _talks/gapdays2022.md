@@ -1,7 +1,7 @@
 ---
 title: "Simplicial Surfaces and their Face Graphs"
 collection: talks
-type: "Tutorial"
+type: "Talk"
 permalink: /talks/gapdays2022
 venue: "GAP Days Summer 2022"
 date: 2022-10-18

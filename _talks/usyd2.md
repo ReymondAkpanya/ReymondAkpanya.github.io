@@ -1,7 +1,7 @@
 ---
 title: "On the classification of face-transitive surfaces"
 collection: talks
-type: "Tutorial"
+type: "Talk"
 permalink: /talks/usyd
 venue: "Geometry & Topology Seminar (Usyd)"
 date: 2023-09-04

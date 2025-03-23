@@ -1,7 +1,7 @@
 ---
 title: "Simplicial Surfaces and their Face Graphs"
 collection: talks
-type: "Tutorial"
+type: "Talk"
 permalink: /talks/maps
 venue: "MaPS Seminar (Usyd)"
 date: 2023-08-01

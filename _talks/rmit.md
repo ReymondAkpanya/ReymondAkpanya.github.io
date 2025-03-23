@@ -1,7 +1,7 @@
 ---
 title: "A Group-Theoretic Approach for Constructing Spherical-Interlocking Assemblies"
 collection: talks
-type: "Tutorial"
+type: "Talk"
 permalink: /talks/rmit
 venue: "Centre for Innovative Structures and Material (RMIT University)"
 date: 2023-08-11

@@ -1,7 +1,7 @@
 ---
 title: "Workshop - Symmetrie und Interlockings"
 collection: talks
-type: "Tutorial"
+type: "Workshop"
 permalink: /talks/rwthworkshop
 venue: "RWTH Aachen University"
 date: 2022-11-09

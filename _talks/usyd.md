@@ -1,7 +1,7 @@
 ---
 title: "A Group-Theoretic Approach for Constructing Spherical-Interlocking Assemblies"
 collection: talks
-type: "Tutorial"
+type: "Talk"
 permalink: /talks/usyd
 venue: "Geometry & Topology Seminar (Usyd)"
 date: 2023-06-30
