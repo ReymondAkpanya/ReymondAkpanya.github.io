@@ -106,6 +106,7 @@ h1, h2, h3, h4, h5, h6,
   border: 2px solid #bfd4ee !important;
   padding: 0 !important;
   box-shadow: 0 2px 8px rgba(74, 127, 193, 0.15);
+  border-radius: 10px !important;
 }
 
 .author__bio {
@@ -234,15 +235,11 @@ code {
 }
 
 /* ============================================================
-   Publications & Talks — academic CV list style
+   Card grid — Publications, Talks, Teaching, About
    ============================================================ */
 
-.cv-section {
-  margin-bottom: 2.5em;
-}
-
-.cv-section-title {
-  font-size: 0.85em;
+.section-label {
+  font-size: 0.8em;
   font-weight: 700;
   color: #6b7280;
   text-transform: uppercase;
@@ -253,68 +250,140 @@ code {
   margin-bottom: 1em;
 }
 
-/* Numbered list for publications */
-.cv-list {
-  list-style: decimal;
-  padding-left: 1.6em;
-  margin: 0;
-}
-
-/* Unnumbered list for talks */
-.cv-talk-list {
-  list-style: none;
-  padding-left: 0;
-}
-
-.cv-item {
-  font-size: 0.9em;
-  line-height: 1.75;
-  color: #2c2c2c;
-  padding: 0.35em 0;
-  border: none;
-}
-
-.cv-item em {
-  font-style: italic;
-  color: #1e3a5f;
-}
-
-/* ============================================================
-   Research image gallery (About page)
-   ============================================================ */
-
-.research-gallery {
+.card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 1.2em;
-  margin-top: 1.5em;
+  grid-template-columns: 1fr;
+  gap: 0.9em;
 }
 
-.gallery-item {
-  margin: 0;
-  text-align: center;
-  background: #f8fafc;
+.card-grid-2col {
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
+
+.item-card {
+  background: #ffffff;
   border: 1px solid #e8edf2;
-  border-radius: 6px;
-  padding: 0.8em;
-  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  border-radius: 8px;
+  padding: 1em 1.2em;
+  transition: box-shadow 0.18s ease, transform 0.18s ease;
 }
 
-.gallery-item:hover {
-  box-shadow: 0 4px 14px rgba(74, 127, 193, 0.15);
+.item-card:hover {
+  box-shadow: 0 4px 16px rgba(74, 127, 193, 0.13);
   transform: translateY(-2px);
 }
 
-.gallery-item img {
-  width: 100%;
-  height: 160px;
-  object-fit: contain;
-  border-radius: 4px;
-  background: #fff;
+/* Badges */
+.card-badges {
+  display: flex;
+  gap: 0.4em;
+  margin-bottom: 0.55em;
+  flex-wrap: wrap;
 }
 
-.gallery-item figcaption {
+.badge {
+  display: inline-block;
+  font-size: 0.68em;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 4px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.badge-prep   { background: #fef3c7; color: #92400e; border: 1px solid #fde68a; }
+.badge-pub    { background: #d1fae5; color: #065f46; border: 1px solid #6ee7b7; }
+.badge-thesis { background: #f3f4f6; color: #374151; border: 1px solid #d1d5db; }
+.badge-talk   { background: #dbeafe; color: #1e40af; border: 1px solid #93c5fd; }
+.badge-workshop { background: #ede9fe; color: #5b21b6; border: 1px solid #c4b5fd; }
+.badge-teaching { background: #ecfdf5; color: #065f46; border: 1px solid #6ee7b7; }
+.badge-prog   { background: #fff7ed; color: #c2410c; border: 1px solid #fdba74; }
+.badge-year   { background: #f1f5f9; color: #64748b; border: 1px solid #cbd5e1; }
+
+/* Card text */
+.card-title {
+  font-size: 0.92em;
+  font-weight: 600;
+  color: #1e3a5f;
+  margin: 0 0 0.3em;
+  line-height: 1.45;
+}
+
+.card-authors {
+  font-size: 0.8em;
+  color: #4a5568;
+  margin: 0 0 0.3em;
+  line-height: 1.5;
+}
+
+.card-venue {
+  font-size: 0.82em;
+  color: #374151;
+  margin: 0 0 0.2em;
+  line-height: 1.4;
+}
+
+.card-meta {
   font-size: 0.78em;
   color: #6b7280;
-  margin-top: 0.5em;
+  margin: 0;
+  font-style: italic;
+  line-height: 1.4;
+}
+
+/* Research image cards (About page) */
+.research-card { text-align: center; }
+
+.research-card-img {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+  border-radius: 4px;
+  background: #f8fafc;
+  display: block;
+}
+
+/* ============================================================
+   Simple list — Talks & Teaching
+   ============================================================ */
+
+.simple-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.simple-list li {
+  padding: 0.55em 0;
+  border-bottom: 1px solid #f0f4f8;
+  font-size: 0.9em;
+  line-height: 1.65;
+  display: flex;
+  align-items: baseline;
+  gap: 0;
+  flex-wrap: wrap;
+}
+
+.simple-list li:last-child {
+  border-bottom: none;
+}
+
+.list-item-title {
+  font-weight: 600;
+  color: #1e3a5f;
+}
+
+.list-item-meta {
+  color: #6b7280;
+  font-size: 0.88em;
+  margin-left: 0.3em;
+}
+
+/* Publication number prefix */
+.pub-number {
+  color: #9ca3af;
+  font-weight: 400;
+  margin-right: 0.2em;
+  font-size: 0.9em;
 }

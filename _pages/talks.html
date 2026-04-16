@@ -9,10 +9,16 @@ author_profile: true
 
 {% assign sorted_talks = site.talks | sort: "date" | reverse %}
 
-<ul class="cv-list cv-talk-list">
+<ul class="simple-list">
 {% for post in sorted_talks %}
-<li class="cv-item">
-  <em>{{ post.title }}</em>, {{ post.venue }}, {{ post.location }}, {{ post.date | date: "%B %-d, %Y" }}.
+<li>
+  {% if post.type == "Workshop" %}
+    <span class="badge badge-workshop" style="margin-right:0.4em;">Workshop</span>
+  {% else %}
+    <span class="badge badge-talk" style="margin-right:0.4em;">Talk</span>
+  {% endif %}
+  <span class="list-item-title">{{ post.title }}</span>
+  <span class="list-item-meta">&mdash; {{ post.venue }}, {{ post.location }}, {{ post.date | date: "%B %Y" }}</span>
 </li>
 {% endfor %}
 </ul>

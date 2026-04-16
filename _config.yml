@@ -14,7 +14,7 @@ name                     : &name "Reymond Akpanya"
 description              : &description "personal description"
 url                      : https://ReymondAkpanya.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "ReymondAkpanya/reymondAkpanya.github.io"
+repository               : "ReymondAkpanya/ReymondAkpanya.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -24,7 +24,7 @@ author:
   avatar           : "akpanya.jpeg"
   name             : "Reymond Akpanya"
   pronouns         : # example: "she/her"  
-  bio              : "Postdoctoral Research Associate in Mathematics at the University of Sydney. Research in combinatorial topology, simplicial surfaces, and topological interlocking assemblies."
+  bio              : "Postdoctoral Research Associate in Mathematics at the University of Sydney. Working with Prof. John Voight. Research in combinatorial topology, simplicial surfaces, and topological interlocking assemblies."
   location         : "Sydney, Australia"
   employer         : "University of Sydney"
   uri              : # URL

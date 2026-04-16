@@ -7,6 +7,20 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+{% assign sorted_teaching = site.teaching | sort: "date" | reverse %}
+
+<ul class="simple-list">
+{% for post in sorted_teaching %}
+<li>
+  {% if post.type == "Workshop" %}
+    <span class="badge badge-workshop" style="margin-right:0.4em;">Workshop</span>
+  {% elsif post.type == "Programming" %}
+    <span class="badge badge-prog" style="margin-right:0.4em;">Programming</span>
+  {% else %}
+    <span class="badge badge-teaching" style="margin-right:0.4em;">Teaching</span>
+  {% endif %}
+  <span class="list-item-title">{{ post.title }}</span>
+  <span class="list-item-meta">&mdash; {{ post.venue }}, {{ post.date | date: "%Y" }}</span>
+</li>
 {% endfor %}
+</ul>
