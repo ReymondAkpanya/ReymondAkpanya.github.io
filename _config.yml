@@ -24,9 +24,9 @@ author:
   avatar           : "akpanya.jpeg"
   name             : "Reymond Akpanya"
   pronouns         : # example: "she/her"  
-  bio              : "I am a PhD student in the field of simplicial surfaces under the supervision of Prof. Dr. Alice C. Niemeyer and Prof. Dr. Wilhelm Plesken."
-  location         : "Germany"
-  employer         : "RWTH Aachen University"
+  bio              : "Postdoctoral Research Associate in Mathematics at the University of Sydney. Research in combinatorial topology, simplicial surfaces, and topological interlocking assemblies."
+  location         : "Sydney, Australia"
+  employer         : "University of Sydney"
   uri              : # URL
   email            : "akpanya@art.rwth-aachen.de" 
 
@@ -36,7 +36,7 @@ author:
   impactstory      : # URL
   orcid            : "https://orcid.org/0009-0009-0195-992X"
   semantic         : "https://www.semanticscholar.org/author/Reymond-Akpanya/2221265465"
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : "https://www.researchgate.net/profile/Reymond-Akpanya?ev=hdr_xprf&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6ImhvbWUiLCJwYWdlIjoiaG9tZSIsInBvc2l0aW9uIjoiZ2xvYmFsSGVhZGVyIn19"# URL
 
   # Repositories and software development

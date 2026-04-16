@@ -39,3 +39,282 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+/* ============================================================
+   Custom Design Overrides
+   ============================================================ */
+
+/* --- Typography: Inter font --- */
+body,
+h1, h2, h3, h4, h5, h6,
+.page__title,
+.masthead__menu-item,
+.page__content p,
+.page__content li,
+.author__bio,
+.author__name,
+.page__footer {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+/* --- Masthead: Light / Clean --- */
+.masthead {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e8edf2;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+.masthead__inner-wrap a,
+.greedy-nav a,
+.greedy-nav .visible-links a {
+  color: #374151 !important;
+  font-weight: 500;
+  font-size: 0.88em;
+  letter-spacing: 0.01em;
+}
+
+.masthead__menu-item--lg a {
+  color: #1e3a5f !important;
+  font-weight: 700;
+  font-size: 0.95em;
+}
+
+.greedy-nav a:hover,
+.greedy-nav .visible-links a:hover {
+  color: #4a7fc1 !important;
+}
+
+.greedy-nav .hidden-links {
+  background: #ffffff;
+  border: 1px solid #e8edf2;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.greedy-nav .hidden-links a {
+  color: #374151 !important;
+}
+
+/* --- Sidebar / Author Profile --- */
+.author__name {
+  color: #1e3a5f;
+  font-size: 1.05em;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.author__avatar img {
+  border: 2px solid #bfd4ee !important;
+  padding: 0 !important;
+  box-shadow: 0 2px 8px rgba(74, 127, 193, 0.15);
+}
+
+.author__bio {
+  color: #4a5568;
+  font-size: 0.82em;
+  line-height: 1.6;
+  margin-top: 8px !important;
+}
+
+.author__urls a {
+  color: #2563eb !important;
+  font-size: 0.85em;
+}
+
+.author__urls a:hover {
+  color: #1d4ed8 !important;
+  text-decoration: underline;
+}
+
+.author__urls-wrapper button.btn--inverse {
+  background-color: #f0f4fb;
+  color: #2563eb;
+  border-color: #bfd4ee;
+  font-size: 0.8em;
+}
+
+.sidebar .author__desktop {
+  color: #4a5568;
+  font-size: 0.82em;
+}
+
+/* --- Page titles --- */
+.page__title {
+  color: #1e3a5f;
+  font-weight: 700;
+  font-size: 1.55em;
+  line-height: 1.2;
+  padding-bottom: 0.4em;
+  border-bottom: 2px solid #dce8f5;
+  margin-bottom: 1em;
+}
+
+/* --- Section headings --- */
+.page__content h2 {
+  color: #1e3a5f;
+  font-weight: 600;
+  border-bottom: 1px solid #e8edf2;
+  padding-bottom: 0.3em;
+}
+
+.page__content h3 {
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+/* --- Body text --- */
+.page__content p,
+.page__content li {
+  line-height: 1.8;
+  color: #2c2c2c;
+}
+
+/* --- Links in content --- */
+.page__content a {
+  color: #2563eb;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(37, 99, 235, 0.25);
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.page__content a:hover {
+  color: #1d4ed8;
+  border-bottom-color: #1d4ed8;
+}
+
+/* --- Figure captions --- */
+figcaption {
+  color: #718096;
+  font-size: 0.82em;
+  margin-top: 0.5em;
+  font-style: italic;
+  text-align: center;
+}
+
+/* --- Footer: Light --- */
+.page__footer {
+  background-color: #f4f7fb;
+  color: #6b7280;
+  border-top: 1px solid #e8edf2;
+}
+
+.page__footer footer {
+  background-color: #f4f7fb;
+}
+
+.page__footer-follow {
+  background-color: #f4f7fb;
+}
+
+.page__footer-follow .social-icons a {
+  color: #6b7280 !important;
+}
+
+.page__footer-follow .social-icons a:hover {
+  color: #4a7fc1 !important;
+}
+
+.page__footer-copyright {
+  background-color: #edf1f7;
+  color: #9ca3af;
+  font-size: 0.78em;
+}
+
+/* --- Code --- */
+code {
+  background: #f0f4f8;
+  border-color: #dce8f5;
+  color: #c53030;
+  border-radius: 3px;
+}
+
+/* --- Selection --- */
+::selection {
+  background: rgba(74, 127, 193, 0.18);
+  color: #1e3a5f;
+}
+
+/* ============================================================
+   Publications & Talks — academic CV list style
+   ============================================================ */
+
+.cv-section {
+  margin-bottom: 2.5em;
+}
+
+.cv-section-title {
+  font-size: 0.85em;
+  font-weight: 700;
+  color: #6b7280;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border-bottom: 1px solid #e8edf2;
+  padding-bottom: 0.4em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+/* Numbered list for publications */
+.cv-list {
+  list-style: decimal;
+  padding-left: 1.6em;
+  margin: 0;
+}
+
+/* Unnumbered list for talks */
+.cv-talk-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.cv-item {
+  font-size: 0.9em;
+  line-height: 1.75;
+  color: #2c2c2c;
+  padding: 0.35em 0;
+  border: none;
+}
+
+.cv-item em {
+  font-style: italic;
+  color: #1e3a5f;
+}
+
+/* ============================================================
+   Research image gallery (About page)
+   ============================================================ */
+
+.research-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.2em;
+  margin-top: 1.5em;
+}
+
+.gallery-item {
+  margin: 0;
+  text-align: center;
+  background: #f8fafc;
+  border: 1px solid #e8edf2;
+  border-radius: 6px;
+  padding: 0.8em;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.gallery-item:hover {
+  box-shadow: 0 4px 14px rgba(74, 127, 193, 0.15);
+  transform: translateY(-2px);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 160px;
+  object-fit: contain;
+  border-radius: 4px;
+  background: #fff;
+}
+
+.gallery-item figcaption {
+  font-size: 0.78em;
+  color: #6b7280;
+  margin-top: 0.5em;
+}
