@@ -19,7 +19,7 @@
 
 
 
-<title>Construction of Toroidal Polyhedra corresponding to perfect Chains of isosceles Tetrahedra - Reymond Akpanya / RWTH Aachen University</title>
+<title>On 3-Connected Cubic Planar Graphs and their Strong Embeddings on Orientable Surfaces - Reymond Akpanya / RWTH Aachen University</title>
 
 
 
@@ -29,11 +29,11 @@
 
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Reymond Akpanya / RWTH Aachen University">
-<meta property="og:title" content="Construction of Toroidal Polyhedra corresponding to perfect Chains of isosceles Tetrahedra">
+<meta property="og:title" content="On 3-Connected Cubic Planar Graphs and their Strong Embeddings on Orientable Surfaces">
 
 
-  <link rel="canonical" href="http://localhost:4000/publication/tetratorus.md">
-  <meta property="og:url" content="http://localhost:4000/publication/tetratorus.md">
+  <link rel="canonical" href="http://localhost:4000/publication/orientable.md">
+  <meta property="og:url" content="http://localhost:4000/publication/orientable.md">
 
 
 
@@ -52,7 +52,7 @@
 
 
   <meta property="og:type" content="article">
-  <meta property="article:published_time" content="2024-12-20T00:00:00-08:00">
+  <meta property="article:published_time" content="2026-09-18T00:00:00-07:00">
 
 
 
@@ -275,21 +275,21 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Construction of Toroidal Polyhedra corresponding to perfect Chains of isosceles Tetrahedra">
+    <meta itemprop="headline" content="On 3-Connected Cubic Planar Graphs and their Strong Embeddings on Orientable Surfaces">
     <meta itemprop="description" content="">
-    <meta itemprop="datePublished" content="December 20, 2024">
+    <meta itemprop="datePublished" content="September 18, 2026">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Construction of Toroidal Polyhedra corresponding to perfect Chains of isosceles Tetrahedra
+          <h1 class="page__title" itemprop="headline">On 3-Connected Cubic Planar Graphs and their Strong Embeddings on Orientable Surfaces
 </h1>
           
         
         
         
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2024-12-20T00:00:00-08:00">December 20, 2024</time></p>
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2026-09-18T00:00:00-07:00">September 18, 2026</time></p>
             
         </header>
       
@@ -342,11 +342,11 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=http://localhost:4000/publication/tetratorus.md" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=http://localhost:4000/publication/orientable.md" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/publication/tetratorus.md" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/publication/orientable.md" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/publication/tetratorus.md" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/publication/orientable.md" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
       
@@ -354,12 +354,11 @@
 
   <nav class="pagination">
     
-      <a href="http://localhost:4000/publication/einstein.md" class="pagination--pager" title="Constructing Topological Interlocking Assemblies Based on an Aperiodic Monotile
+      <a href="http://localhost:4000/publication/influence.md" class="pagination--pager" title="Influence of the geometry on the mechanical performance of tubular interlockings: A study of the Sine Block
 ">Previous</a>
     
     
-      <a href="http://localhost:4000/publication/classificationofftsurfaces.md" class="pagination--pager" title="Classification of face-transitive surfaces
-">Next</a>
+      <a href="#" class="pagination--pager disabled">Next</a>
     
   </nav>
 

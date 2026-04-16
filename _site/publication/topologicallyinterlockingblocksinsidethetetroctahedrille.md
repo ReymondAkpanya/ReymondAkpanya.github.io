@@ -52,7 +52,7 @@
 
 
   <meta property="og:type" content="article">
-  <meta property="article:published_time" content="2024-03-01T00:00:00-08:00">
+  <meta property="article:published_time" content="2026-03-17T00:00:00-07:00">
 
 
 
@@ -277,7 +277,7 @@
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
     <meta itemprop="headline" content="Topologically Interlocking Blocks inside the Tetroctahedrille">
     <meta itemprop="description" content="">
-    <meta itemprop="datePublished" content="March 01, 2024">
+    <meta itemprop="datePublished" content="March 17, 2026">
     
 
     <div class="page__inner-wrap">
@@ -289,7 +289,7 @@
         
         
         
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2024-03-01T00:00:00-08:00">March 01, 2024</time></p>
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2026-03-17T00:00:00-07:00">March 17, 2026</time></p>
             
         </header>
       
@@ -327,7 +327,7 @@
     
       
       
-      <a href="http://localhost:4000/categories/#mathematics" class="page__taxonomy-item" rel="tag">mathematics</a>
+      <a href="http://localhost:4000/categories/#other" class="page__taxonomy-item" rel="tag">other</a>
     
     </span>
   </p>
@@ -354,11 +354,11 @@
 
   <nav class="pagination">
     
-      <a href="http://localhost:4000/publication/2024-02-17-paper-title-number-4" class="pagination--pager" title="Paper Title Number 4
+      <a href="http://localhost:4000/publication/onthecombinatoricsofmultitetrahedralspheres.md" class="pagination--pager" title="On 3-Connected Planar Graphs with Unique Orientable Circuit Double Covers
 ">Previous</a>
     
     
-      <a href="http://localhost:4000/publication/classificationofftsurfaces.md" class="pagination--pager" title="Classification of face-transitive surfaces
+      <a href="http://localhost:4000/publication/influence.md" class="pagination--pager" title="Influence of the geometry on the mechanical performance of tubular interlockings: A study of the Sine Block
 ">Next</a>
     
   </nav>

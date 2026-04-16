@@ -19,7 +19,7 @@
 
 
 
-<title>On the combinatorics of multi-tetrahedral spheres - Reymond Akpanya / RWTH Aachen University</title>
+<title>On 3-Connected Planar Graphs with Unique Orientable Circuit Double Covers - Reymond Akpanya / RWTH Aachen University</title>
 
 
 
@@ -29,7 +29,7 @@
 
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Reymond Akpanya / RWTH Aachen University">
-<meta property="og:title" content="On the combinatorics of multi-tetrahedral spheres">
+<meta property="og:title" content="On 3-Connected Planar Graphs with Unique Orientable Circuit Double Covers">
 
 
   <link rel="canonical" href="http://localhost:4000/publication/onthecombinatoricsofmultitetrahedralspheres.md">
@@ -52,7 +52,7 @@
 
 
   <meta property="og:type" content="article">
-  <meta property="article:published_time" content="2024-07-01T00:00:00-07:00">
+  <meta property="article:published_time" content="2026-01-15T00:00:00-08:00">
 
 
 
@@ -275,21 +275,21 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="On the combinatorics of multi-tetrahedral spheres">
+    <meta itemprop="headline" content="On 3-Connected Planar Graphs with Unique Orientable Circuit Double Covers">
     <meta itemprop="description" content="">
-    <meta itemprop="datePublished" content="July 01, 2024">
+    <meta itemprop="datePublished" content="January 15, 2026">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">On the combinatorics of multi-tetrahedral spheres
+          <h1 class="page__title" itemprop="headline">On 3-Connected Planar Graphs with Unique Orientable Circuit Double Covers
 </h1>
           
         
         
         
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2024-07-01T00:00:00-07:00">July 01, 2024</time></p>
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2026-01-15T00:00:00-08:00">January 15, 2026</time></p>
             
         </header>
       
@@ -354,11 +354,11 @@
 
   <nav class="pagination">
     
-      <a href="http://localhost:4000/publication/constructingpolhedrawithcongruentfaces.md" class="pagination--pager" title="Constructing Polyhedra with congruent triangular Faces
+      <a href="http://localhost:4000/publication/tiajapan.md" class="pagination--pager" title="Influence of a generative parameter on the mechanical performance of topological interlocking assemblies of a hexagonal block
 ">Previous</a>
     
     
-      <a href="http://localhost:4000/publication/tetratorus.md" class="pagination--pager" title="On chains of wild-coloured tetrahedra
+      <a href="http://localhost:4000/publication/topologicallyinterlockingblocksinsidethetetroctahedrille.md" class="pagination--pager" title="Topologically Interlocking Blocks inside the Tetroctahedrille
 ">Next</a>
     
   </nav>

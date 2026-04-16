@@ -52,7 +52,7 @@
 
 
   <meta property="og:type" content="article">
-  <meta property="article:published_time" content="2022-07-01T00:00:00-07:00">
+  <meta property="article:published_time" content="2025-07-25T00:00:00-07:00">
 
 
 
@@ -277,7 +277,7 @@
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
     <meta itemprop="headline" content="Surfaces with given automorphism group">
     <meta itemprop="description" content="">
-    <meta itemprop="datePublished" content="July 01, 2022">
+    <meta itemprop="datePublished" content="July 25, 2025">
     
 
     <div class="page__inner-wrap">
@@ -289,7 +289,7 @@
         
         
         
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2022-07-01T00:00:00-07:00">July 01, 2022</time></p>
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2025-07-25T00:00:00-07:00">July 25, 2025</time></p>
             
         </header>
       
@@ -354,11 +354,11 @@
 
   <nav class="pagination">
     
-      <a href="http://localhost:4000/publication/2015-10-01-paper-title-number-3" class="pagination--pager" title="Paper Title Number 3
+      <a href="http://localhost:4000/publication/classificationofftsurfaces.md" class="pagination--pager" title="Classification of face-transitive surfaces
 ">Previous</a>
     
     
-      <a href="http://localhost:4000/publication/bridges2022.md" class="pagination--pager" title="Topological Interlocking, Truchet Tiles and Self-Assemblies: A Construction-Kit for Civil Engineering Design
+      <a href="http://localhost:4000/publication/cccg.md" class="pagination--pager" title="On inside-out Dissections of Polygons and Polyhedra
 ">Next</a>
     
   </nav>

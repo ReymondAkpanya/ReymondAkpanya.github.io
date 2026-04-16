@@ -354,11 +354,12 @@
 
   <nav class="pagination">
     
-      <a href="http://localhost:4000/publication/tetratorus.md" class="pagination--pager" title="On chains of wild-coloured tetrahedra
+      <a href="http://localhost:4000/publication/constructingpolhedrawithcongruentfaces.md" class="pagination--pager" title="Constructing Polyhedra with congruent triangular Faces
 ">Previous</a>
     
     
-      <a href="#" class="pagination--pager disabled">Next</a>
+      <a href="http://localhost:4000/publication/tetratorus.md" class="pagination--pager" title="Construction of Toroidal Polyhedra corresponding to perfect Chains of isosceles Tetrahedra
+">Next</a>
     
   </nav>
 

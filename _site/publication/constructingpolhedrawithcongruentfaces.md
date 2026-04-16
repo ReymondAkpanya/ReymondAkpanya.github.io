@@ -354,11 +354,11 @@
 
   <nav class="pagination">
     
-      <a href="http://localhost:4000/publication/classificationofftsurfaces.md" class="pagination--pager" title="Classification of face-transitive surfaces
+      <a href="http://localhost:4000/publication/2024-02-17-paper-title-number-4" class="pagination--pager" title="Paper Title Number 4
 ">Previous</a>
     
     
-      <a href="http://localhost:4000/publication/onthecombinatoricsofmultitetrahedralspheres.md" class="pagination--pager" title="On the combinatorics of multi-tetrahedral spheres
+      <a href="http://localhost:4000/publication/einstein.md" class="pagination--pager" title="Constructing Topological Interlocking Assemblies Based on an Aperiodic Monotile
 ">Next</a>
     
   </nav>

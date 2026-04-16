@@ -19,6 +19,8 @@ author_profile: true
       <span class="badge badge-prep">In Preparation</span>
     {% elsif post.citation_info contains 'hesis' %}
       <span class="badge badge-thesis">Thesis</span>
+    {% elsif post.citation_info contains 'arxiv' %}
+      <span class="badge badge-arxiv">Arxiv</span>
     {% else %}
       <span class="badge badge-pub">Published</span>
     {% endif %}

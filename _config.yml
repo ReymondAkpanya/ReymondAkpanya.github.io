@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Reymond Akpanya / RWTH Aachen University"
+title                    : "Reymond Akpanya / The University of Sydney"
 title_separator          : "-"
 name                     : &name "Reymond Akpanya"
 description              : &description "personal description"
@@ -26,9 +26,9 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Postdoctoral Research Associate in Mathematics at the University of Sydney. Working with Prof. John Voight. Research in combinatorial topology, simplicial surfaces, and topological interlocking assemblies."
   location         : "Sydney, Australia"
-  employer         : "University of Sydney"
+  employer         : "The University of Sydney"
   uri              : # URL
-  email            : "akpanya@art.rwth-aachen.de" 
+  email            : "reymond.akpanya@sydney.edu.au" 
 
   # Academic websites
   arxiv            : "https://arxiv.org/search/math?searchtype=author&query=Akpanya,+R" # URL - Update with the correct link to your profile

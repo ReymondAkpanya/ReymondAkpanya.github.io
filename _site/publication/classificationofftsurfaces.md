@@ -52,7 +52,7 @@
 
 
   <meta property="og:type" content="article">
-  <meta property="article:published_time" content="2024-07-01T00:00:00-07:00">
+  <meta property="article:published_time" content="2025-05-01T00:00:00-07:00">
 
 
 
@@ -277,7 +277,7 @@
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
     <meta itemprop="headline" content="Classification of face-transitive surfaces">
     <meta itemprop="description" content="">
-    <meta itemprop="datePublished" content="July 01, 2024">
+    <meta itemprop="datePublished" content="May 01, 2025">
     
 
     <div class="page__inner-wrap">
@@ -289,7 +289,7 @@
         
         
         
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2024-07-01T00:00:00-07:00">July 01, 2024</time></p>
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2025-05-01T00:00:00-07:00">May 01, 2025</time></p>
             
         </header>
       
@@ -354,11 +354,11 @@
 
   <nav class="pagination">
     
-      <a href="http://localhost:4000/publication/topologicallyinterlockingblocksinsidethetetroctahedrille.md" class="pagination--pager" title="Topologically Interlocking Blocks inside the Tetroctahedrille
+      <a href="http://localhost:4000/publication/tetratorus.md" class="pagination--pager" title="Construction of Toroidal Polyhedra corresponding to perfect Chains of isosceles Tetrahedra
 ">Previous</a>
     
     
-      <a href="http://localhost:4000/publication/constructingpolhedrawithcongruentfaces.md" class="pagination--pager" title="Constructing Polyhedra with congruent triangular Faces
+      <a href="http://localhost:4000/publication/surfaceswithgivenautomorphismgroup.md" class="pagination--pager" title="Surfaces with given automorphism group
 ">Next</a>
     
   </nav>

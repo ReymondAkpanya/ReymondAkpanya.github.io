@@ -3,7 +3,7 @@ title: "Surfaces with given automorphism group"
 collection: publications
 category: mathematics
 permalink: /publication/surfaceswithgivenautomorphismgroup.md
-coauthors: ""
-citation_info: "Master thesis, RWTH Aachen University, 2022"
-date: 2022-07-01
+coauthors: "with Tom Goertzen"
+citation_info: "in Journal of Algebraic Combinatorics, 2025"
+date: 2025-07-25
 ---

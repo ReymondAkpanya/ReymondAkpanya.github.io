@@ -1,9 +1,9 @@
 ---
-title: "On chains of wild-coloured tetrahedra"
+title: "Construction of Toroidal Polyhedra corresponding to perfect Chains of isosceles Tetrahedra"
 collection: publications
 category: mathematics
 permalink: /publication/tetratorus.md
 coauthors: "with Alice C. Niemeyer, Vanishree Kirekod, and Daniel Robertz"
-citation_info: "in preparation"
-date: 2024-07-01
+citation_info: "in Journal of Geometry"
+date: 2024-12-20
 ---

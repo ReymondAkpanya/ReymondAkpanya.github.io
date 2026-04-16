@@ -4,8 +4,8 @@ collection: publications
 category: mathematics
 permalink: /publication/classificationofftsurfaces.md
 coauthors: "with Jonathan Spreer"
-citation_info: "in preparation"
-date: 2024-07-01
+citation_info: "Preprint on arxiv"
+date: 2025-05-01
 ---
 
 

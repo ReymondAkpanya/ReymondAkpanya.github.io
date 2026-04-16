@@ -354,7 +354,7 @@
 
   <nav class="pagination">
     
-      <a href="http://localhost:4000/publication/surfaceswithgivenautomorphismgroup.md" class="pagination--pager" title="Surfaces with given automorphism group
+      <a href="http://localhost:4000/publication/2015-10-01-paper-title-number-3" class="pagination--pager" title="Paper Title Number 3
 ">Previous</a>
     
     

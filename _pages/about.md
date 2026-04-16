@@ -16,7 +16,7 @@ theory — with a particular focus on simplicial surfaces and their applications
 interlocking assemblies.
 
 <h2 class="section-label">Research Interests</h2>
-<ul class="cv-plain-list">
+<ul class="simple-list">
   <li>Simplicial surfaces and triangulated manifolds</li>
   <li>Topological interlocking assemblies</li>
   <li>Polyhedral realisations and embeddings</li>
