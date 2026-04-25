@@ -5,5 +5,6 @@ category: mathematics
 permalink: /publication/tetratorus.md
 coauthors: "with Alice C. Niemeyer, Vanishree Kirekod, and Daniel Robertz"
 citation_info: "in Journal of Geometry"
-date: 2024-12-20
+venue: "Journal"
+date: 2025-12-20
 ---

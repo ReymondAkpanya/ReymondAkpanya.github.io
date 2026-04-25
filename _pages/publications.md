@@ -16,13 +16,15 @@ author_profile: true
 <div class="item-card">
   <div class="card-badges">
     {% if post.citation_info contains 'preparation' %}
-      <span class="badge badge-prep">In Preparation</span>
+      <span class="badge badge-white">In Preparation</span>
     {% elsif post.citation_info contains 'hesis' %}
-      <span class="badge badge-thesis">Thesis</span>
+      <span class="badge badge-pub">Thesis</span>
+    {% elsif post.citation_info contains 'ubmit' %}
+      <span class="badge badge-prep">Submitted</span>
     {% elsif post.citation_info contains 'arxiv' %}
-      <span class="badge badge-arxiv">Arxiv</span>
+      <span class="badge badge-prep">Arxiv</span>
     {% else %}
-      <span class="badge badge-pub">Published</span>
+      <span class="badge badge-pub">{{ post.venue }}</span>
     {% endif %}
     <span class="badge badge-year">{{ post.date | date: "%Y" }}</span>
   </div>
@@ -40,7 +42,17 @@ author_profile: true
 {% for post in other_pubs %}
 <div class="item-card">
   <div class="card-badges">
-    <span class="badge badge-pub">Published</span>
+    {% if post.citation_info contains 'preparation' %}
+      <span class="badge badge-white">In Preparation</span>
+    {% elsif post.citation_info contains 'hesis' %}
+      <span class="badge badge-pub">Thesis</span>
+    {% elsif post.citation_info contains 'submit' %}
+      <span class="badge badge-prep">Submitted</span>
+    {% elsif post.citation_info contains 'arxiv' %}
+      <span class="badge badge-prep">Arxiv</span>
+    {% else %}
+      <span class="badge badge-pub">{{ post.venue }}</span>
+    {% endif %}
     <span class="badge badge-year">{{ post.date | date: "%Y" }}</span>
   </div>
   <p class="card-title"><span class="pub-number">{{ forloop.index }}.</span> {{ post.title }}</p>

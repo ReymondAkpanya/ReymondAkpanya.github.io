@@ -19,7 +19,7 @@
 
 
 
-<title>Topologically Interlocking Blocks inside the Tetroctahedrille - Reymond Akpanya / RWTH Aachen University</title>
+<title>Topologically Interlocking Blocks inside the Tetroctahedrille - Reymond Akpanya / The University of Sydney</title>
 
 
 
@@ -28,7 +28,7 @@
 
 
 <meta property="og:locale" content="en-US">
-<meta property="og:site_name" content="Reymond Akpanya / RWTH Aachen University">
+<meta property="og:site_name" content="Reymond Akpanya / The University of Sydney">
 <meta property="og:title" content="Topologically Interlocking Blocks inside the Tetroctahedrille">
 
 
@@ -79,7 +79,7 @@
 <!-- end SEO -->
 
 
-<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Reymond Akpanya / RWTH Aachen University Feed">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Reymond Akpanya / The University of Sydney Feed">
 
 <!-- http://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">
@@ -147,7 +147,7 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/">Reymond Akpanya / RWTH Aachen University</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/">Reymond Akpanya / The University of Sydney</a></li>
           
             
             <li class="masthead__menu-item"><a href="http://localhost:4000/cv/">CV</a></li>
@@ -205,11 +205,11 @@
         <li class="author__desktop"><i class="fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>Sydney, Australia</li>
       
       
-        <li class="author__desktop"><i class="fa fa-solid fa-building-columns icon-pad-right" aria-hidden="true"></i>University of Sydney</li>
+        <li class="author__desktop"><i class="fa fa-solid fa-building-columns icon-pad-right" aria-hidden="true"></i>The University of Sydney</li>
       
       
       
-        <li><a href="mailto:akpanya@art.rwth-aachen.de"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>Email</a></li>
+        <li><a href="mailto:reymond.akpanya@sydney.edu.au"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>Email</a></li>
       
 
       <!-- Font Awesome and Academicons icons / Academic websites -->
@@ -289,7 +289,7 @@
         
         
         
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2026-03-17T00:00:00-07:00">March 17, 2026</time></p>
+          <p>Published in <i>Journal</i>, 2026 </p>
             
         </header>
       

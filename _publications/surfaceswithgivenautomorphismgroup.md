@@ -5,5 +5,6 @@ category: mathematics
 permalink: /publication/surfaceswithgivenautomorphismgroup.md
 coauthors: "with Tom Goertzen"
 citation_info: "in Journal of Algebraic Combinatorics, 2025"
+venue: "Journal"
 date: 2025-07-25
 ---

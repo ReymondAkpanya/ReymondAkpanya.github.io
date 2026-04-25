@@ -18,7 +18,7 @@ redirect_from:
       <span class="badge badge-year">2025 – present</span>
     </div>
     <p class="card-title">Postdoctoral Research Associate</p>
-    <p class="card-venue">University of Sydney &mdash; School of Mathematics and Statistics</p>
+    <p class="card-venue">The University of Sydney &mdash; School of Mathematics and Statistics</p>
     <p class="card-meta">Working with Prof. John Voight</p>
   </div>
 
@@ -27,9 +27,9 @@ redirect_from:
       <span class="badge badge-talk">PhD</span>
       <span class="badge badge-year">2021 – 2025</span>
     </div>
-    <p class="card-title">Doctor of Philosophy in Mathematics</p>
+    <p class="card-title">PhD (Dr. rer. nat.) in Mathematics</p>
     <p class="card-venue">RWTH Aachen University</p>
-    <p class="card-meta">Supervisors: Prof. Dr. Alice C. Niemeyer, Prof. Dr. Wilhelm Plesken &middot; Thesis: <em>Simplicial surfaces and their applications to topological interlocking</em></p>
+    <p class="card-meta">Thesis: Constructing Symmetric Simplicial Surfaces, Supervisors: Prof. Dr. Alice C. Niemeyer, Prof. Dr. Wilhelm Plesken; Additional Referees: Associate Prof. Dr. Jonathan Spreer, Prof. Dr. Daniel Robertz </p>
   </div>
 
   <div class="item-card">
@@ -116,20 +116,10 @@ redirect_from:
   <li><span class="list-item-title">SimplicialSurfaces</span><span class="list-item-meta"> &mdash; GAP package, 2022 (with Markus Baumeister, Tom Goertzen, Alice C. Niemeyer, Meike Weiss)</span></li>
 </ul>
 
-<h2 class="section-label" style="margin-top:2em;">Teaching</h2>
-<ul class="simple-list">
-  {% assign sorted_teaching = site.teaching | sort: "date" | reverse %}
-  {% for post in sorted_teaching %}
-  <li>
-    <span class="list-item-title">{{ post.title }}</span>
-    <span class="list-item-meta"> &mdash; {{ post.venue }}, {{ post.date | date: "%Y" }}</span>
-  </li>
-  {% endfor %}
-</ul>
 
 <h2 class="section-label" style="margin-top:2em;">Social Involvement</h2>
 <ul class="simple-list">
-  <li><span class="list-item-title">Chairman</span><span class="list-item-meta"> &mdash; <em>We Won't Be Quiet</em> association (since 2019)</span></li>
+  <li><span class="list-item-title">Chairman</span><span class="list-item-meta"> &mdash; <em>We Won't Be Quiet</em> association (2019 - 2024)</span></li>
   <li><span class="list-item-title">Member</span><span class="list-item-meta"> &mdash; <em>Monada</em> association (since 2022)</span></li>
 </ul>
 

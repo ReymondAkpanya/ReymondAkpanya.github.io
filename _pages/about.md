@@ -5,15 +5,21 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<p style="text-align: center;">
+    <img src="/images/applogo.png" alt="Magma" style="max-width: 100%; height: auto;">
+</p>
 
-I am a Postdoctoral Research Associate in the School of Mathematics and Statistics at the
-[University of Sydney](https://www.sydney.edu.au/), working with Prof. John Voight.
+I am a Magma Research Associate at the [Magma Group](https://magma.maths.usyd.edu.au/magma/), within the School of Mathematics and Statistics at the [University of Sydney](https://www.sydney.edu.au/), working with Prof. Dr. John Voight.
+
+My research lies in combinatorics, computational algebra, and their applications, with a particular focus on the interplay between combinatorial structures and their geometric realisations as polyhedra. I combine theoretical methods with extensive use of computer algebra systems, in particular Magma, as well as GAP and related tools.
+
+My current position is generously funded by the Simons Foundation.
+<p style="text-align: center;">
+    <img src="/images/sf_blue.png" alt="SimonsFoundation" style="max-width: 50%; height: auto;">
+</p>
 Previously I completed my PhD at RWTH Aachen University under the supervision of
 Prof. Dr. Alice C. Niemeyer and Prof. Dr. Wilhelm Plesken.
 
-My research lies at the intersection of combinatorial topology, discrete geometry, and group
-theory — with a particular focus on simplicial surfaces and their applications to topological
-interlocking assemblies.
 
 <h2 class="section-label">Research Interests</h2>
 <ul class="simple-list">
@@ -24,15 +30,6 @@ interlocking assemblies.
   <li>Group actions on combinatorial structures</li>
 </ul>
 
-<h2 class="section-label" style="margin-top:2em;">PhD Project</h2>
-
-A *simplicial surface* is a combinatorial structure encoding the incidence relations between the
-vertices, edges, and faces of a triangulated 2-dimensional manifold.
-
-My project aims to develop systematic methods for constructing simplicial surfaces with prescribed
-combinatorial and geometric properties. A central goal is to embed these surfaces into Euclidean
-space to obtain polyhedra satisfying specific geometric conditions — such as convexity or
-topological interlocking — with applications to architectural and materials science contexts.
 
 <h2 class="section-label" style="margin-top:2em;">Research</h2>
 <div class="card-grid card-grid-2col" style="margin-top:1em;">

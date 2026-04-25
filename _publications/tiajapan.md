@@ -5,6 +5,7 @@ category: other
 permalink: /publication/tiajapan.md
 coauthors: "Lukas Schnelle, Meike Weiss, Kai-Uwe Schröder and Alice C. Niemeyer"                    
 citation_info: "In Procedia CIRP"
+venue: "Conference"
 date: 2025-11-01
 ---
 

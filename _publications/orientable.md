@@ -4,6 +4,7 @@ collection: publications
 category: mathematics
 permalink: /publication/orientable.md
 coauthors: "with Meike Weiss and Alice C. Niemeyer"
-citation_info: "Preprint on arxiv"
+citation_info: "Submitted, Preprint on arxiv"
+venue: "Journal"
 date: 2026-09-18
 ---

@@ -19,7 +19,7 @@
 
 
 
-<title>Constructing Polyhedra with congruent triangular Faces - Reymond Akpanya / RWTH Aachen University</title>
+<title>On Two-faced Simplicial Surfaces - Reymond Akpanya / The University of Sydney</title>
 
 
 
@@ -28,12 +28,12 @@
 
 
 <meta property="og:locale" content="en-US">
-<meta property="og:site_name" content="Reymond Akpanya / RWTH Aachen University">
-<meta property="og:title" content="Constructing Polyhedra with congruent triangular Faces">
+<meta property="og:site_name" content="Reymond Akpanya / The University of Sydney">
+<meta property="og:title" content="On Two-faced Simplicial Surfaces">
 
 
-  <link rel="canonical" href="http://localhost:4000/publication/constructingpolhedrawithcongruentfaces.md">
-  <meta property="og:url" content="http://localhost:4000/publication/constructingpolhedrawithcongruentfaces.md">
+  <link rel="canonical" href="http://localhost:4000/publication/twofaced.md">
+  <meta property="og:url" content="http://localhost:4000/publication/twofaced.md">
 
 
 
@@ -52,7 +52,7 @@
 
 
   <meta property="og:type" content="article">
-  <meta property="article:published_time" content="2024-07-01T00:00:00-07:00">
+  <meta property="article:published_time" content="2026-12-30T00:00:00-08:00">
 
 
 
@@ -79,7 +79,7 @@
 <!-- end SEO -->
 
 
-<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Reymond Akpanya / RWTH Aachen University Feed">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Reymond Akpanya / The University of Sydney Feed">
 
 <!-- http://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">
@@ -147,7 +147,7 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/">Reymond Akpanya / RWTH Aachen University</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/">Reymond Akpanya / The University of Sydney</a></li>
           
             
             <li class="masthead__menu-item"><a href="http://localhost:4000/cv/">CV</a></li>
@@ -205,11 +205,11 @@
         <li class="author__desktop"><i class="fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>Sydney, Australia</li>
       
       
-        <li class="author__desktop"><i class="fa fa-solid fa-building-columns icon-pad-right" aria-hidden="true"></i>University of Sydney</li>
+        <li class="author__desktop"><i class="fa fa-solid fa-building-columns icon-pad-right" aria-hidden="true"></i>The University of Sydney</li>
       
       
       
-        <li><a href="mailto:akpanya@art.rwth-aachen.de"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>Email</a></li>
+        <li><a href="mailto:reymond.akpanya@sydney.edu.au"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>Email</a></li>
       
 
       <!-- Font Awesome and Academicons icons / Academic websites -->
@@ -275,21 +275,21 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Constructing Polyhedra with congruent triangular Faces">
+    <meta itemprop="headline" content="On Two-faced Simplicial Surfaces">
     <meta itemprop="description" content="">
-    <meta itemprop="datePublished" content="July 01, 2024">
+    <meta itemprop="datePublished" content="December 30, 2026">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Constructing Polyhedra with congruent triangular Faces
+          <h1 class="page__title" itemprop="headline">On Two-faced Simplicial Surfaces
 </h1>
           
         
         
         
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2024-07-01T00:00:00-07:00">July 01, 2024</time></p>
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2026-12-30T00:00:00-08:00">December 30, 2026</time></p>
             
         </header>
       
@@ -342,11 +342,11 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=http://localhost:4000/publication/constructingpolhedrawithcongruentfaces.md" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=http://localhost:4000/publication/twofaced.md" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/publication/constructingpolhedrawithcongruentfaces.md" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/publication/twofaced.md" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/publication/constructingpolhedrawithcongruentfaces.md" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/publication/twofaced.md" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
       
@@ -354,12 +354,11 @@
 
   <nav class="pagination">
     
-      <a href="http://localhost:4000/publication/2024-02-17-paper-title-number-4" class="pagination--pager" title="Paper Title Number 4
+      <a href="http://localhost:4000/publication/polyhedral.md" class="pagination--pager" title="On Polyhedral Maps with given automorphism group
 ">Previous</a>
     
     
-      <a href="http://localhost:4000/publication/einstein.md" class="pagination--pager" title="Constructing Topological Interlocking Assemblies Based on an Aperiodic Monotile
-">Next</a>
+      <a href="#" class="pagination--pager disabled">Next</a>
     
   </nav>
 

@@ -19,7 +19,7 @@
 
 
 
-<title>Modular Construction of Topological Interlocking Blocks — An Algebraic Approach for Resource-Efficient Carbon-Reinforced Concrete Structures - Reymond Akpanya / RWTH Aachen University</title>
+<title>An algorithmic approach for computing fundamental domains of crystallographic groups - Reymond Akpanya / The University of Sydney</title>
 
 
 
@@ -28,12 +28,12 @@
 
 
 <meta property="og:locale" content="en-US">
-<meta property="og:site_name" content="Reymond Akpanya / RWTH Aachen University">
-<meta property="og:title" content="Modular Construction of Topological Interlocking Blocks — An Algebraic Approach for Resource-Efficient Carbon-Reinforced Concrete Structures">
+<meta property="og:site_name" content="Reymond Akpanya / The University of Sydney">
+<meta property="og:title" content="An algorithmic approach for computing fundamental domains of crystallographic groups">
 
 
-  <link rel="canonical" href="http://localhost:4000/publication/modularconstructionoftopologicalinterlockingblocks.md">
-  <meta property="og:url" content="http://localhost:4000/publication/modularconstructionoftopologicalinterlockingblocks.md">
+  <link rel="canonical" href="http://localhost:4000/publication/cryst.md">
+  <meta property="og:url" content="http://localhost:4000/publication/cryst.md">
 
 
 
@@ -52,7 +52,7 @@
 
 
   <meta property="og:type" content="article">
-  <meta property="article:published_time" content="2023-10-01T00:00:00-07:00">
+  <meta property="article:published_time" content="2026-12-25T00:00:00-08:00">
 
 
 
@@ -79,7 +79,7 @@
 <!-- end SEO -->
 
 
-<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Reymond Akpanya / RWTH Aachen University Feed">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Reymond Akpanya / The University of Sydney Feed">
 
 <!-- http://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">
@@ -147,7 +147,7 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/">Reymond Akpanya / RWTH Aachen University</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/">Reymond Akpanya / The University of Sydney</a></li>
           
             
             <li class="masthead__menu-item"><a href="http://localhost:4000/cv/">CV</a></li>
@@ -205,11 +205,11 @@
         <li class="author__desktop"><i class="fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>Sydney, Australia</li>
       
       
-        <li class="author__desktop"><i class="fa fa-solid fa-building-columns icon-pad-right" aria-hidden="true"></i>University of Sydney</li>
+        <li class="author__desktop"><i class="fa fa-solid fa-building-columns icon-pad-right" aria-hidden="true"></i>The University of Sydney</li>
       
       
       
-        <li><a href="mailto:akpanya@art.rwth-aachen.de"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>Email</a></li>
+        <li><a href="mailto:reymond.akpanya@sydney.edu.au"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>Email</a></li>
       
 
       <!-- Font Awesome and Academicons icons / Academic websites -->
@@ -275,21 +275,21 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Modular Construction of Topological Interlocking Blocks — An Algebraic Approach for Resource-Efficient Carbon-Reinforced Concrete Structures">
+    <meta itemprop="headline" content="An algorithmic approach for computing fundamental domains of crystallographic groups">
     <meta itemprop="description" content="">
-    <meta itemprop="datePublished" content="October 01, 2023">
+    <meta itemprop="datePublished" content="December 25, 2026">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Modular Construction of Topological Interlocking Blocks — An Algebraic Approach for Resource-Efficient Carbon-Reinforced Concrete Structures
+          <h1 class="page__title" itemprop="headline">An algorithmic approach for computing fundamental domains of crystallographic groups
 </h1>
           
         
         
         
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2023-10-01T00:00:00-07:00">October 01, 2023</time></p>
+          <p>Published in <i>Journal</i>, 2026 </p>
             
         </header>
       
@@ -327,7 +327,7 @@
     
       
       
-      <a href="http://localhost:4000/categories/#other" class="page__taxonomy-item" rel="tag">other</a>
+      <a href="http://localhost:4000/categories/#mathematics" class="page__taxonomy-item" rel="tag">mathematics</a>
     
     </span>
   </p>
@@ -342,11 +342,11 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=http://localhost:4000/publication/modularconstructionoftopologicalinterlockingblocks.md" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=http://localhost:4000/publication/cryst.md" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/publication/modularconstructionoftopologicalinterlockingblocks.md" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/publication/cryst.md" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/publication/modularconstructionoftopologicalinterlockingblocks.md" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/publication/cryst.md" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
       
@@ -354,11 +354,11 @@
 
   <nav class="pagination">
     
-      <a href="http://localhost:4000/publication/iass2023.md" class="pagination--pager" title="A Group-Theoretic Approach for Constructing Spherical-Interlocking Assemblies
+      <a href="http://localhost:4000/publication/tubular.md" class="pagination--pager" title="Tubular interlockings with internal and external sinusoidal shaping: geometric influence on the mechanical performance
 ">Previous</a>
     
     
-      <a href="http://localhost:4000/publication/2024-02-17-paper-title-number-4" class="pagination--pager" title="Paper Title Number 4
+      <a href="http://localhost:4000/publication/polyhedral.md" class="pagination--pager" title="Strong Embeddings of Regular Graphs with Prescribed AutomorphismGroups
 ">Next</a>
     
   </nav>

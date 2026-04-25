@@ -19,7 +19,7 @@
 
 
 
-<title>Construction of Toroidal Polyhedra corresponding to perfect Chains of isosceles Tetrahedra - Reymond Akpanya / RWTH Aachen University</title>
+<title>Construction of Toroidal Polyhedra corresponding to perfect Chains of isosceles Tetrahedra - Reymond Akpanya / The University of Sydney</title>
 
 
 
@@ -28,7 +28,7 @@
 
 
 <meta property="og:locale" content="en-US">
-<meta property="og:site_name" content="Reymond Akpanya / RWTH Aachen University">
+<meta property="og:site_name" content="Reymond Akpanya / The University of Sydney">
 <meta property="og:title" content="Construction of Toroidal Polyhedra corresponding to perfect Chains of isosceles Tetrahedra">
 
 
@@ -52,7 +52,7 @@
 
 
   <meta property="og:type" content="article">
-  <meta property="article:published_time" content="2024-12-20T00:00:00-08:00">
+  <meta property="article:published_time" content="2025-12-20T00:00:00-08:00">
 
 
 
@@ -79,7 +79,7 @@
 <!-- end SEO -->
 
 
-<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Reymond Akpanya / RWTH Aachen University Feed">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Reymond Akpanya / The University of Sydney Feed">
 
 <!-- http://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">
@@ -147,7 +147,7 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/">Reymond Akpanya / RWTH Aachen University</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/">Reymond Akpanya / The University of Sydney</a></li>
           
             
             <li class="masthead__menu-item"><a href="http://localhost:4000/cv/">CV</a></li>
@@ -205,11 +205,11 @@
         <li class="author__desktop"><i class="fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>Sydney, Australia</li>
       
       
-        <li class="author__desktop"><i class="fa fa-solid fa-building-columns icon-pad-right" aria-hidden="true"></i>University of Sydney</li>
+        <li class="author__desktop"><i class="fa fa-solid fa-building-columns icon-pad-right" aria-hidden="true"></i>The University of Sydney</li>
       
       
       
-        <li><a href="mailto:akpanya@art.rwth-aachen.de"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>Email</a></li>
+        <li><a href="mailto:reymond.akpanya@sydney.edu.au"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>Email</a></li>
       
 
       <!-- Font Awesome and Academicons icons / Academic websites -->
@@ -277,7 +277,7 @@
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
     <meta itemprop="headline" content="Construction of Toroidal Polyhedra corresponding to perfect Chains of isosceles Tetrahedra">
     <meta itemprop="description" content="">
-    <meta itemprop="datePublished" content="December 20, 2024">
+    <meta itemprop="datePublished" content="December 20, 2025">
     
 
     <div class="page__inner-wrap">
@@ -289,7 +289,7 @@
         
         
         
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2024-12-20T00:00:00-08:00">December 20, 2024</time></p>
+          <p>Published in <i>Journal</i>, 2025 </p>
             
         </header>
       
@@ -354,11 +354,11 @@
 
   <nav class="pagination">
     
-      <a href="http://localhost:4000/publication/einstein.md" class="pagination--pager" title="Constructing Topological Interlocking Assemblies Based on an Aperiodic Monotile
+      <a href="http://localhost:4000/publication/tiajapan.md" class="pagination--pager" title="Influence of a generative parameter on the mechanical performance of topological interlocking assemblies of a hexagonal block
 ">Previous</a>
     
     
-      <a href="http://localhost:4000/publication/classificationofftsurfaces.md" class="pagination--pager" title="Classification of face-transitive surfaces
+      <a href="http://localhost:4000/publication/onthecombinatoricsofmultitetrahedralspheres.md" class="pagination--pager" title="On 3-Connected Planar Graphs with Unique Orientable Circuit Double Covers
 ">Next</a>
     
   </nav>
