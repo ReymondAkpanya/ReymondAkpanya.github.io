@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Talks"
+title: "Talks & Conferences"
 permalink: /talks/
 author_profile: true
 ---
@@ -9,16 +9,43 @@ author_profile: true
 
 {% assign sorted_talks = site.talks | sort: "date" | reverse %}
 
-<ul class="simple-list">
+<div class="card-grid">
 {% for post in sorted_talks %}
-<li>
-  {% if post.type == "Workshop" %}
-    <span class="badge badge-workshop" style="margin-right:0.4em;">Workshop</span>
-  {% else %}
-    <span class="badge badge-talk" style="margin-right:0.4em;">Talk</span>
+<div class="item-card">
+  <div class="card-badges">
+    {% if post.types %}
+      {% for t in post.types %}
+        {% if t == "Organiser" %}
+          <span class="badge badge-prep">Organiser</span>
+        {% elsif t == "Workshop" %}
+          <span class="badge badge-workshop">Workshop</span>
+        {% elsif t == "Attendee" %}
+          <span class="badge badge-thesis">Attendee</span>
+        {% else %}
+          <span class="badge badge-talk">Talk</span>
+        {% endif %}
+      {% endfor %}
+    {% else %}
+      {% if post.type == "Organiser" %}
+        <span class="badge badge-prep">Organiser</span>
+      {% elsif post.type == "Workshop" %}
+        <span class="badge badge-workshop">Workshop</span>
+      {% elsif post.type == "Attendee" %}
+        <span class="badge badge-thesis">Attendee</span>
+      {% else %}
+        <span class="badge badge-talk">Talk</span>
+      {% endif %}
+    {% endif %}
+    <span class="badge badge-year">{{ post.date | date: "%Y" }}</span>
+  </div>
+  <p class="card-title"><span class="pub-number">{{ forloop.index }}.</span> {{ post.title }}</p>
+  <p class="card-meta">{% if post.venue %}{{ post.venue }}, {% endif %}{{ post.location }} &mdash; {% if post.period %}{{ post.period }}{% else %}{{ post.date | date: "%B %Y" }}{% endif %}</p>
+  {% if post.contribution and post.contribution != "" %}
+    <p class="card-meta">{{ post.contribution }}</p>
   {% endif %}
-  <span class="list-item-title">{{ post.title }}</span>
-  <span class="list-item-meta">&mdash; {{ post.venue }}, {{ post.location }}, {{ post.date | date: "%B %Y" }}</span>
-</li>
+  {% if post.paperurl %}
+    <p class="card-meta" style="font-size:0.82em;"><a href="{{ post.paperurl }}">More info &rarr;</a></p>
+  {% endif %}
+</div>
 {% endfor %}
-</ul>
+</div>

@@ -19,7 +19,7 @@
 
 
 
-<title>Simplicial Surfaces and their Face Graphs - Reymond Akpanya / The University of Sydney</title>
+<title>GAP Days Summer 2022 - Reymond Akpanya / The University of Sydney</title>
 
 
 
@@ -29,7 +29,7 @@
 
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Reymond Akpanya / The University of Sydney">
-<meta property="og:title" content="Simplicial Surfaces and their Face Graphs">
+<meta property="og:title" content="GAP Days Summer 2022">
 
 
   <link rel="canonical" href="http://localhost:4000/talks/gapdays2022">
@@ -37,7 +37,7 @@
 
 
 
-  <meta property="og:description" content="More information here">
+  <meta property="og:description" content="">
 
 
 
@@ -88,6 +88,12 @@
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+<script>
+  (function() {
+    var t = localStorage.getItem('theme');
+    if (t) document.documentElement.setAttribute('data-theme', t);
+  })();
 </script>
 
 <!-- Google Fonts: Inter -->
@@ -156,17 +162,33 @@
             <li class="masthead__menu-item"><a href="http://localhost:4000/publications/">Publications</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/talks/">Talks</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/talks/">Talks & Conferences</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/teaching/">Teaching</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/teaching/">Teaching and Supervision</a></li>
           
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
+    <button id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
   </div>
 </div>
+
+<script>
+(function() {
+  var btn = document.getElementById('theme-toggle');
+  var saved = localStorage.getItem('theme') || 'light';
+  if (btn) btn.textContent = saved === 'dark' ? '☀️' : '🌙';
+  if (btn) btn.addEventListener('click', function() {
+    var current = document.documentElement.getAttribute('data-theme') || 'light';
+    var next = current === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+    btn.textContent = next === 'dark' ? '☀️' : '🌙';
+  });
+})();
+</script>
 
     
 
@@ -275,15 +297,15 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Simplicial Surfaces and their Face Graphs">
-    <meta itemprop="description" content="More information here">
+    <meta itemprop="headline" content="GAP Days Summer 2022">
+    <meta itemprop="description" content="">
     <meta itemprop="datePublished" content="October 18, 2022">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Simplicial Surfaces and their Face Graphs
+          <h1 class="page__title" itemprop="headline">GAP Days Summer 2022
 </h1>
           
         
@@ -295,7 +317,7 @@
       
 
       <section class="page__content" itemprop="text">
-        <p><a href="https://www.gapdays.de/gapdays2022-summer/">More information here</a></p>
+        
 
         
       </section>
@@ -328,10 +350,11 @@
 
   <nav class="pagination">
     
-      <a href="#" class="pagination--pager disabled">Previous</a>
+      <a href="http://localhost:4000/talks/lmsresearch2022" class="pagination--pager" title="LMS Research School on Knowledge Exchange
+">Previous</a>
     
     
-      <a href="http://localhost:4000/talks/rwthworkshop" class="pagination--pager" title="Workshop - Symmetrie und Interlockings
+      <a href="http://localhost:4000/talks/rwthworkshop" class="pagination--pager" title="Workshop “Symmetrie und Interlockings”
 ">Next</a>
     
   </nav>

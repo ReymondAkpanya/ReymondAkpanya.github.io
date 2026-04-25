@@ -19,5 +19,21 @@
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
+    <button id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
   </div>
 </div>
+
+<script>
+(function() {
+  var btn = document.getElementById('theme-toggle');
+  var saved = localStorage.getItem('theme') || 'light';
+  if (btn) btn.textContent = saved === 'dark' ? '☀️' : '🌙';
+  if (btn) btn.addEventListener('click', function() {
+    var current = document.documentElement.getAttribute('data-theme') || 'light';
+    var next = current === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+    btn.textContent = next === 'dark' ? '☀️' : '🌙';
+  });
+})();
+</script>

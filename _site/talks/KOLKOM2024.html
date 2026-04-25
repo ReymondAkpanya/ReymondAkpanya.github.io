@@ -19,7 +19,7 @@
 
 
 
-<title>Constructing face-transitive surfaces via cycle double covers induced by automorphism groups - Reymond Akpanya / The University of Sydney</title>
+<title>KOLKOM 2024 (Combinatorial Colloquium) - Reymond Akpanya / The University of Sydney</title>
 
 
 
@@ -29,7 +29,7 @@
 
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Reymond Akpanya / The University of Sydney">
-<meta property="og:title" content="Constructing face-transitive surfaces via cycle double covers induced by automorphism groups">
+<meta property="og:title" content="KOLKOM 2024 (Combinatorial Colloquium)">
 
 
   <link rel="canonical" href="http://localhost:4000/talks/KOLKOM2024">
@@ -37,7 +37,7 @@
 
 
 
-  <meta property="og:description" content="  Abstract: A (simplicial) surface can be seen as the incidence geometry of the vertices, edges and faces of atriangulated 2-manifold. We call such a surface face-transitive if its automorphism group acts transitivelyon the faces of the given surface. Linking a given simplicial surface to a cubic graph is achieved by recording the incidences between the corresponding faces and edges. Note that the resulting cubic graphdoes not directly contain any information on the vertices of the corresponding surface. This missing information is obtained by constructing a cycle double cover (CDC) of the corresponding cubic graph, i.e. a collection of cycles of the graph such that every edge of the graph is contained in exactly two cycles. In this talk, we discuss the construction of face-transitive surfaces by providing suitable CDCs of vertex-transitive cubic graphs. We demonstrate that the CDC of a given cubic graph correspondingto a face-transitive surface can be constructed by exploiting suitable subgroups of the automorphismgroup of the given cubic graph. This is a joint work with Jonathan Spreer (Usyd).">
+  <meta property="og:description" content="">
 
 
 
@@ -52,7 +52,7 @@
 
 
   <meta property="og:type" content="article">
-  <meta property="article:published_time" content="2024-09-29T00:00:00-07:00">
+  <meta property="article:published_time" content="2024-10-01T00:00:00-07:00">
 
 
 
@@ -88,6 +88,12 @@
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+<script>
+  (function() {
+    var t = localStorage.getItem('theme');
+    if (t) document.documentElement.setAttribute('data-theme', t);
+  })();
 </script>
 
 <!-- Google Fonts: Inter -->
@@ -156,17 +162,33 @@
             <li class="masthead__menu-item"><a href="http://localhost:4000/publications/">Publications</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/talks/">Talks</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/talks/">Talks & Conferences</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/teaching/">Teaching</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/teaching/">Teaching and Supervision</a></li>
           
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
+    <button id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
   </div>
 </div>
+
+<script>
+(function() {
+  var btn = document.getElementById('theme-toggle');
+  var saved = localStorage.getItem('theme') || 'light';
+  if (btn) btn.textContent = saved === 'dark' ? '☀️' : '🌙';
+  if (btn) btn.addEventListener('click', function() {
+    var current = document.documentElement.getAttribute('data-theme') || 'light';
+    var next = current === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+    btn.textContent = next === 'dark' ? '☀️' : '🌙';
+  });
+})();
+</script>
 
     
 
@@ -275,19 +297,19 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Constructing face-transitive surfaces via cycle double covers induced by automorphism groups">
-    <meta itemprop="description" content="  Abstract: A (simplicial) surface can be seen as the incidence geometry of the vertices, edges and faces of atriangulated 2-manifold. We call such a surface face-transitive if its automorphism group acts transitivelyon the faces of the given surface. Linking a given simplicial surface to a cubic graph is achieved by recording the incidences between the corresponding faces and edges. Note that the resulting cubic graphdoes not directly contain any information on the vertices of the corresponding surface. This missing information is obtained by constructing a cycle double cover (CDC) of the corresponding cubic graph, i.e. a collection of cycles of the graph such that every edge of the graph is contained in exactly two cycles. In this talk, we discuss the construction of face-transitive surfaces by providing suitable CDCs of vertex-transitive cubic graphs. We demonstrate that the CDC of a given cubic graph correspondingto a face-transitive surface can be constructed by exploiting suitable subgroups of the automorphismgroup of the given cubic graph. This is a joint work with Jonathan Spreer (Usyd).">
-    <meta itemprop="datePublished" content="September 29, 2024">
+    <meta itemprop="headline" content="KOLKOM 2024 (Combinatorial Colloquium)">
+    <meta itemprop="description" content="">
+    <meta itemprop="datePublished" content="October 01, 2024">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Constructing face-transitive surfaces via cycle double covers induced by automorphism groups
+          <h1 class="page__title" itemprop="headline">KOLKOM 2024 (Combinatorial Colloquium)
 </h1>
           
         
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="2024-09-29T00:00:00-07:00">September 29, 2024</time></p>
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="2024-10-01T00:00:00-07:00">October 01, 2024</time></p>
         
         
 
@@ -295,22 +317,7 @@
       
 
       <section class="page__content" itemprop="text">
-        <blockquote>
-  <p><strong>Abstract</strong>: A (simplicial) surface can be seen as the incidence geometry of the vertices, edges and faces of a
-triangulated 2-manifold. We call such a surface face-transitive if its automorphism group acts transitively
-on the faces of the given surface. Linking a given simplicial surface to a cubic graph is achieved by 
-recording the incidences between the corresponding faces and edges. Note that the resulting cubic graph
-does not directly contain any information on the vertices of the corresponding surface. This missing 
-information is obtained by constructing a cycle double cover (CDC) of the corresponding cubic graph, 
-i.e. a collection of cycles of the graph such that every edge of the graph is contained in exactly 
-two cycles. In this talk, we discuss the construction of face-transitive surfaces by providing suitable 
-CDCs of vertex-transitive cubic graphs. We demonstrate that the CDC of a given cubic graph corresponding
-to a face-transitive surface can be constructed by exploiting suitable subgroups of the automorphism
-group of the given cubic graph. This is a joint work with Jonathan Spreer (Usyd).<br /><br /></p>
-</blockquote>
-
-<p><a href="https://web.ifi.uni-heidelberg.de/kolkom24">More information here</a></p>
-
+        
 
         
       </section>
@@ -343,11 +350,12 @@ group of the given cubic graph. This is a joint work with Jonathan Spreer (Usyd)
 
   <nav class="pagination">
     
-      <a href="http://localhost:4000/talks/IASS2024" class="pagination--pager" title="Constructing Topological Interlocking Assemblies Based on an Aperiodic Monotile
+      <a href="http://localhost:4000/talks/IASS2024" class="pagination--pager" title="IASS Symposium 2024
 ">Previous</a>
     
     
-      <a href="#" class="pagination--pager disabled">Next</a>
+      <a href="http://localhost:4000/talks/magmaworkshop2025" class="pagination--pager" title="Magma Workshop on Groups and Graphs
+">Next</a>
     
   </nav>
 

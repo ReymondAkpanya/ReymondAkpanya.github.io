@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Teaching"
+title: "Teaching and Supervision"
 permalink: /teaching/
 author_profile: true
 ---
@@ -8,9 +8,13 @@ author_profile: true
 {% include base_path %}
 
 {% assign sorted_teaching = site.teaching | sort: "date" | reverse %}
+{% assign teaching_items = sorted_teaching | where_exp: "post", "post.type != 'Supervision'" %}
+{% assign supervision_items = sorted_teaching | where_exp: "post", "post.type == 'Supervision'" %}
+
+<h2>Teaching</h2>
 
 <ul class="simple-list">
-{% for post in sorted_teaching %}
+{% for post in teaching_items %}
 <li>
   {% if post.type == "Workshop" %}
     <span class="badge badge-workshop" style="margin-right:0.4em;">Workshop</span>
@@ -21,6 +25,23 @@ author_profile: true
   {% endif %}
   <span class="list-item-title">{{ post.title }}</span>
   <span class="list-item-meta">&mdash; {{ post.venue }}, {{ post.date | date: "%Y" }}</span>
+</li>
+{% endfor %}
+</ul>
+
+<h2>Supervision</h2>
+
+<ul class="simple-list">
+{% for post in supervision_items %}
+<li>
+  <span class="badge badge-teaching" style="margin-right:0.4em;">Supervision</span>
+  <span class="list-item-title">{{ post.student }} &ndash; {{ post.title }}{% if post.supervision_type %} ({{ post.supervision_type }}){% endif %}</span>
+  {% if post.cosupervisor %}
+    <span class="list-item-meta">(co-supervised with {{ post.cosupervisor }}){% if post.note %} ({{ post.note }}){% endif %}</span>
+  {% endif %}
+  {% if post.period %}
+    <span class="list-item-meta">&mdash; {{ post.period }}</span>
+  {% endif %}
 </li>
 {% endfor %}
 </ul>

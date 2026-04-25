@@ -19,7 +19,7 @@
 
 
 
-<title>A Group-Theoretic Approach for Constructing Spherical-Interlocking Assemblies - Reymond Akpanya / The University of Sydney</title>
+<title>Centre for Innovative Structures and Materials (RMIT) - Reymond Akpanya / The University of Sydney</title>
 
 
 
@@ -29,7 +29,7 @@
 
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Reymond Akpanya / The University of Sydney">
-<meta property="og:title" content="A Group-Theoretic Approach for Constructing Spherical-Interlocking Assemblies">
+<meta property="og:title" content="Centre for Innovative Structures and Materials (RMIT)">
 
 
   <link rel="canonical" href="http://localhost:4000/talks/rmit">
@@ -37,7 +37,7 @@
 
 
 
-  <meta property="og:description" content="  Abstract: The study of symmetric objects occurs in various branches of mathematics.  Periodic tessellations of the Euclidean plane are examples of such structures.In this talk, we discuss the idea of deforming tiles of a periodic tiling to construct topological interlocking assemblies.  Here, a topological interlocking is an assembly of blocks constrained by a fixed frame such that each block is kinematically constrained.  Based on this idea, we give examples of interlocking assemblies whichform platonic solids or tubular interlocking structures.">
+  <meta property="og:description" content="">
 
 
 
@@ -88,6 +88,12 @@
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+<script>
+  (function() {
+    var t = localStorage.getItem('theme');
+    if (t) document.documentElement.setAttribute('data-theme', t);
+  })();
 </script>
 
 <!-- Google Fonts: Inter -->
@@ -156,17 +162,33 @@
             <li class="masthead__menu-item"><a href="http://localhost:4000/publications/">Publications</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/talks/">Talks</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/talks/">Talks & Conferences</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/teaching/">Teaching</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/teaching/">Teaching and Supervision</a></li>
           
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
+    <button id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
   </div>
 </div>
+
+<script>
+(function() {
+  var btn = document.getElementById('theme-toggle');
+  var saved = localStorage.getItem('theme') || 'light';
+  if (btn) btn.textContent = saved === 'dark' ? '☀️' : '🌙';
+  if (btn) btn.addEventListener('click', function() {
+    var current = document.documentElement.getAttribute('data-theme') || 'light';
+    var next = current === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+    btn.textContent = next === 'dark' ? '☀️' : '🌙';
+  });
+})();
+</script>
 
     
 
@@ -275,15 +297,15 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="A Group-Theoretic Approach for Constructing Spherical-Interlocking Assemblies">
-    <meta itemprop="description" content="  Abstract: The study of symmetric objects occurs in various branches of mathematics.  Periodic tessellations of the Euclidean plane are examples of such structures.In this talk, we discuss the idea of deforming tiles of a periodic tiling to construct topological interlocking assemblies.  Here, a topological interlocking is an assembly of blocks constrained by a fixed frame such that each block is kinematically constrained.  Based on this idea, we give examples of interlocking assemblies whichform platonic solids or tubular interlocking structures.">
+    <meta itemprop="headline" content="Centre for Innovative Structures and Materials (RMIT)">
+    <meta itemprop="description" content="">
     <meta itemprop="datePublished" content="August 11, 2023">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">A Group-Theoretic Approach for Constructing Spherical-Interlocking Assemblies
+          <h1 class="page__title" itemprop="headline">Centre for Innovative Structures and Materials (RMIT)
 </h1>
           
         
@@ -295,16 +317,7 @@
       
 
       <section class="page__content" itemprop="text">
-        <blockquote>
-  <p><strong>Abstract</strong>: The study of symmetric objects occurs in various branches of mathematics.  Periodic tessellations of the Euclidean 
-plane are examples of such structures.<br />
-In this talk, we discuss the idea of deforming tiles of a periodic tiling to construct topological interlocking 
-assemblies.  Here, a topological interlocking is an assembly of blocks constrained by a fixed frame such that 
-each block is kinematically constrained.  Based on this idea, we give examples of interlocking assemblies which
-form platonic solids or tubular interlocking structures.</p>
-</blockquote>
-
-<p><a href="http://exampleurl.com">More information here</a></p>
+        
 
         
       </section>
@@ -337,11 +350,11 @@ form platonic solids or tubular interlocking structures.</p>
 
   <nav class="pagination">
     
-      <a href="http://localhost:4000/talks/maps" class="pagination--pager" title="Simplicial Surfaces and their Face Graphs
+      <a href="http://localhost:4000/talks/maps" class="pagination--pager" title="MaPS Seminar
 ">Previous</a>
     
     
-      <a href="http://localhost:4000/talks/usyd" class="pagination--pager" title="On the classification of face-transitive surfaces
+      <a href="http://localhost:4000/talks/usyd-sept2023" class="pagination--pager" title="Geometry &amp; Topology Seminar
 ">Next</a>
     
   </nav>

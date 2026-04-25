@@ -89,6 +89,12 @@
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
 </script>
+<script>
+  (function() {
+    var t = localStorage.getItem('theme');
+    if (t) document.documentElement.setAttribute('data-theme', t);
+  })();
+</script>
 
 <!-- Google Fonts: Inter -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -156,17 +162,33 @@
             <li class="masthead__menu-item"><a href="http://localhost:4000/publications/">Publications</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/talks/">Talks</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/talks/">Talks & Conferences</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/teaching/">Teaching</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/teaching/">Teaching and Supervision</a></li>
           
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
+    <button id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
   </div>
 </div>
+
+<script>
+(function() {
+  var btn = document.getElementById('theme-toggle');
+  var saved = localStorage.getItem('theme') || 'light';
+  if (btn) btn.textContent = saved === 'dark' ? '☀️' : '🌙';
+  if (btn) btn.addEventListener('click', function() {
+    var current = document.documentElement.getAttribute('data-theme') || 'light';
+    var next = current === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+    btn.textContent = next === 'dark' ? '☀️' : '🌙';
+  });
+})();
+</script>
 
     
 
@@ -358,7 +380,7 @@
 ">Previous</a>
     
     
-      <a href="http://localhost:4000/publication/tiacarlos.md" class="pagination--pager" title="Topological interlocking assemblies based on origami inspired carbon-reinforced concrete waterbomb modules
+      <a href="http://localhost:4000/publication/fwcg2024" class="pagination--pager" title="On Inside-Out Dissections of Polygons and Polyhedra
 ">Next</a>
     
   </nav>

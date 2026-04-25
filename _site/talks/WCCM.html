@@ -19,7 +19,7 @@
 
 
 
-<title>Mechanical Behaviour of Tubular Topological Interlocking Assemblies - Reymond Akpanya / The University of Sydney</title>
+<title>World Congress on Computational Mechanics (WCCM) 2024 - Reymond Akpanya / The University of Sydney</title>
 
 
 
@@ -29,7 +29,7 @@
 
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Reymond Akpanya / The University of Sydney">
-<meta property="og:title" content="Mechanical Behaviour of Tubular Topological Interlocking Assemblies">
+<meta property="og:title" content="World Congress on Computational Mechanics (WCCM) 2024">
 
 
   <link rel="canonical" href="http://localhost:4000/talks/WCCM">
@@ -37,7 +37,7 @@
 
 
 
-  <meta property="og:description" content="  Abstract: A topological interlocking assembly is an arrangement of several rigid blocks that are in contactwith each other and are constrained by a fixed frame such that each subset of blocks is kinematically constrainedand therefore cannot be removed from the whole assembly. The platonic solids are examples of convex blocks thatallow such interlocking assemblies, see [1]. Exploiting topological interlocking enables the construction of largeconcrete structures without the usage of mortar as binding material. Over the years various blocks that give rise to topological interlocking assemblies by assembling copies of a given block, have been proposed. Dyskin et al. are notable pioneers in the field of topological interlocking [1]. In [2], the authors provide an recent overviewof assemblies with interlocking properties. In this presentation, we discuss an algebraic construction method thatfacilitates the design of various topological interlocking assemblies. More precisely, we construct blocks whosecopies can be assembled to form tubular structures with interlocking properties. This is achieved by exploiting two dimensional crystallographic groups, i.e. the symmetries of periodic wall paper patterns. Here, we focus on the design of tubular topological interlocking assemblies that prevent certain simultaneous movements of the blocks in the assembly when the frame remains unfixed. The motions of interest are the simultaneous radially outwards movement of every block. Hence, we generate examples of tubular interlocking assemblies that preventthe described motions and compare their structural behaviour to the behaviour of interlocking assemblies thatdo not prevent these movements when the frame is not fixed. In particular, we achieve this comparison by conductingseveral finite element studies. Moreover, we address the challenge of manufacturing the proposed structures withcarbon reinforced concrete.">
+  <meta property="og:description" content="">
 
 
 
@@ -88,6 +88,12 @@
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+<script>
+  (function() {
+    var t = localStorage.getItem('theme');
+    if (t) document.documentElement.setAttribute('data-theme', t);
+  })();
 </script>
 
 <!-- Google Fonts: Inter -->
@@ -156,17 +162,33 @@
             <li class="masthead__menu-item"><a href="http://localhost:4000/publications/">Publications</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/talks/">Talks</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/talks/">Talks & Conferences</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/teaching/">Teaching</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/teaching/">Teaching and Supervision</a></li>
           
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
+    <button id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
   </div>
 </div>
+
+<script>
+(function() {
+  var btn = document.getElementById('theme-toggle');
+  var saved = localStorage.getItem('theme') || 'light';
+  if (btn) btn.textContent = saved === 'dark' ? '☀️' : '🌙';
+  if (btn) btn.addEventListener('click', function() {
+    var current = document.documentElement.getAttribute('data-theme') || 'light';
+    var next = current === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+    btn.textContent = next === 'dark' ? '☀️' : '🌙';
+  });
+})();
+</script>
 
     
 
@@ -275,15 +297,15 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Mechanical Behaviour of Tubular Topological Interlocking Assemblies">
-    <meta itemprop="description" content="  Abstract: A topological interlocking assembly is an arrangement of several rigid blocks that are in contactwith each other and are constrained by a fixed frame such that each subset of blocks is kinematically constrainedand therefore cannot be removed from the whole assembly. The platonic solids are examples of convex blocks thatallow such interlocking assemblies, see [1]. Exploiting topological interlocking enables the construction of largeconcrete structures without the usage of mortar as binding material. Over the years various blocks that give rise to topological interlocking assemblies by assembling copies of a given block, have been proposed. Dyskin et al. are notable pioneers in the field of topological interlocking [1]. In [2], the authors provide an recent overviewof assemblies with interlocking properties. In this presentation, we discuss an algebraic construction method thatfacilitates the design of various topological interlocking assemblies. More precisely, we construct blocks whosecopies can be assembled to form tubular structures with interlocking properties. This is achieved by exploiting two dimensional crystallographic groups, i.e. the symmetries of periodic wall paper patterns. Here, we focus on the design of tubular topological interlocking assemblies that prevent certain simultaneous movements of the blocks in the assembly when the frame remains unfixed. The motions of interest are the simultaneous radially outwards movement of every block. Hence, we generate examples of tubular interlocking assemblies that preventthe described motions and compare their structural behaviour to the behaviour of interlocking assemblies thatdo not prevent these movements when the frame is not fixed. In particular, we achieve this comparison by conductingseveral finite element studies. Moreover, we address the challenge of manufacturing the proposed structures withcarbon reinforced concrete.">
+    <meta itemprop="headline" content="World Congress on Computational Mechanics (WCCM) 2024">
+    <meta itemprop="description" content="">
     <meta itemprop="datePublished" content="July 22, 2024">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Mechanical Behaviour of Tubular Topological Interlocking Assemblies
+          <h1 class="page__title" itemprop="headline">World Congress on Computational Mechanics (WCCM) 2024
 </h1>
           
         
@@ -295,26 +317,7 @@
       
 
       <section class="page__content" itemprop="text">
-        <blockquote>
-  <p><strong>Abstract</strong>: A topological interlocking assembly is an arrangement of several rigid blocks that are in contact
-with each other and are constrained by a fixed frame such that each subset of blocks is kinematically constrained
-and therefore cannot be removed from the whole assembly. The platonic solids are examples of convex blocks that
-allow such interlocking assemblies, see [1]. Exploiting topological interlocking enables the construction of large
-concrete structures without the usage of mortar as binding material. Over the years various blocks that give rise 
-to topological interlocking assemblies by assembling copies of a given block, have been proposed. Dyskin et al. 
-are notable pioneers in the field of topological interlocking [1]. In [2], the authors provide an recent overview
-of assemblies with interlocking properties. In this presentation, we discuss an algebraic construction method that
-facilitates the design of various topological interlocking assemblies. More precisely, we construct blocks whose
-copies can be assembled to form tubular structures with interlocking properties. This is achieved by exploiting 
-two dimensional crystallographic groups, i.e. the symmetries of periodic wall paper patterns. Here, we focus on 
-the design of tubular topological interlocking assemblies that prevent certain simultaneous movements of the 
-blocks in the assembly when the frame remains unfixed. The motions of interest are the simultaneous radially 
-outwards movement of every block. Hence, we generate examples of tubular interlocking assemblies that prevent
-the described motions and compare their structural behaviour to the behaviour of interlocking assemblies that
-do not prevent these movements when the frame is not fixed. In particular, we achieve this comparison by conducting
-several finite element studies. Moreover, we address the challenge of manufacturing the proposed structures with
-carbon reinforced concrete.</p>
-</blockquote>
+        
 
         
       </section>
@@ -347,11 +350,11 @@ carbon reinforced concrete.</p>
 
   <nav class="pagination">
     
-      <a href="http://localhost:4000/talks/JuliaCon" class="pagination--pager" title="GeoCombSurfX - exploring properties of polygonal complexes
+      <a href="http://localhost:4000/talks/JuliaCon" class="pagination--pager" title="JuliaCon 2024
 ">Previous</a>
     
     
-      <a href="http://localhost:4000/talks/concreteworkshop" class="pagination--pager" title="Constructing Topological Interlocking Assemblies (Workshop)
+      <a href="http://localhost:4000/talks/concreteworkshop" class="pagination--pager" title="Concrete Art Project 2024
 ">Next</a>
     
   </nav>

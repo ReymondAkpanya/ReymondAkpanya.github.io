@@ -19,7 +19,7 @@
 
 
 
-<title>GeoCombSurfX - exploring properties of polygonal complexes - Reymond Akpanya / The University of Sydney</title>
+<title>JuliaCon 2024 - Reymond Akpanya / The University of Sydney</title>
 
 
 
@@ -29,7 +29,7 @@
 
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Reymond Akpanya / The University of Sydney">
-<meta property="og:title" content="GeoCombSurfX - exploring properties of polygonal complexes">
+<meta property="og:title" content="JuliaCon 2024">
 
 
   <link rel="canonical" href="http://localhost:4000/talks/JuliaCon">
@@ -37,7 +37,7 @@
 
 
 
-  <meta property="og:description" content="  Abstract: Polygonal complexes are combinatoric objects that arise from polyhedra and facilitate various combinatoric and geometricstudies. In this talk, we present the Julia package GeoCombSurfX which enables the study of polygonal complexes and theconstruction of their corresponding embedding. Moreover, we demonstrate the usage of our package by targeting the problemof deciding whether a given asssembly of 3D-blocks gives rise to a topological interlocking.This talk was given together with Sascha Stüttgen.">
+  <meta property="og:description" content="">
 
 
 
@@ -88,6 +88,12 @@
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+<script>
+  (function() {
+    var t = localStorage.getItem('theme');
+    if (t) document.documentElement.setAttribute('data-theme', t);
+  })();
 </script>
 
 <!-- Google Fonts: Inter -->
@@ -156,17 +162,33 @@
             <li class="masthead__menu-item"><a href="http://localhost:4000/publications/">Publications</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/talks/">Talks</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/talks/">Talks & Conferences</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/teaching/">Teaching</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/teaching/">Teaching and Supervision</a></li>
           
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
+    <button id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
   </div>
 </div>
+
+<script>
+(function() {
+  var btn = document.getElementById('theme-toggle');
+  var saved = localStorage.getItem('theme') || 'light';
+  if (btn) btn.textContent = saved === 'dark' ? '☀️' : '🌙';
+  if (btn) btn.addEventListener('click', function() {
+    var current = document.documentElement.getAttribute('data-theme') || 'light';
+    var next = current === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+    btn.textContent = next === 'dark' ? '☀️' : '🌙';
+  });
+})();
+</script>
 
     
 
@@ -275,15 +297,15 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="GeoCombSurfX - exploring properties of polygonal complexes">
-    <meta itemprop="description" content="  Abstract: Polygonal complexes are combinatoric objects that arise from polyhedra and facilitate various combinatoric and geometricstudies. In this talk, we present the Julia package GeoCombSurfX which enables the study of polygonal complexes and theconstruction of their corresponding embedding. Moreover, we demonstrate the usage of our package by targeting the problemof deciding whether a given asssembly of 3D-blocks gives rise to a topological interlocking.This talk was given together with Sascha Stüttgen.">
+    <meta itemprop="headline" content="JuliaCon 2024">
+    <meta itemprop="description" content="">
     <meta itemprop="datePublished" content="July 12, 2024">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">GeoCombSurfX - exploring properties of polygonal complexes
+          <h1 class="page__title" itemprop="headline">JuliaCon 2024
 </h1>
           
         
@@ -295,15 +317,7 @@
       
 
       <section class="page__content" itemprop="text">
-        <blockquote>
-  <p><strong>Abstract</strong>: Polygonal complexes are combinatoric objects that arise from polyhedra and facilitate various combinatoric and geometric
-studies. In this talk, we present the Julia package GeoCombSurfX which enables the study of polygonal complexes and the
-construction of their corresponding embedding. Moreover, we demonstrate the usage of our package by targeting the problem
-of deciding whether a given asssembly of 3D-blocks gives rise to a topological interlocking.
-This talk was given together with Sascha Stüttgen.</p>
-</blockquote>
-
-<p><a href="https://pretalx.com/juliacon2024/talk/YDS7HF/">More information here</a></p>
+        
 
         
       </section>
@@ -336,11 +350,11 @@ This talk was given together with Sascha Stüttgen.</p>
 
   <nav class="pagination">
     
-      <a href="http://localhost:4000/talks/UAB" class="pagination--pager" title="Classification of face-transitive surfaces
+      <a href="http://localhost:4000/talks/cccg2024conf" class="pagination--pager" title="Canadian Conference on Computational Geometry (CCCG 2024)
 ">Previous</a>
     
     
-      <a href="http://localhost:4000/talks/WCCM" class="pagination--pager" title="Mechanical Behaviour of Tubular Topological Interlocking Assemblies
+      <a href="http://localhost:4000/talks/WCCM" class="pagination--pager" title="World Congress on Computational Mechanics (WCCM) 2024
 ">Next</a>
     
   </nav>

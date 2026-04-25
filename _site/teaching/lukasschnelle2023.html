@@ -19,7 +19,7 @@
 
 
 
-<title>On the classification of face-transitive surfaces - Reymond Akpanya / The University of Sydney</title>
+<title>Work on GAP package SimplicialSurfaces and GaPic - Reymond Akpanya / The University of Sydney</title>
 
 
 
@@ -29,15 +29,15 @@
 
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Reymond Akpanya / The University of Sydney">
-<meta property="og:title" content="On the classification of face-transitive surfaces">
+<meta property="og:title" content="Work on GAP package SimplicialSurfaces and GaPic">
 
 
-  <link rel="canonical" href="http://localhost:4000/talks/usyd">
-  <meta property="og:url" content="http://localhost:4000/talks/usyd">
+  <link rel="canonical" href="http://localhost:4000/teaching/lukasschnelle2023">
+  <meta property="og:url" content="http://localhost:4000/teaching/lukasschnelle2023">
 
 
 
-  <meta property="og:description" content="  Abstract: A simplicial surface can be derived from the incidence geometry of a triangulated three-dimensional polyhedron by denoting the relationships between the corresponding vertices, edges and faces. We refer to a simplicial surface as face-transitive if the corresponding automorphism group acts transitively on the faces of the simplicial surface.We link a simplicial surface to its dual graph, a cubic graph, by denoting the incidences between its faces and edges. While translating a surface into a cubic graph is straightforward, determining whether there exists a simplicial surface with a given cubic graph as dual graph is a task of high complexity. However, when dealing with vertex-transitive cubic graphs, there is some optimism in tackling this challenge.In this talk, we will discuss the computation of face-transitive surfaces that have vertex-transitive cubic graphs as their dual graphs. We will demonstrate that, in the case of a vertex-transitive cubic graph, the necessary information for this construction can be recovered from the automorphism group of the cubic graph. Moreover, we will see that there are exactly 11 different types of face-transitive surfaces that can occur and also provide distinguishing invariants to tell them apart.">
+  <meta property="og:description" content="">
 
 
 
@@ -52,7 +52,7 @@
 
 
   <meta property="og:type" content="article">
-  <meta property="article:published_time" content="2023-09-04T00:00:00-07:00">
+  <meta property="article:published_time" content="2024-01-01T00:00:00-08:00">
 
 
 
@@ -88,6 +88,12 @@
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+<script>
+  (function() {
+    var t = localStorage.getItem('theme');
+    if (t) document.documentElement.setAttribute('data-theme', t);
+  })();
 </script>
 
 <!-- Google Fonts: Inter -->
@@ -156,17 +162,33 @@
             <li class="masthead__menu-item"><a href="http://localhost:4000/publications/">Publications</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/talks/">Talks</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/talks/">Talks & Conferences</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/teaching/">Teaching</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/teaching/">Teaching and Supervision</a></li>
           
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
+    <button id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
   </div>
 </div>
+
+<script>
+(function() {
+  var btn = document.getElementById('theme-toggle');
+  var saved = localStorage.getItem('theme') || 'light';
+  if (btn) btn.textContent = saved === 'dark' ? '☀️' : '🌙';
+  if (btn) btn.addEventListener('click', function() {
+    var current = document.documentElement.getAttribute('data-theme') || 'light';
+    var next = current === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+    btn.textContent = next === 'dark' ? '☀️' : '🌙';
+  });
+})();
+</script>
 
     
 
@@ -275,46 +297,30 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="On the classification of face-transitive surfaces">
-    <meta itemprop="description" content="  Abstract: A simplicial surface can be derived from the incidence geometry of a triangulated three-dimensional polyhedron by denoting the relationships between the corresponding vertices, edges and faces. We refer to a simplicial surface as face-transitive if the corresponding automorphism group acts transitively on the faces of the simplicial surface.We link a simplicial surface to its dual graph, a cubic graph, by denoting the incidences between its faces and edges. While translating a surface into a cubic graph is straightforward, determining whether there exists a simplicial surface with a given cubic graph as dual graph is a task of high complexity. However, when dealing with vertex-transitive cubic graphs, there is some optimism in tackling this challenge.In this talk, we will discuss the computation of face-transitive surfaces that have vertex-transitive cubic graphs as their dual graphs. We will demonstrate that, in the case of a vertex-transitive cubic graph, the necessary information for this construction can be recovered from the automorphism group of the cubic graph. Moreover, we will see that there are exactly 11 different types of face-transitive surfaces that can occur and also provide distinguishing invariants to tell them apart.">
-    <meta itemprop="datePublished" content="September 04, 2023">
+    <meta itemprop="headline" content="Work on GAP package SimplicialSurfaces and GaPic">
+    <meta itemprop="description" content="">
+    <meta itemprop="datePublished" content="January 01, 2024">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">On the classification of face-transitive surfaces
+          <h1 class="page__title" itemprop="headline">Work on GAP package SimplicialSurfaces and GaPic
 </h1>
           
         
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="2023-09-04T00:00:00-07:00">September 04, 2023</time></p>
         
         
-
+          <p> Supervision, <i>RWTH Aachen University</i>, 2024 </p>
+            
         </header>
       
 
       <section class="page__content" itemprop="text">
-        <blockquote>
-  <p><strong>Abstract</strong>: A simplicial surface can be derived from the incidence geometry of a 
-triangulated three-dimensional polyhedron by denoting the relationships between 
-the corresponding vertices, edges and faces. We refer to a simplicial surface as 
-face-transitive if the corresponding automorphism group acts transitively on the 
-faces of the simplicial surface.<br />
-We link a simplicial surface to its dual graph, a cubic graph, by denoting the 
-incidences between its faces and edges. While translating a surface into a cubic 
-graph is straightforward, determining whether there exists a simplicial surface with 
-a given cubic graph as dual graph is a task of high complexity. However, when dealing 
-with vertex-transitive cubic graphs, there is some optimism in tackling this challenge.
-In this talk, we will discuss the computation of face-transitive surfaces that have 
-vertex-transitive cubic graphs as their dual graphs. We will demonstrate that, in the 
-case of a vertex-transitive cubic graph, the necessary information for this construction 
-can be recovered from the automorphism group of the cubic graph. Moreover, we will see 
-that there are exactly 11 different types of face-transitive surfaces that can occur and 
-also provide distinguishing invariants to tell them apart.</p>
-</blockquote>
+        
 
-<p><a href="https://www.maths.usyd.edu.au/s/scnitm/tillmann-Geometry-Topology-Reymond">More information here</a></p>
+
+        
 
         
       </section>
@@ -335,11 +341,11 @@ also provide distinguishing invariants to tell them apart.</p>
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=http://localhost:4000/talks/usyd" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=http://localhost:4000/teaching/lukasschnelle2023" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/talks/usyd" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/teaching/lukasschnelle2023" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/talks/usyd" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/teaching/lukasschnelle2023" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
       
@@ -347,11 +353,11 @@ also provide distinguishing invariants to tell them apart.</p>
 
   <nav class="pagination">
     
-      <a href="http://localhost:4000/talks/rmit" class="pagination--pager" title="A Group-Theoretic Approach for Constructing Spherical-Interlocking Assemblies
+      <a href="http://localhost:4000/teaching/flynnfehre2023" class="pagination--pager" title="Work on GAP package SimplicialSurfaces and GaPic
 ">Previous</a>
     
     
-      <a href="http://localhost:4000/talks/UAB" class="pagination--pager" title="Classification of face-transitive surfaces
+      <a href="http://localhost:4000/teaching/studenthoma" class="pagination--pager" title="Graduate Assistant for Fachpraktikum Algebra
 ">Next</a>
     
   </nav>

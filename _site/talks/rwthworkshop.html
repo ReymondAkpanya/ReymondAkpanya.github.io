@@ -19,7 +19,7 @@
 
 
 
-<title>Workshop - Symmetrie und Interlockings - Reymond Akpanya / The University of Sydney</title>
+<title>Workshop “Symmetrie und Interlockings” - Reymond Akpanya / The University of Sydney</title>
 
 
 
@@ -29,7 +29,7 @@
 
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Reymond Akpanya / The University of Sydney">
-<meta property="og:title" content="Workshop - Symmetrie und Interlockings">
+<meta property="og:title" content="Workshop “Symmetrie und Interlockings”">
 
 
   <link rel="canonical" href="http://localhost:4000/talks/rwthworkshop">
@@ -37,7 +37,7 @@
 
 
 
-  <meta property="og:description" content="  Description: The pupils of the advanced mathematics course at the Viktoriagymnasium in Aachen visited the ART (Chair of Algebra and Representation Theory) and LfAZ (Algebra and Number Theory) chairs.In the workshop “Symmetry and Interlockings”, the pupils received an introduction to symmetry and patterns in mathematics. With a programme, they were allowed to produce their self-constructed building blocks that allow interlocking and selected models were then printed in 3D.Many thanks to Reymond Akpanya, Tom Görtzen, Vanishree Krishna Kirekod, Alice Niemeyer, Daniel Robertz and Sascha Stüttgen!This event took place within the context of the SFB/TRR280.">
+  <meta property="og:description" content="">
 
 
 
@@ -88,6 +88,12 @@
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+<script>
+  (function() {
+    var t = localStorage.getItem('theme');
+    if (t) document.documentElement.setAttribute('data-theme', t);
+  })();
 </script>
 
 <!-- Google Fonts: Inter -->
@@ -156,17 +162,33 @@
             <li class="masthead__menu-item"><a href="http://localhost:4000/publications/">Publications</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/talks/">Talks</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/talks/">Talks & Conferences</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/teaching/">Teaching</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/teaching/">Teaching and Supervision</a></li>
           
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
+    <button id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
   </div>
 </div>
+
+<script>
+(function() {
+  var btn = document.getElementById('theme-toggle');
+  var saved = localStorage.getItem('theme') || 'light';
+  if (btn) btn.textContent = saved === 'dark' ? '☀️' : '🌙';
+  if (btn) btn.addEventListener('click', function() {
+    var current = document.documentElement.getAttribute('data-theme') || 'light';
+    var next = current === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+    btn.textContent = next === 'dark' ? '☀️' : '🌙';
+  });
+})();
+</script>
 
     
 
@@ -275,15 +297,15 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Workshop - Symmetrie und Interlockings">
-    <meta itemprop="description" content="  Description: The pupils of the advanced mathematics course at the Viktoriagymnasium in Aachen visited the ART (Chair of Algebra and Representation Theory) and LfAZ (Algebra and Number Theory) chairs.In the workshop “Symmetry and Interlockings”, the pupils received an introduction to symmetry and patterns in mathematics. With a programme, they were allowed to produce their self-constructed building blocks that allow interlocking and selected models were then printed in 3D.Many thanks to Reymond Akpanya, Tom Görtzen, Vanishree Krishna Kirekod, Alice Niemeyer, Daniel Robertz and Sascha Stüttgen!This event took place within the context of the SFB/TRR280.">
+    <meta itemprop="headline" content="Workshop “Symmetrie und Interlockings”">
+    <meta itemprop="description" content="">
     <meta itemprop="datePublished" content="November 09, 2022">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Workshop - Symmetrie und Interlockings
+          <h1 class="page__title" itemprop="headline">Workshop “Symmetrie und Interlockings”
 </h1>
           
         
@@ -295,18 +317,7 @@
       
 
       <section class="page__content" itemprop="text">
-        <blockquote>
-  <p><strong>Description</strong>: The pupils of the advanced mathematics course at the Viktoriagymnasium in Aachen visited the ART 
-(Chair of Algebra and Representation Theory) and LfAZ (Algebra and Number Theory) chairs.<br />
-In the workshop “Symmetry and Interlockings”, the pupils received an introduction to symmetry and patterns in 
-mathematics. With a programme, they were allowed to produce their self-constructed building blocks that allow 
-interlocking and selected models were then printed in 3D.<br />
-Many thanks to Reymond Akpanya, Tom Görtzen, Vanishree Krishna Kirekod, Alice Niemeyer, Daniel Robertz 
-and Sascha Stüttgen!<br />
-This event took place within the context of the SFB/TRR280.</p>
-</blockquote>
-
-<p><a href="https://www.sfbtrr280.de/en/news/news/detail/schuelerworkshop-mit-dem-tp-a-04/">More information here</a></p>
+        
 
         
       </section>
@@ -339,11 +350,11 @@ This event took place within the context of the SFB/TRR280.</p>
 
   <nav class="pagination">
     
-      <a href="http://localhost:4000/talks/gapdays2022" class="pagination--pager" title="Simplicial Surfaces and their Face Graphs
+      <a href="http://localhost:4000/talks/gapdays2022" class="pagination--pager" title="GAP Days Summer 2022
 ">Previous</a>
     
     
-      <a href="http://localhost:4000/talks/usyd" class="pagination--pager" title="A Group-Theoretic Approach for Constructing Spherical-Interlocking Assemblies
+      <a href="http://localhost:4000/talks/usyd-june2023" class="pagination--pager" title="Geometry &amp; Topology Seminar
 ">Next</a>
     
   </nav>

@@ -19,7 +19,7 @@
 
 
 
-<title>Teaching - Reymond Akpanya / The University of Sydney</title>
+<title>Teaching and Supervision - Reymond Akpanya / The University of Sydney</title>
 
 
 
@@ -29,7 +29,7 @@
 
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Reymond Akpanya / The University of Sydney">
-<meta property="og:title" content="Teaching">
+<meta property="og:title" content="Teaching and Supervision">
 
 
   <link rel="canonical" href="http://localhost:4000/teaching/">
@@ -83,6 +83,12 @@
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+<script>
+  (function() {
+    var t = localStorage.getItem('theme');
+    if (t) document.documentElement.setAttribute('data-theme', t);
+  })();
 </script>
 
 <!-- Google Fonts: Inter -->
@@ -151,17 +157,33 @@
             <li class="masthead__menu-item"><a href="http://localhost:4000/publications/">Publications</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/talks/">Talks</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/talks/">Talks & Conferences</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/teaching/">Teaching</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/teaching/">Teaching and Supervision</a></li>
           
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
+    <button id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
   </div>
 </div>
+
+<script>
+(function() {
+  var btn = document.getElementById('theme-toggle');
+  var saved = localStorage.getItem('theme') || 'light';
+  if (btn) btn.textContent = saved === 'dark' ? '☀️' : '🌙';
+  if (btn) btn.addEventListener('click', function() {
+    var current = document.documentElement.getAttribute('data-theme') || 'light';
+    var next = current === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+    btn.textContent = next === 'dark' ? '☀️' : '🌙';
+  });
+})();
+</script>
 
     
 
@@ -269,13 +291,41 @@
 
   <div class="archive">
     
-      <h1 class="page__title">Teaching</h1>
+      <h1 class="page__title">Teaching and Supervision</h1>
     
     
 
 
+
+
+
+<h2>Teaching</h2>
 
 <ul class="simple-list">
+
+<li>
+  
+    <span class="badge badge-teaching" style="margin-right:0.4em;">Teaching</span>
+  
+  <span class="list-item-title">Project Supervision in M1080 Research and Communication in Mathematical Sciences</span>
+  <span class="list-item-meta">&mdash; University of Sydney, 2026</span>
+</li>
+
+<li>
+  
+    <span class="badge badge-teaching" style="margin-right:0.4em;">Teaching</span>
+  
+  <span class="list-item-title">Graduate Assistant for Seminar on Graph Theory I (for Mathematics students)</span>
+  <span class="list-item-meta">&mdash; RWTH Aachen University, 2024</span>
+</li>
+
+<li>
+  
+    <span class="badge badge-teaching" style="margin-right:0.4em;">Teaching</span>
+  
+  <span class="list-item-title">Graduate Assistant for Mathematics I (for Mechanical Engineering students)</span>
+  <span class="list-item-meta">&mdash; RWTH Aachen University, 2024</span>
+</li>
 
 <li>
   
@@ -335,34 +385,170 @@
 
 <li>
   
-    <span class="badge badge-prog" style="margin-right:0.4em;">Programming</span>
-  
-  <span class="list-item-title">Student Assistant for programming in GAP</span>
-  <span class="list-item-meta">&mdash; RWTH Aachen University, 2019</span>
-</li>
-
-<li>
-  
     <span class="badge badge-teaching" style="margin-right:0.4em;">Teaching</span>
   
   <span class="list-item-title">Student Assistant for Höhere Mathematik I-II (Informatik & Elektrotechnik)</span>
   <span class="list-item-meta">&mdash; RWTH Aachen University, 2019</span>
 </li>
 
+</ul>
+
+<h2>Supervision</h2>
+
+<ul class="simple-list">
+
 <li>
+  <span class="badge badge-teaching" style="margin-right:0.4em;">Supervision</span>
+  <span class="list-item-title">Hosna Mojah &ndash; Constructing Polyhedral Embeddings of Simplcial Surfaces</span>
   
-    <span class="badge badge-workshop" style="margin-right:0.4em;">Workshop</span>
+    <span class="list-item-meta">(co-supervised with Alice C. Niemeyer, Meike Weiß)</span>
   
-  <span class="list-item-title">Teaching experience 2</span>
-  <span class="list-item-meta">&mdash; University 1, Department, 2015</span>
+  
+    <span class="list-item-meta">&mdash; 04/2026 – present</span>
+  
 </li>
 
 <li>
+  <span class="badge badge-teaching" style="margin-right:0.4em;">Supervision</span>
+  <span class="list-item-title">Candace Shi &ndash; Flips and Graph Encodings: Testing Barnette's conjecture (SCDL3991)</span>
   
-    <span class="badge badge-teaching" style="margin-right:0.4em;">Teaching</span>
+    <span class="list-item-meta">(co-supervised with Jonathan Spreer)</span>
   
-  <span class="list-item-title">Teaching experience 1</span>
-  <span class="list-item-meta">&mdash; University 1, Department, 2014</span>
+  
+    <span class="list-item-meta">&mdash; 02/2026 – present</span>
+  
+</li>
+
+<li>
+  <span class="badge badge-teaching" style="margin-right:0.4em;">Supervision</span>
+  <span class="list-item-title">Enya Leroy &ndash; Simplicial surfaces and their applications in civil engineering (Internship)</span>
+  
+    <span class="list-item-meta">(co-supervised with Alice C. Niemeyer and Meike Weiß) (3 weeks)</span>
+  
+  
+    <span class="list-item-meta">&mdash; 2025</span>
+  
+</li>
+
+<li>
+  <span class="badge badge-teaching" style="margin-right:0.4em;">Supervision</span>
+  <span class="list-item-title">Mevlüde Alizade &ndash; Two-faced simplicial surfaces (Independent project)</span>
+  
+    <span class="list-item-meta">(co-supervised with Alice C. Niemeyer and Meike Weiß) (3 months)</span>
+  
+  
+    <span class="list-item-meta">&mdash; 2025</span>
+  
+</li>
+
+<li>
+  <span class="badge badge-teaching" style="margin-right:0.4em;">Supervision</span>
+  <span class="list-item-title">Ugo Detaille &ndash; Cycle double covers of cubic graphs with given automorphism group (Bachelor's thesis)</span>
+  
+    <span class="list-item-meta">(co-supervised with Alice C. Niemeyer and Meike Weiß) (not completed)</span>
+  
+  
+    <span class="list-item-meta">&mdash; 2024–2025</span>
+  
+</li>
+
+<li>
+  <span class="badge badge-teaching" style="margin-right:0.4em;">Supervision</span>
+  <span class="list-item-title">Leonard Sattler &ndash; Cubic graphs and Permutation groups (Master's thesis)</span>
+  
+    <span class="list-item-meta">(co-supervised with Alice C. Niemeyer and Meike Weiß) (not completed)</span>
+  
+  
+    <span class="list-item-meta">&mdash; 2024–2025</span>
+  
+</li>
+
+<li>
+  <span class="badge badge-teaching" style="margin-right:0.4em;">Supervision</span>
+  <span class="list-item-title">Jona Palm &ndash; Simplicial surfaces and their applications in civil engineering (Internship)</span>
+  
+    <span class="list-item-meta">(co-supervised with Alice C. Niemeyer and Meike Weiß) (2 weeks)</span>
+  
+  
+    <span class="list-item-meta">&mdash; 2024</span>
+  
+</li>
+
+<li>
+  <span class="badge badge-teaching" style="margin-right:0.4em;">Supervision</span>
+  <span class="list-item-title">Mevlüde Alizade &ndash; Simplicial surfaces and their applications in civil engineering (Internship)</span>
+  
+    <span class="list-item-meta">(co-supervised with Alice C. Niemeyer and Meike Weiß) (2 weeks)</span>
+  
+  
+    <span class="list-item-meta">&mdash; 2024</span>
+  
+</li>
+
+<li>
+  <span class="badge badge-teaching" style="margin-right:0.4em;">Supervision</span>
+  <span class="list-item-title">Lukas Schnelle &ndash; Topological Interlocking and Three-dimensional Crystallographic Groups (Master's thesis)</span>
+  
+    <span class="list-item-meta">(co-supervised with Alice C. Niemeyer and Daniel Robertz)</span>
+  
+  
+    <span class="list-item-meta">&mdash; 2024</span>
+  
+</li>
+
+<li>
+  <span class="badge badge-teaching" style="margin-right:0.4em;">Supervision</span>
+  <span class="list-item-title">Lukas Schnelle &ndash; Work on GAP package SimplicialSurfaces and GaPic (Student Assistant)</span>
+  
+    <span class="list-item-meta">(co-supervised with Alice C. Niemeyer)</span>
+  
+  
+    <span class="list-item-meta">&mdash; 2023–2024</span>
+  
+</li>
+
+<li>
+  <span class="badge badge-teaching" style="margin-right:0.4em;">Supervision</span>
+  <span class="list-item-title">Flynn Fehre &ndash; Work on GAP package SimplicialSurfaces and GaPic (Student Assistant)</span>
+  
+    <span class="list-item-meta">(co-supervised with Alice C. Niemeyer)</span>
+  
+  
+    <span class="list-item-meta">&mdash; 2023–2024</span>
+  
+</li>
+
+<li>
+  <span class="badge badge-teaching" style="margin-right:0.4em;">Supervision</span>
+  <span class="list-item-title">Meike Weiß &ndash; Embeddings of Cubic Graphs on Simplicial Surfaces (Master's thesis)</span>
+  
+    <span class="list-item-meta">(co-supervised with Alice C. Niemeyer and Wilhelm Plesken)</span>
+  
+  
+    <span class="list-item-meta">&mdash; 2023</span>
+  
+</li>
+
+<li>
+  <span class="badge badge-teaching" style="margin-right:0.4em;">Supervision</span>
+  <span class="list-item-title">Annika Gageik &ndash; Perfekte Matchings vom Face Graph simplizialer Flächen (Bachelor's thesis)</span>
+  
+    <span class="list-item-meta">(co-supervised with Alice C. Niemeyer, Daniel Robertz, Tom Goertzen)</span>
+  
+  
+    <span class="list-item-meta">&mdash; 2023</span>
+  
+</li>
+
+<li>
+  <span class="badge badge-teaching" style="margin-right:0.4em;">Supervision</span>
+  <span class="list-item-title">Carina Wings &ndash; Permutationsgruppen und vertex-transitive Graphen (Bachelor's thesis)</span>
+  
+    <span class="list-item-meta">(co-supervised with Alice C. Niemeyer and Daniel Robertz)</span>
+  
+  
+    <span class="list-item-meta">&mdash; 2022</span>
+  
 </li>
 
 </ul>

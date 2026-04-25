@@ -19,7 +19,7 @@
 
 
 
-<title>Simplicial Surfaces and their Face Graphs - Reymond Akpanya / The University of Sydney</title>
+<title>MaPS Seminar - Reymond Akpanya / The University of Sydney</title>
 
 
 
@@ -29,7 +29,7 @@
 
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Reymond Akpanya / The University of Sydney">
-<meta property="og:title" content="Simplicial Surfaces and their Face Graphs">
+<meta property="og:title" content="MaPS Seminar">
 
 
   <link rel="canonical" href="http://localhost:4000/talks/maps">
@@ -37,7 +37,7 @@
 
 
 
-  <meta property="og:description" content="  Abstract: Simplicial surfaces describe the incidence relations of triangulated surfaces. Such a combinatoricstructure can be linked to its dual graph (face graph) by observing the incidences between the faces and edges of the given simplicial surface. Note, the resulting face graph is a bridgeless cubic 3-connected graph. In general, it is not clear whether there exists a simplicial surface with a given cubic graph as face graph. Inthis talk, we discuss the task of constructing a simplicial surface with a given cubic graph as face graph. Weintroduce some basic notions and give examples of cubic graphs with corresponding simplicial surfaces. Furthermore, we present classes of cubic graphs where the existence of corresponding simplicial surfacecan be established.">
+  <meta property="og:description" content="">
 
 
 
@@ -88,6 +88,12 @@
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+<script>
+  (function() {
+    var t = localStorage.getItem('theme');
+    if (t) document.documentElement.setAttribute('data-theme', t);
+  })();
 </script>
 
 <!-- Google Fonts: Inter -->
@@ -156,17 +162,33 @@
             <li class="masthead__menu-item"><a href="http://localhost:4000/publications/">Publications</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/talks/">Talks</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/talks/">Talks & Conferences</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/teaching/">Teaching</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/teaching/">Teaching and Supervision</a></li>
           
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
+    <button id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
   </div>
 </div>
+
+<script>
+(function() {
+  var btn = document.getElementById('theme-toggle');
+  var saved = localStorage.getItem('theme') || 'light';
+  if (btn) btn.textContent = saved === 'dark' ? '☀️' : '🌙';
+  if (btn) btn.addEventListener('click', function() {
+    var current = document.documentElement.getAttribute('data-theme') || 'light';
+    var next = current === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+    btn.textContent = next === 'dark' ? '☀️' : '🌙';
+  });
+})();
+</script>
 
     
 
@@ -275,15 +297,15 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Simplicial Surfaces and their Face Graphs">
-    <meta itemprop="description" content="  Abstract: Simplicial surfaces describe the incidence relations of triangulated surfaces. Such a combinatoricstructure can be linked to its dual graph (face graph) by observing the incidences between the faces and edges of the given simplicial surface. Note, the resulting face graph is a bridgeless cubic 3-connected graph. In general, it is not clear whether there exists a simplicial surface with a given cubic graph as face graph. Inthis talk, we discuss the task of constructing a simplicial surface with a given cubic graph as face graph. Weintroduce some basic notions and give examples of cubic graphs with corresponding simplicial surfaces. Furthermore, we present classes of cubic graphs where the existence of corresponding simplicial surfacecan be established.">
+    <meta itemprop="headline" content="MaPS Seminar">
+    <meta itemprop="description" content="">
     <meta itemprop="datePublished" content="August 01, 2023">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Simplicial Surfaces and their Face Graphs
+          <h1 class="page__title" itemprop="headline">MaPS Seminar
 </h1>
           
         
@@ -295,16 +317,7 @@
       
 
       <section class="page__content" itemprop="text">
-        <blockquote>
-  <p><strong>Abstract</strong>: Simplicial surfaces describe the incidence relations of triangulated surfaces. Such a combinatoric
-structure can be linked to its dual graph (face graph) by observing the incidences between the faces and edges 
-of the given simplicial surface. Note, the resulting face graph is a bridgeless cubic 3-connected graph. In 
-general, it is not clear whether there exists a simplicial surface with a given cubic graph as face graph. In
-this talk, we discuss the task of constructing a simplicial surface with a given cubic graph as face graph. We
-introduce some basic notions and give examples of cubic graphs with corresponding simplicial surfaces. 
-Furthermore, we present classes of cubic graphs where the existence of corresponding simplicial surface
-can be established.</p>
-</blockquote>
+        
 
         
       </section>
@@ -337,11 +350,11 @@ can be established.</p>
 
   <nav class="pagination">
     
-      <a href="http://localhost:4000/talks/IASS2023" class="pagination--pager" title="A Group-Theoretic Approach for Constructing Spherical-Interlocking Assemblies
+      <a href="http://localhost:4000/talks/IASS2023" class="pagination--pager" title="IASS Symposium 2023
 ">Previous</a>
     
     
-      <a href="http://localhost:4000/talks/rmit" class="pagination--pager" title="A Group-Theoretic Approach for Constructing Spherical-Interlocking Assemblies
+      <a href="http://localhost:4000/talks/rmit" class="pagination--pager" title="Centre for Innovative Structures and Materials (RMIT)
 ">Next</a>
     
   </nav>

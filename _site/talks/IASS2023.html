@@ -19,7 +19,7 @@
 
 
 
-<title>A Group-Theoretic Approach for Constructing Spherical-Interlocking Assemblies - Reymond Akpanya / The University of Sydney</title>
+<title>IASS Symposium 2023 - Reymond Akpanya / The University of Sydney</title>
 
 
 
@@ -29,7 +29,7 @@
 
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Reymond Akpanya / The University of Sydney">
-<meta property="og:title" content="A Group-Theoretic Approach for Constructing Spherical-Interlocking Assemblies">
+<meta property="og:title" content="IASS Symposium 2023">
 
 
   <link rel="canonical" href="http://localhost:4000/talks/IASS2023">
@@ -37,7 +37,7 @@
 
 
 
-  <meta property="og:description" content="  Abstract: A topological interlocking is an assembly of blocks constrained by a fixed frame such that each set of blocks is kinematically constrained. Estrin et al. [3] provide a recent overview of progress in the study of topologically interlocking assemblies. Using a group-theoretic approach, we construct interlocking assemblies of different polygonal surfaces. Given such a polygonal surface, we can computeits automorphism group and check for identified faces, i.e., faces that are identified under the symmetryof the given surface. The number of classes of identified faces corresponds to the number of different types of blocks in the resulting assembly. Next, we deform faces to obtain an interlocking structure. In this paper, we give examples of interlocking assemblies which form platonic solids or tubular interlockingstructures. For our examples we use an algorithmic approach that can be easily generalized to arbitrary tessellations of spheres and tubes. Figure 1. Construction of a spherical interlocking assembly based on the icosahedron by deforming the faces of the platonic solid, (left) an icosahedron, (middle) different perspectives on the resulting interlocking block, (right) assembly of the 3D printed blocks to form the topological interlocking assembly">
+  <meta property="og:description" content="">
 
 
 
@@ -88,6 +88,12 @@
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+<script>
+  (function() {
+    var t = localStorage.getItem('theme');
+    if (t) document.documentElement.setAttribute('data-theme', t);
+  })();
 </script>
 
 <!-- Google Fonts: Inter -->
@@ -156,17 +162,33 @@
             <li class="masthead__menu-item"><a href="http://localhost:4000/publications/">Publications</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/talks/">Talks</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/talks/">Talks & Conferences</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/teaching/">Teaching</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/teaching/">Teaching and Supervision</a></li>
           
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
+    <button id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
   </div>
 </div>
+
+<script>
+(function() {
+  var btn = document.getElementById('theme-toggle');
+  var saved = localStorage.getItem('theme') || 'light';
+  if (btn) btn.textContent = saved === 'dark' ? '☀️' : '🌙';
+  if (btn) btn.addEventListener('click', function() {
+    var current = document.documentElement.getAttribute('data-theme') || 'light';
+    var next = current === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+    btn.textContent = next === 'dark' ? '☀️' : '🌙';
+  });
+})();
+</script>
 
     
 
@@ -275,15 +297,15 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="A Group-Theoretic Approach for Constructing Spherical-Interlocking Assemblies">
-    <meta itemprop="description" content="  Abstract: A topological interlocking is an assembly of blocks constrained by a fixed frame such that each set of blocks is kinematically constrained. Estrin et al. [3] provide a recent overview of progress in the study of topologically interlocking assemblies. Using a group-theoretic approach, we construct interlocking assemblies of different polygonal surfaces. Given such a polygonal surface, we can computeits automorphism group and check for identified faces, i.e., faces that are identified under the symmetryof the given surface. The number of classes of identified faces corresponds to the number of different types of blocks in the resulting assembly. Next, we deform faces to obtain an interlocking structure. In this paper, we give examples of interlocking assemblies which form platonic solids or tubular interlockingstructures. For our examples we use an algorithmic approach that can be easily generalized to arbitrary tessellations of spheres and tubes. Figure 1. Construction of a spherical interlocking assembly based on the icosahedron by deforming the faces of the platonic solid, (left) an icosahedron, (middle) different perspectives on the resulting interlocking block, (right) assembly of the 3D printed blocks to form the topological interlocking assembly">
+    <meta itemprop="headline" content="IASS Symposium 2023">
+    <meta itemprop="description" content="">
     <meta itemprop="datePublished" content="July 12, 2023">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">A Group-Theoretic Approach for Constructing Spherical-Interlocking Assemblies
+          <h1 class="page__title" itemprop="headline">IASS Symposium 2023
 </h1>
           
         
@@ -295,22 +317,7 @@
       
 
       <section class="page__content" itemprop="text">
-        <blockquote>
-  <p><strong>Abstract</strong>: A topological interlocking is an assembly of blocks constrained by a fixed frame such that 
-each set of blocks is kinematically constrained. Estrin et al. [3] provide a recent overview of progress 
-in the study of topologically interlocking assemblies. Using a group-theoretic approach, we construct 
-interlocking assemblies of different polygonal surfaces. Given such a polygonal surface, we can compute
-its automorphism group and check for identified faces, i.e., faces that are identified under the symmetry
-of the given surface. The number of classes of identified faces corresponds to the number of different 
-types of blocks in the resulting assembly. Next, we deform faces to obtain an interlocking structure. 
-In this paper, we give examples of interlocking assemblies which form platonic solids or tubular interlocking
-structures. For our examples we use an algorithmic approach that can be easily generalized to arbitrary 
-tessellations of spheres and tubes. Figure 1. Construction of a spherical interlocking assembly based on 
-the icosahedron by deforming the faces of the platonic solid, (left) an icosahedron, (middle) different 
-perspectives on the resulting interlocking block, (right) assembly of the 3D printed blocks to form the 
-topological interlocking assembly</p>
-</blockquote>
-
+        
 
         
       </section>
@@ -343,11 +350,11 @@ topological interlocking assembly</p>
 
   <nav class="pagination">
     
-      <a href="http://localhost:4000/talks/usyd" class="pagination--pager" title="A Group-Theoretic Approach for Constructing Spherical-Interlocking Assemblies
+      <a href="http://localhost:4000/talks/usyd-june2023" class="pagination--pager" title="Geometry &amp; Topology Seminar
 ">Previous</a>
     
     
-      <a href="http://localhost:4000/talks/maps" class="pagination--pager" title="Simplicial Surfaces and their Face Graphs
+      <a href="http://localhost:4000/talks/maps" class="pagination--pager" title="MaPS Seminar
 ">Next</a>
     
   </nav>

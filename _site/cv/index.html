@@ -84,6 +84,12 @@
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
 </script>
+<script>
+  (function() {
+    var t = localStorage.getItem('theme');
+    if (t) document.documentElement.setAttribute('data-theme', t);
+  })();
+</script>
 
 <!-- Google Fonts: Inter -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -151,17 +157,33 @@
             <li class="masthead__menu-item"><a href="http://localhost:4000/publications/">Publications</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/talks/">Talks</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/talks/">Talks & Conferences</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/teaching/">Teaching</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/teaching/">Teaching and Supervision</a></li>
           
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
+    <button id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
   </div>
 </div>
+
+<script>
+(function() {
+  var btn = document.getElementById('theme-toggle');
+  var saved = localStorage.getItem('theme') || 'light';
+  if (btn) btn.textContent = saved === 'dark' ? '☀️' : '🌙';
+  if (btn) btn.addEventListener('click', function() {
+    var current = document.documentElement.getAttribute('data-theme') || 'light';
+    var next = current === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+    btn.textContent = next === 'dark' ? '☀️' : '🌙';
+  });
+})();
+</script>
 
     
 
@@ -282,7 +304,7 @@
     </div>
     <p class="card-title">Postdoctoral Research Associate</p>
     <p class="card-venue">The University of Sydney &mdash; School of Mathematics and Statistics</p>
-    <p class="card-meta">Working with Prof. John Voight</p>
+    <p class="card-meta">Working with John Voight</p>
   </div>
 
   <div class="item-card">
@@ -292,7 +314,7 @@
     </div>
     <p class="card-title">PhD (Dr. rer. nat.) in Mathematics</p>
     <p class="card-venue">RWTH Aachen University</p>
-    <p class="card-meta">Thesis: Constructing Symmetric Simplicial Surfaces, Supervisors: Prof. Dr. Alice C. Niemeyer, Prof. Dr. Wilhelm Plesken; Additional Referees: Associate Prof. Dr. Jonathan Spreer, Prof. Dr. Daniel Robertz </p>
+    <p class="card-meta">Thesis: Constructing Symmetric Simplicial Surfaces, Supervisors: Alice C. Niemeyer, Wilhelm Plesken; Additional Referees: Jonathan Spreer, Daniel Robertz </p>
   </div>
 
   <div class="item-card">
@@ -302,7 +324,7 @@
     </div>
     <p class="card-title">Master of Science in Mathematics</p>
     <p class="card-venue">RWTH Aachen University</p>
-    <p class="card-meta">Minor: Business Studies &middot; Supervisors: Prof. Dr. Alice C. Niemeyer, Prof. Dr. Wilhelm Plesken</p>
+    <p class="card-meta">Minor: Business Studies &middot; Supervisors: Alice C. Niemeyer, Wilhelm Plesken</p>
   </div>
 
   <div class="item-card">
@@ -312,7 +334,7 @@
     </div>
     <p class="card-title">Bachelor of Science in Mathematics</p>
     <p class="card-venue">RWTH Aachen University</p>
-    <p class="card-meta">Minor: Business Studies &middot; Supervisors: Prof. Dr. Alice C. Niemeyer, Prof. Dr. Wilhelm Plesken</p>
+    <p class="card-meta">Minor: Business Studies &middot; Supervisors: Alice C. Niemeyer, Wilhelm Plesken</p>
   </div>
 
 </div>
@@ -327,7 +349,7 @@
     </div>
     <p class="card-title">RMIT University &mdash; 3 weeks</p>
     <p class="card-venue">Melbourne, Australia</p>
-    <p class="card-meta">Host: Prof. Yi Min Xie &middot; Project: Construction of Tubular Topological Interlocking Assemblies</p>
+    <p class="card-meta">Host: Yi Min Xie &middot; Project: Construction of Tubular Topological Interlocking Assemblies</p>
   </div>
 
   <div class="item-card">
@@ -337,7 +359,7 @@
     </div>
     <p class="card-title">RMIT University &mdash; 2 weeks</p>
     <p class="card-venue">Melbourne, Australia</p>
-    <p class="card-meta">Host: Prof. Yi Min Xie &middot; Project: Topological Interlocking Assemblies with prescribed boundary conditions</p>
+    <p class="card-meta">Host: Yi Min Xie &middot; Project: Topological Interlocking Assemblies with prescribed boundary conditions</p>
   </div>
 
   <div class="item-card">
@@ -363,20 +385,13 @@
 
 <h2 class="section-label" style="margin-top:2.5em;">Skills</h2>
 <ul class="simple-list">
+  <li><span class="list-item-title">Magma</span><span class="list-item-meta"> &mdash; Advanced &middot; Member of the Magma Group (USyd)</span></li>
   <li><span class="list-item-title">GAP</span><span class="list-item-meta"> &mdash; Advanced &middot; Maintainer of <em>SimplicialSurfaces</em> and <em>GaPic</em></span></li>
   <li><span class="list-item-title">Julia</span><span class="list-item-meta"> &mdash; Basic &middot; Maintainer of <em>GeoCombSurfX</em></span></li>
   <li><span class="list-item-title">LaTeX</span><span class="list-item-meta"> &mdash; Advanced</span></li>
   <li><span class="list-item-title">3D-printing</span><span class="list-item-meta"> &mdash; Advanced</span></li>
   <li><span class="list-item-title">Python, C++, Java, Maple, Matlab</span><span class="list-item-meta"> &mdash; Basic</span></li>
   <li><span class="list-item-title">Languages</span><span class="list-item-meta"> &mdash; German (native), English (fluent)</span></li>
-</ul>
-
-<h2 class="section-label" style="margin-top:2em;">Software</h2>
-<ul class="simple-list">
-  <li><span class="list-item-title">GeoCombSurfX</span><span class="list-item-meta"> &mdash; Julia package, 2023 (with Sascha Stüttgen)</span></li>
-  <li><span class="list-item-title">Honeycomb</span><span class="list-item-meta"> &mdash; Rhino plugin, 2023 (with Tom Goertzen, Samuel Losi)</span></li>
-  <li><span class="list-item-title">GaPic</span><span class="list-item-meta"> &mdash; GAP package, 2022 (with Alice C. Niemeyer, Tom Goertzen, Meike Weiss, Lukas Schnelle)</span></li>
-  <li><span class="list-item-title">SimplicialSurfaces</span><span class="list-item-meta"> &mdash; GAP package, 2022 (with Markus Baumeister, Tom Goertzen, Alice C. Niemeyer, Meike Weiss)</span></li>
 </ul>
 
 <h2 class="section-label" style="margin-top:2em;">Social Involvement</h2>

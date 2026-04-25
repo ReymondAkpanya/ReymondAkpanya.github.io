@@ -19,7 +19,7 @@
 
 
 
-<title>Constructing Topological Interlocking Assemblies Based on an Aperiodic Monotile - Reymond Akpanya / The University of Sydney</title>
+<title>IASS Symposium 2024 - Reymond Akpanya / The University of Sydney</title>
 
 
 
@@ -29,7 +29,7 @@
 
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Reymond Akpanya / The University of Sydney">
-<meta property="og:title" content="Constructing Topological Interlocking Assemblies Based on an Aperiodic Monotile">
+<meta property="og:title" content="IASS Symposium 2024">
 
 
   <link rel="canonical" href="http://localhost:4000/talks/IASS2024">
@@ -37,7 +37,7 @@
 
 
 
-  <meta property="og:description" content="  Abstract:The einstein problem asks whether there exists an aperiodic monotile, i.e. a tile whose copies can be only arrangedas a nonperiodic tessellation of the Euclidean plane. In 2023, Smith et.\ al.\ proved the existence of such a tile by constructing a tile, called “the hat”, and described the corresponding tiling of the plane. Moreover, they describe a two-parameter family Tile(a,b) of such monotiles, where Tile(1,sqrt(3))is the hat. Modifying the edges of Tile(1,1) in a certain way leads to a chiral aperiodic monotile, which is part of a family called “spectres”. Basedon this construction, we propose blocks that can be arranged into infinite topological interlocking assemblies obeyingthe same assembly rule as the spectre tessellation. A topological interlocking assembly is an assembly of blocks thatis constrained by a fixed frame such that each set of blocks is kinematically constrained. Our construction establishesthe existence of aperiodic topological interlocking assemblies. In this paper, we present details of the proof that ourconstructed assemblies are indeed topological interlocking assemblies. We highlight the combinatoric and geometric properties of our constructed blocks and discuss possibilities of constructing our topological interlocking assemblieswithout causing any collision of blocks during assembly.">
+  <meta property="og:description" content="">
 
 
 
@@ -88,6 +88,12 @@
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+<script>
+  (function() {
+    var t = localStorage.getItem('theme');
+    if (t) document.documentElement.setAttribute('data-theme', t);
+  })();
 </script>
 
 <!-- Google Fonts: Inter -->
@@ -156,17 +162,33 @@
             <li class="masthead__menu-item"><a href="http://localhost:4000/publications/">Publications</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/talks/">Talks</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/talks/">Talks & Conferences</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/teaching/">Teaching</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/teaching/">Teaching and Supervision</a></li>
           
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
+    <button id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
   </div>
 </div>
+
+<script>
+(function() {
+  var btn = document.getElementById('theme-toggle');
+  var saved = localStorage.getItem('theme') || 'light';
+  if (btn) btn.textContent = saved === 'dark' ? '☀️' : '🌙';
+  if (btn) btn.addEventListener('click', function() {
+    var current = document.documentElement.getAttribute('data-theme') || 'light';
+    var next = current === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+    btn.textContent = next === 'dark' ? '☀️' : '🌙';
+  });
+})();
+</script>
 
     
 
@@ -275,15 +297,15 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Constructing Topological Interlocking Assemblies Based on an Aperiodic Monotile">
-    <meta itemprop="description" content="  Abstract:The einstein problem asks whether there exists an aperiodic monotile, i.e. a tile whose copies can be only arrangedas a nonperiodic tessellation of the Euclidean plane. In 2023, Smith et.\ al.\ proved the existence of such a tile by constructing a tile, called “the hat”, and described the corresponding tiling of the plane. Moreover, they describe a two-parameter family Tile(a,b) of such monotiles, where Tile(1,sqrt(3))is the hat. Modifying the edges of Tile(1,1) in a certain way leads to a chiral aperiodic monotile, which is part of a family called “spectres”. Basedon this construction, we propose blocks that can be arranged into infinite topological interlocking assemblies obeyingthe same assembly rule as the spectre tessellation. A topological interlocking assembly is an assembly of blocks thatis constrained by a fixed frame such that each set of blocks is kinematically constrained. Our construction establishesthe existence of aperiodic topological interlocking assemblies. In this paper, we present details of the proof that ourconstructed assemblies are indeed topological interlocking assemblies. We highlight the combinatoric and geometric properties of our constructed blocks and discuss possibilities of constructing our topological interlocking assemblieswithout causing any collision of blocks during assembly.">
+    <meta itemprop="headline" content="IASS Symposium 2024">
+    <meta itemprop="description" content="">
     <meta itemprop="datePublished" content="August 27, 2024">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Constructing Topological Interlocking Assemblies Based on an Aperiodic Monotile
+          <h1 class="page__title" itemprop="headline">IASS Symposium 2024
 </h1>
           
         
@@ -295,21 +317,7 @@
       
 
       <section class="page__content" itemprop="text">
-        <blockquote>
-  <p><strong>Abstract</strong>:The einstein problem asks whether there exists an aperiodic monotile, i.e. a tile whose copies can be only arranged
-as a nonperiodic tessellation of the Euclidean plane. In 2023, Smith et.\ al.\ proved the existence of such a tile 
-by constructing a tile, called “the hat”, and described the corresponding tiling of the plane. Moreover, they 
-describe a two-parameter family Tile(a,b) of such monotiles, where Tile(1,sqrt(3))is the hat. Modifying the edges of 
-Tile(1,1) in a certain way leads to a chiral aperiodic monotile, which is part of a family called “spectres”. Based
-on this construction, we propose blocks that can be arranged into infinite topological interlocking assemblies obeying
-the same assembly rule as the spectre tessellation. A topological interlocking assembly is an assembly of blocks that
-is constrained by a fixed frame such that each set of blocks is kinematically constrained. Our construction establishes
-the existence of aperiodic topological interlocking assemblies. In this paper, we present details of the proof that our
-constructed assemblies are indeed topological interlocking assemblies. We highlight the combinatoric and geometric 
-properties of our constructed blocks and discuss possibilities of constructing our topological interlocking assemblies
-without causing any collision of blocks during assembly.</p>
-</blockquote>
-
+        
 
         
       </section>
@@ -342,11 +350,11 @@ without causing any collision of blocks during assembly.</p>
 
   <nav class="pagination">
     
-      <a href="http://localhost:4000/talks/concreteworkshop" class="pagination--pager" title="Constructing Topological Interlocking Assemblies (Workshop)
+      <a href="http://localhost:4000/talks/concreteworkshop" class="pagination--pager" title="Concrete Art Project 2024
 ">Previous</a>
     
     
-      <a href="http://localhost:4000/talks/KOLKOM2024" class="pagination--pager" title="Constructing face-transitive surfaces via cycle double covers induced by automorphism groups
+      <a href="http://localhost:4000/talks/KOLKOM2024" class="pagination--pager" title="KOLKOM 2024 (Combinatorial Colloquium)
 ">Next</a>
     
   </nav>

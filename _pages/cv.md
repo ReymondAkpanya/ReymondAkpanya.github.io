@@ -19,7 +19,7 @@ redirect_from:
     </div>
     <p class="card-title">Postdoctoral Research Associate</p>
     <p class="card-venue">The University of Sydney &mdash; School of Mathematics and Statistics</p>
-    <p class="card-meta">Working with Prof. John Voight</p>
+    <p class="card-meta">Working with John Voight</p>
   </div>
 
   <div class="item-card">
@@ -29,7 +29,7 @@ redirect_from:
     </div>
     <p class="card-title">PhD (Dr. rer. nat.) in Mathematics</p>
     <p class="card-venue">RWTH Aachen University</p>
-    <p class="card-meta">Thesis: Constructing Symmetric Simplicial Surfaces, Supervisors: Prof. Dr. Alice C. Niemeyer, Prof. Dr. Wilhelm Plesken; Additional Referees: Associate Prof. Dr. Jonathan Spreer, Prof. Dr. Daniel Robertz </p>
+    <p class="card-meta">Thesis: Constructing Symmetric Simplicial Surfaces, Supervisors: Alice C. Niemeyer, Wilhelm Plesken; Additional Referees: Jonathan Spreer, Daniel Robertz </p>
   </div>
 
   <div class="item-card">
@@ -39,7 +39,7 @@ redirect_from:
     </div>
     <p class="card-title">Master of Science in Mathematics</p>
     <p class="card-venue">RWTH Aachen University</p>
-    <p class="card-meta">Minor: Business Studies &middot; Supervisors: Prof. Dr. Alice C. Niemeyer, Prof. Dr. Wilhelm Plesken</p>
+    <p class="card-meta">Minor: Business Studies &middot; Supervisors: Alice C. Niemeyer, Wilhelm Plesken</p>
   </div>
 
   <div class="item-card">
@@ -49,7 +49,7 @@ redirect_from:
     </div>
     <p class="card-title">Bachelor of Science in Mathematics</p>
     <p class="card-venue">RWTH Aachen University</p>
-    <p class="card-meta">Minor: Business Studies &middot; Supervisors: Prof. Dr. Alice C. Niemeyer, Prof. Dr. Wilhelm Plesken</p>
+    <p class="card-meta">Minor: Business Studies &middot; Supervisors: Alice C. Niemeyer, Wilhelm Plesken</p>
   </div>
 
 </div>
@@ -64,7 +64,7 @@ redirect_from:
     </div>
     <p class="card-title">RMIT University &mdash; 3 weeks</p>
     <p class="card-venue">Melbourne, Australia</p>
-    <p class="card-meta">Host: Prof. Yi Min Xie &middot; Project: Construction of Tubular Topological Interlocking Assemblies</p>
+    <p class="card-meta">Host: Yi Min Xie &middot; Project: Construction of Tubular Topological Interlocking Assemblies</p>
   </div>
 
   <div class="item-card">
@@ -74,7 +74,7 @@ redirect_from:
     </div>
     <p class="card-title">RMIT University &mdash; 2 weeks</p>
     <p class="card-venue">Melbourne, Australia</p>
-    <p class="card-meta">Host: Prof. Yi Min Xie &middot; Project: Topological Interlocking Assemblies with prescribed boundary conditions</p>
+    <p class="card-meta">Host: Yi Min Xie &middot; Project: Topological Interlocking Assemblies with prescribed boundary conditions</p>
   </div>
 
   <div class="item-card">
@@ -100,6 +100,7 @@ redirect_from:
 
 <h2 class="section-label" style="margin-top:2.5em;">Skills</h2>
 <ul class="simple-list">
+  <li><span class="list-item-title">Magma</span><span class="list-item-meta"> &mdash; Advanced &middot; Member of the Magma Group (USyd)</span></li>
   <li><span class="list-item-title">GAP</span><span class="list-item-meta"> &mdash; Advanced &middot; Maintainer of <em>SimplicialSurfaces</em> and <em>GaPic</em></span></li>
   <li><span class="list-item-title">Julia</span><span class="list-item-meta"> &mdash; Basic &middot; Maintainer of <em>GeoCombSurfX</em></span></li>
   <li><span class="list-item-title">LaTeX</span><span class="list-item-meta"> &mdash; Advanced</span></li>
@@ -107,15 +108,6 @@ redirect_from:
   <li><span class="list-item-title">Python, C++, Java, Maple, Matlab</span><span class="list-item-meta"> &mdash; Basic</span></li>
   <li><span class="list-item-title">Languages</span><span class="list-item-meta"> &mdash; German (native), English (fluent)</span></li>
 </ul>
-
-<h2 class="section-label" style="margin-top:2em;">Software</h2>
-<ul class="simple-list">
-  <li><span class="list-item-title">GeoCombSurfX</span><span class="list-item-meta"> &mdash; Julia package, 2023 (with Sascha Stüttgen)</span></li>
-  <li><span class="list-item-title">Honeycomb</span><span class="list-item-meta"> &mdash; Rhino plugin, 2023 (with Tom Goertzen, Samuel Losi)</span></li>
-  <li><span class="list-item-title">GaPic</span><span class="list-item-meta"> &mdash; GAP package, 2022 (with Alice C. Niemeyer, Tom Goertzen, Meike Weiss, Lukas Schnelle)</span></li>
-  <li><span class="list-item-title">SimplicialSurfaces</span><span class="list-item-meta"> &mdash; GAP package, 2022 (with Markus Baumeister, Tom Goertzen, Alice C. Niemeyer, Meike Weiss)</span></li>
-</ul>
-
 
 <h2 class="section-label" style="margin-top:2em;">Social Involvement</h2>
 <ul class="simple-list">

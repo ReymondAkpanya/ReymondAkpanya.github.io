@@ -19,7 +19,7 @@
 
 
 
-<title>Classification of face-transitive surfaces - Reymond Akpanya / The University of Sydney</title>
+<title>Three Random Talks in Combinatorics - Reymond Akpanya / The University of Sydney</title>
 
 
 
@@ -29,7 +29,7 @@
 
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Reymond Akpanya / The University of Sydney">
-<meta property="og:title" content="Classification of face-transitive surfaces">
+<meta property="og:title" content="Three Random Talks in Combinatorics">
 
 
   <link rel="canonical" href="http://localhost:4000/talks/UAB">
@@ -37,7 +37,7 @@
 
 
 
-  <meta property="og:description" content="  Abstract: A simplicial surface is the combinatorial structure that results from examining the incidence relations between the vertices, edges and faces of a triangulated polyhedron. We refer to such a simplicial surface as face-transitive if the corresponding automorphism group acts transitively on the faces of the given surface. Furthermore, a simplicial surface can be linked to its dual graph, a cubic graph, by denotingthe incidences between its faces and edges. While translating a simplicial surface into a cubic graphis straightforward, determining whether there exists a simplicial surface with a given cubic graph asdual graph is a task of high complexity. In particular, this computation is achieved by computing a cycle double cover of a given cubic graph, i.e. a collection of cycles of the graph such that every edge of the graph is contained in exactly two cycles. However, when dealing with face-transitive surfaces, there is some optimism in tackling this challenge. In this talk, we will discuss the computation of face-transitive surfaces by providing suitable cycle double covers of vertex-transitive cubic graphs.We will demonstrate that the cycle double cover of a given cubic graph that yields a face-transitive surface can be obtained by exploiting the automorphism group of the given graph.  Moreover, we will see that there are exactly 7 different types of face-transitive surfaces and also provide andistinguishing invariant to tell them apart. This is a joint work with Jonathan Spreer.">
+  <meta property="og:description" content="">
 
 
 
@@ -88,6 +88,12 @@
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+<script>
+  (function() {
+    var t = localStorage.getItem('theme');
+    if (t) document.documentElement.setAttribute('data-theme', t);
+  })();
 </script>
 
 <!-- Google Fonts: Inter -->
@@ -156,17 +162,33 @@
             <li class="masthead__menu-item"><a href="http://localhost:4000/publications/">Publications</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/talks/">Talks</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/talks/">Talks & Conferences</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/teaching/">Teaching</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/teaching/">Teaching and Supervision</a></li>
           
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
+    <button id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
   </div>
 </div>
+
+<script>
+(function() {
+  var btn = document.getElementById('theme-toggle');
+  var saved = localStorage.getItem('theme') || 'light';
+  if (btn) btn.textContent = saved === 'dark' ? '☀️' : '🌙';
+  if (btn) btn.addEventListener('click', function() {
+    var current = document.documentElement.getAttribute('data-theme') || 'light';
+    var next = current === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+    btn.textContent = next === 'dark' ? '☀️' : '🌙';
+  });
+})();
+</script>
 
     
 
@@ -275,15 +297,15 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Classification of face-transitive surfaces">
-    <meta itemprop="description" content="  Abstract: A simplicial surface is the combinatorial structure that results from examining the incidence relations between the vertices, edges and faces of a triangulated polyhedron. We refer to such a simplicial surface as face-transitive if the corresponding automorphism group acts transitively on the faces of the given surface. Furthermore, a simplicial surface can be linked to its dual graph, a cubic graph, by denotingthe incidences between its faces and edges. While translating a simplicial surface into a cubic graphis straightforward, determining whether there exists a simplicial surface with a given cubic graph asdual graph is a task of high complexity. In particular, this computation is achieved by computing a cycle double cover of a given cubic graph, i.e. a collection of cycles of the graph such that every edge of the graph is contained in exactly two cycles. However, when dealing with face-transitive surfaces, there is some optimism in tackling this challenge. In this talk, we will discuss the computation of face-transitive surfaces by providing suitable cycle double covers of vertex-transitive cubic graphs.We will demonstrate that the cycle double cover of a given cubic graph that yields a face-transitive surface can be obtained by exploiting the automorphism group of the given graph.  Moreover, we will see that there are exactly 7 different types of face-transitive surfaces and also provide andistinguishing invariant to tell them apart. This is a joint work with Jonathan Spreer.">
+    <meta itemprop="headline" content="Three Random Talks in Combinatorics">
+    <meta itemprop="description" content="">
     <meta itemprop="datePublished" content="May 23, 2024">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Classification of face-transitive surfaces
+          <h1 class="page__title" itemprop="headline">Three Random Talks in Combinatorics
 </h1>
           
         
@@ -295,25 +317,7 @@
       
 
       <section class="page__content" itemprop="text">
-        <blockquote>
-  <p><strong>Abstract</strong>: A simplicial surface is the combinatorial structure that results from examining the incidence relations 
-between the vertices, edges and faces of a triangulated polyhedron. We refer to such a simplicial surface 
-as face-transitive if the corresponding automorphism group acts transitively on the faces of the given 
-surface. Furthermore, a simplicial surface can be linked to its dual graph, a cubic graph, by denoting
-the incidences between its faces and edges. While translating a simplicial surface into a cubic graph
-is straightforward, determining whether there exists a simplicial surface with a given cubic graph as
-dual graph is a task of high complexity. In particular, this computation is achieved by computing a 
-cycle double cover of a given cubic graph, i.e. a collection of cycles of the graph such that every 
-edge of the graph is contained in exactly two cycles. However, when dealing with face-transitive surfaces, 
-there is some optimism in tackling this challenge. In this talk, we will discuss the computation of 
-face-transitive surfaces by providing suitable cycle double covers of vertex-transitive cubic graphs.
-We will demonstrate that the cycle double cover of a given cubic graph that yields a face-transitive 
-surface can be obtained by exploiting the automorphism group of the given graph.  Moreover, we will 
-see that there are exactly 7 different types of face-transitive surfaces and also provide an
-distinguishing invariant to tell them apart. This is a joint work with Jonathan Spreer.</p>
-</blockquote>
-
-<p><a href="https://pageperso.lis-lab.fr/~kolja.knauer/3TiC/3TiC.html">More information here</a></p>
+        
 
         
       </section>
@@ -346,11 +350,11 @@ distinguishing invariant to tell them apart. This is a joint work with Jonathan 
 
   <nav class="pagination">
     
-      <a href="http://localhost:4000/talks/usyd" class="pagination--pager" title="On the classification of face-transitive surfaces
+      <a href="http://localhost:4000/talks/architecturedmaterials2024" class="pagination--pager" title="Architectured Materials: Searching for Common Ground
 ">Previous</a>
     
     
-      <a href="http://localhost:4000/talks/JuliaCon" class="pagination--pager" title="GeoCombSurfX - exploring properties of polygonal complexes
+      <a href="http://localhost:4000/talks/cccg2024conf" class="pagination--pager" title="Canadian Conference on Computational Geometry (CCCG 2024)
 ">Next</a>
     
   </nav>

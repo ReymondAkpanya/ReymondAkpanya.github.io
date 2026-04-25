@@ -19,7 +19,7 @@
 
 
 
-<title>Constructing Topological Interlocking Assemblies (Workshop) - Reymond Akpanya / The University of Sydney</title>
+<title>Concrete Art Project 2024 - Reymond Akpanya / The University of Sydney</title>
 
 
 
@@ -29,7 +29,7 @@
 
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Reymond Akpanya / The University of Sydney">
-<meta property="og:title" content="Constructing Topological Interlocking Assemblies (Workshop)">
+<meta property="og:title" content="Concrete Art Project 2024">
 
 
   <link rel="canonical" href="http://localhost:4000/talks/concreteworkshop">
@@ -37,7 +37,7 @@
 
 
 
-  <meta property="og:description" content="  Description: From August 5 to 9, 2024, children and young people were invited to experience a creative week at theRolleferberg Youth Education Center. In cooperation with the Bleiberger Fabrik and the Werkwochen, this workshop offered young people the opportunity to experiment with concrete and realize their own creative ideas under the guidance of artists such as Andreas Robertz and Silke Franke.The Concrete Art Project 2024 was enriched by the additional support of young scientists from the SFB/TRR280. Theseyoung experts from various disciplines, such as mathematics and structural engineering, imparted valuable knowledgeto the participants. Hands-on experiments such as building a polyhedron out of paper, a hammer test for concrete slabs and Q&amp;A sessions on bridge construction aroused interest in research and science. The aim of the CRC/TRR280is to introduce children and young people to scientific concepts in a playful way and to encourage a lasting interest in these topics.">
+  <meta property="og:description" content="">
 
 
 
@@ -88,6 +88,12 @@
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+<script>
+  (function() {
+    var t = localStorage.getItem('theme');
+    if (t) document.documentElement.setAttribute('data-theme', t);
+  })();
 </script>
 
 <!-- Google Fonts: Inter -->
@@ -156,17 +162,33 @@
             <li class="masthead__menu-item"><a href="http://localhost:4000/publications/">Publications</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/talks/">Talks</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/talks/">Talks & Conferences</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/teaching/">Teaching</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/teaching/">Teaching and Supervision</a></li>
           
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
+    <button id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
   </div>
 </div>
+
+<script>
+(function() {
+  var btn = document.getElementById('theme-toggle');
+  var saved = localStorage.getItem('theme') || 'light';
+  if (btn) btn.textContent = saved === 'dark' ? '☀️' : '🌙';
+  if (btn) btn.addEventListener('click', function() {
+    var current = document.documentElement.getAttribute('data-theme') || 'light';
+    var next = current === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+    btn.textContent = next === 'dark' ? '☀️' : '🌙';
+  });
+})();
+</script>
 
     
 
@@ -275,15 +297,15 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Constructing Topological Interlocking Assemblies (Workshop)">
-    <meta itemprop="description" content="  Description: From August 5 to 9, 2024, children and young people were invited to experience a creative week at theRolleferberg Youth Education Center. In cooperation with the Bleiberger Fabrik and the Werkwochen, this workshop offered young people the opportunity to experiment with concrete and realize their own creative ideas under the guidance of artists such as Andreas Robertz and Silke Franke.The Concrete Art Project 2024 was enriched by the additional support of young scientists from the SFB/TRR280. Theseyoung experts from various disciplines, such as mathematics and structural engineering, imparted valuable knowledgeto the participants. Hands-on experiments such as building a polyhedron out of paper, a hammer test for concrete slabs and Q&amp;A sessions on bridge construction aroused interest in research and science. The aim of the CRC/TRR280is to introduce children and young people to scientific concepts in a playful way and to encourage a lasting interest in these topics.">
+    <meta itemprop="headline" content="Concrete Art Project 2024">
+    <meta itemprop="description" content="">
     <meta itemprop="datePublished" content="August 07, 2024">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Constructing Topological Interlocking Assemblies (Workshop)
+          <h1 class="page__title" itemprop="headline">Concrete Art Project 2024
 </h1>
           
         
@@ -295,20 +317,7 @@
       
 
       <section class="page__content" itemprop="text">
-        <blockquote>
-  <p><strong>Description</strong>: From August 5 to 9, 2024, children and young people were invited to experience a creative week at the
-Rolleferberg Youth Education Center. In cooperation with the Bleiberger Fabrik and the Werkwochen, this workshop 
-offered young people the opportunity to experiment with concrete and realize their own creative ideas under the 
-guidance of artists such as Andreas Robertz and Silke Franke.<br />
-The Concrete Art Project 2024 was enriched by the additional support of young scientists from the SFB/TRR280. These
-young experts from various disciplines, such as mathematics and structural engineering, imparted valuable knowledge
-to the participants. Hands-on experiments such as building a polyhedron out of paper, a hammer test for concrete 
-slabs and Q&amp;A sessions on bridge construction aroused interest in research and science. The aim of the CRC/TRR280
-is to introduce children and young people to scientific concepts in a playful way and to encourage a lasting 
-interest in these topics.</p>
-</blockquote>
-
-<p><a href="https://www.sfbtrr280.de/en/school/study/concrete-art-project-2024/">More information here</a></p>
+        
 
         
       </section>
@@ -341,11 +350,11 @@ interest in these topics.</p>
 
   <nav class="pagination">
     
-      <a href="http://localhost:4000/talks/WCCM" class="pagination--pager" title="Mechanical Behaviour of Tubular Topological Interlocking Assemblies
+      <a href="http://localhost:4000/talks/WCCM" class="pagination--pager" title="World Congress on Computational Mechanics (WCCM) 2024
 ">Previous</a>
     
     
-      <a href="http://localhost:4000/talks/IASS2024" class="pagination--pager" title="Constructing Topological Interlocking Assemblies Based on an Aperiodic Monotile
+      <a href="http://localhost:4000/talks/IASS2024" class="pagination--pager" title="IASS Symposium 2024
 ">Next</a>
     
   </nav>

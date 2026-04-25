@@ -19,7 +19,7 @@
 
 
 
-<title>Talks - Reymond Akpanya / The University of Sydney</title>
+<title>Talks &amp; Conferences - Reymond Akpanya / The University of Sydney</title>
 
 
 
@@ -29,7 +29,7 @@
 
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Reymond Akpanya / The University of Sydney">
-<meta property="og:title" content="Talks">
+<meta property="og:title" content="Talks &amp; Conferences">
 
 
   <link rel="canonical" href="http://localhost:4000/talks/">
@@ -83,6 +83,12 @@
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+<script>
+  (function() {
+    var t = localStorage.getItem('theme');
+    if (t) document.documentElement.setAttribute('data-theme', t);
+  })();
 </script>
 
 <!-- Google Fonts: Inter -->
@@ -151,17 +157,33 @@
             <li class="masthead__menu-item"><a href="http://localhost:4000/publications/">Publications</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/talks/">Talks</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/talks/">Talks & Conferences</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/teaching/">Teaching</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/teaching/">Teaching and Supervision</a></li>
           
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
+    <button id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
   </div>
 </div>
+
+<script>
+(function() {
+  var btn = document.getElementById('theme-toggle');
+  var saved = localStorage.getItem('theme') || 'light';
+  if (btn) btn.textContent = saved === 'dark' ? '☀️' : '🌙';
+  if (btn) btn.addEventListener('click', function() {
+    var current = document.documentElement.getAttribute('data-theme') || 'light';
+    var next = current === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+    btn.textContent = next === 'dark' ? '☀️' : '🌙';
+  });
+})();
+</script>
 
     
 
@@ -269,119 +291,531 @@
 
   <div class="archive">
     
-      <h1 class="page__title">Talks</h1>
+      <h1 class="page__title">Talks & Conferences</h1>
     
     
 
 
 
-<ul class="simple-list">
+<div class="card-grid">
 
-<li>
+<div class="item-card">
+  <div class="card-badges">
+    
+      
+        
+          <span class="badge badge-prep">Organiser</span>
+        
+      
+        
+          <span class="badge badge-talk">Talk</span>
+        
+      
+    
+    <span class="badge badge-year">2026</span>
+  </div>
+  <p class="card-title"><span class="pub-number">1.</span> Learning Seminar</p>
+  <p class="card-meta">University of Sydney, Sydney, Australia &mdash; 02/2026 – present</p>
   
-    <span class="badge badge-talk" style="margin-right:0.4em;">Talk</span>
+    <p class="card-meta">Organising Team; Talk: The Magma App</p>
   
-  <span class="list-item-title">Constructing face-transitive surfaces via cycle double covers induced by automorphism groups</span>
-  <span class="list-item-meta">&mdash; KOLKOM 2024, Heidelberg, Germany, September 2024</span>
-</li>
+  
+</div>
 
-<li>
+<div class="item-card">
+  <div class="card-badges">
+    
+      
+        <span class="badge badge-talk">Talk</span>
+      
+    
+    <span class="badge badge-year">2025</span>
+  </div>
+  <p class="card-title"><span class="pub-number">2.</span> AustMS 2025</p>
+  <p class="card-meta">La Trobe University, Melbourne, Australia &mdash; December 2025</p>
   
-    <span class="badge badge-talk" style="margin-right:0.4em;">Talk</span>
+    <p class="card-meta">Talk: Computing face-transitive surfaces</p>
   
-  <span class="list-item-title">Constructing Topological Interlocking Assemblies Based on an Aperiodic Monotile</span>
-  <span class="list-item-meta">&mdash; IASS Symposium 2024, Zurich Switzerland, August 2024</span>
-</li>
+  
+</div>
 
-<li>
+<div class="item-card">
+  <div class="card-badges">
+    
+      
+        <span class="badge badge-talk">Talk</span>
+      
+    
+    <span class="badge badge-year">2025</span>
+  </div>
+  <p class="card-title"><span class="pub-number">3.</span> 9th Australian Algebra Conference</p>
+  <p class="card-meta">La Trobe University, Melbourne, Australia &mdash; November 2025</p>
   
-    <span class="badge badge-talk" style="margin-right:0.4em;">Talk</span>
+    <p class="card-meta">Talk: Surfaces with given automorphism group</p>
   
-  <span class="list-item-title">Constructing Topological Interlocking Assemblies (Workshop)</span>
-  <span class="list-item-meta">&mdash; CONCRETE ART PROJECT 2024, Aachen, Germany, August 2024</span>
-</li>
+  
+</div>
 
-<li>
+<div class="item-card">
+  <div class="card-badges">
+    
+      
+        <span class="badge badge-talk">Talk</span>
+      
+    
+    <span class="badge badge-year">2025</span>
+  </div>
+  <p class="card-title"><span class="pub-number">4.</span> Computational Algebra Seminar</p>
+  <p class="card-meta">University of Sydney, Sydney, Australia &mdash; November 2025</p>
   
-    <span class="badge badge-talk" style="margin-right:0.4em;">Talk</span>
+    <p class="card-meta">Talk: A census of Edge-transitive surfaces</p>
   
-  <span class="list-item-title">Mechanical Behaviour of Tubular Topological Interlocking Assemblies</span>
-  <span class="list-item-meta">&mdash; WCCM 2024, Vancouver, Canada, July 2024</span>
-</li>
+  
+</div>
 
-<li>
+<div class="item-card">
+  <div class="card-badges">
+    
+      
+        <span class="badge badge-workshop">Workshop</span>
+      
+    
+    <span class="badge badge-year">2025</span>
+  </div>
+  <p class="card-title"><span class="pub-number">5.</span> Concrete Art Project 2025</p>
+  <p class="card-meta">RWTH Aachen University, Aachen, Germany &mdash; August 2025</p>
   
-    <span class="badge badge-talk" style="margin-right:0.4em;">Talk</span>
+    <p class="card-meta">Workshop on Topological Interlocking Assemblies</p>
   
-  <span class="list-item-title">GeoCombSurfX - exploring properties of polygonal complexes</span>
-  <span class="list-item-meta">&mdash; JuliaCon 2024, Eindhoven, Netherlands, July 2024</span>
-</li>
+  
+</div>
 
-<li>
+<div class="item-card">
+  <div class="card-badges">
+    
+      
+        <span class="badge badge-talk">Talk</span>
+      
+    
+    <span class="badge badge-year">2025</span>
+  </div>
+  <p class="card-title"><span class="pub-number">6.</span> Workshop on Combinatorics and Geometry</p>
+  <p class="card-meta">, Istanbul, Turkey &mdash; August 2025</p>
   
-    <span class="badge badge-talk" style="margin-right:0.4em;">Talk</span>
+    <p class="card-meta">Talk: Construction of Toroidal Polyhedra corresponding to perfect Chains of isosceles Tetrahedra</p>
   
-  <span class="list-item-title">Classification of face-transitive surfaces</span>
-  <span class="list-item-meta">&mdash; Three random talks in Combinatorics (Universidad de Barcelona), Barcelona, Spain, May 2024</span>
-</li>
+  
+    <p class="card-meta" style="font-size:0.82em;"><a href="https://cg-istanbul.github.io/cgi2025/">More info &rarr;</a></p>
+  
+</div>
 
-<li>
+<div class="item-card">
+  <div class="card-badges">
+    
+      
+        
+          <span class="badge badge-prep">Organiser</span>
+        
+      
+        
+          <span class="badge badge-talk">Talk</span>
+        
+      
+    
+    <span class="badge badge-year">2025</span>
+  </div>
+  <p class="card-title"><span class="pub-number">7.</span> Magma Workshop on Groups and Graphs</p>
+  <p class="card-meta">RWTH Aachen University, Aachen, Germany &mdash; July 2025</p>
   
-    <span class="badge badge-talk" style="margin-right:0.4em;">Talk</span>
+    <p class="card-meta">Organising Team; Talk: An Introduction to Magma</p>
   
-  <span class="list-item-title">On the classification of face-transitive surfaces</span>
-  <span class="list-item-meta">&mdash; Geometry & Topology Seminar (Usyd), Sydney, Australia, September 2023</span>
-</li>
+  
+    <p class="card-meta" style="font-size:0.82em;"><a href="https://www.art.rwth-aachen.de/go/id/boftog">More info &rarr;</a></p>
+  
+</div>
 
-<li>
+<div class="item-card">
+  <div class="card-badges">
+    
+      
+        <span class="badge badge-talk">Talk</span>
+      
+    
+    <span class="badge badge-year">2024</span>
+  </div>
+  <p class="card-title"><span class="pub-number">8.</span> KOLKOM 2024 (Combinatorial Colloquium)</p>
+  <p class="card-meta">, Heidelberg, Germany &mdash; October 2024</p>
   
-    <span class="badge badge-talk" style="margin-right:0.4em;">Talk</span>
+    <p class="card-meta">Talk: Constructing face-transitive surfaces via cycle double covers induced by automorphism groups</p>
   
-  <span class="list-item-title">A Group-Theoretic Approach for Constructing Spherical-Interlocking Assemblies</span>
-  <span class="list-item-meta">&mdash; Centre for Innovative Structures and Material (RMIT University), Melbourne, Australia, August 2023</span>
-</li>
+  
+    <p class="card-meta" style="font-size:0.82em;"><a href="https://web.ifi.uni-heidelberg.de/media/Kolkom24_final_6c4aa4ef44.pdf">More info &rarr;</a></p>
+  
+</div>
 
-<li>
+<div class="item-card">
+  <div class="card-badges">
+    
+      
+        <span class="badge badge-talk">Talk</span>
+      
+    
+    <span class="badge badge-year">2024</span>
+  </div>
+  <p class="card-title"><span class="pub-number">9.</span> IASS Symposium 2024</p>
+  <p class="card-meta">, Zurich, Switzerland &mdash; August 2024</p>
   
-    <span class="badge badge-talk" style="margin-right:0.4em;">Talk</span>
+    <p class="card-meta">Talk: Constructing Topological Interlocking Assemblies Based on an Aperiodic Monotile</p>
   
-  <span class="list-item-title">Simplicial Surfaces and their Face Graphs</span>
-  <span class="list-item-meta">&mdash; MaPS Seminar (Usyd), Sydney, Australia, August 2023</span>
-</li>
+  
+    <p class="card-meta" style="font-size:0.82em;"><a href="https://iass2024.org/web/wp-content/uploads/2024/08/IASS2024_Papers-Programme_FULL_V2.2.pdf">More info &rarr;</a></p>
+  
+</div>
 
-<li>
+<div class="item-card">
+  <div class="card-badges">
+    
+      
+        <span class="badge badge-workshop">Workshop</span>
+      
+    
+    <span class="badge badge-year">2024</span>
+  </div>
+  <p class="card-title"><span class="pub-number">10.</span> Concrete Art Project 2024</p>
+  <p class="card-meta">RWTH Aachen University, Aachen, Germany &mdash; August 2024</p>
   
-    <span class="badge badge-talk" style="margin-right:0.4em;">Talk</span>
+    <p class="card-meta">Workshop on Topological Interlocking Assemblies</p>
   
-  <span class="list-item-title">A Group-Theoretic Approach for Constructing Spherical-Interlocking Assemblies</span>
-  <span class="list-item-meta">&mdash; IASS Symposium 2023, Melbourne, Australia, July 2023</span>
-</li>
+  
+    <p class="card-meta" style="font-size:0.82em;"><a href="https://www.sfbtrr280.de/en/school/study/concrete-art-project-2024/">More info &rarr;</a></p>
+  
+</div>
 
-<li>
+<div class="item-card">
+  <div class="card-badges">
+    
+      
+        <span class="badge badge-talk">Talk</span>
+      
+    
+    <span class="badge badge-year">2024</span>
+  </div>
+  <p class="card-title"><span class="pub-number">11.</span> World Congress on Computational Mechanics (WCCM) 2024</p>
+  <p class="card-meta">Vancouver Convention Centre, Vancouver, Canada &mdash; July 2024</p>
   
-    <span class="badge badge-talk" style="margin-right:0.4em;">Talk</span>
+    <p class="card-meta">Talk: Mechanical Behaviour of Tubular Topological Interlocking Assemblies</p>
   
-  <span class="list-item-title">A Group-Theoretic Approach for Constructing Spherical-Interlocking Assemblies</span>
-  <span class="list-item-meta">&mdash; Geometry & Topology Seminar (Usyd), Sydney, Australia, June 2023</span>
-</li>
+  
+    <p class="card-meta" style="font-size:0.82em;"><a href="https://storage.googleapis.com/usacm_static_shared/wccm2024/WCCM%20Program%20-%20Website.pdf">More info &rarr;</a></p>
+  
+</div>
 
-<li>
+<div class="item-card">
+  <div class="card-badges">
+    
+      
+        <span class="badge badge-talk">Talk</span>
+      
+    
+    <span class="badge badge-year">2024</span>
+  </div>
+  <p class="card-title"><span class="pub-number">12.</span> JuliaCon 2024</p>
+  <p class="card-meta">PSV Stadium, Eindhoven, Netherlands &mdash; July 2024</p>
   
-    <span class="badge badge-workshop" style="margin-right:0.4em;">Workshop</span>
+    <p class="card-meta">Talk: GeoCombSurfX – exploring properties of polygonal complexes</p>
   
-  <span class="list-item-title">Workshop - Symmetrie und Interlockings</span>
-  <span class="list-item-meta">&mdash; RWTH Aachen University, Aachen, Germany, November 2022</span>
-</li>
+  
+    <p class="card-meta" style="font-size:0.82em;"><a href="https://pretalx.com/juliacon2024/talk/YDS7HF/">More info &rarr;</a></p>
+  
+</div>
 
-<li>
+<div class="item-card">
+  <div class="card-badges">
+    
+      
+        <span class="badge badge-thesis">Attendee</span>
+      
+    
+    <span class="badge badge-year">2024</span>
+  </div>
+  <p class="card-title"><span class="pub-number">13.</span> Canadian Conference on Computational Geometry (CCCG 2024)</p>
+  <p class="card-meta">Brock University, St. Catharines, Canada &mdash; July 2024</p>
   
-    <span class="badge badge-talk" style="margin-right:0.4em;">Talk</span>
+    <p class="card-meta">Edited Open Problems of CCCG 2024</p>
   
-  <span class="list-item-title">Simplicial Surfaces and their Face Graphs</span>
-  <span class="list-item-meta">&mdash; GAP Days Summer 2022, Aachen, Germany, October 2022</span>
-</li>
+  
+    <p class="card-meta" style="font-size:0.82em;"><a href="https://cosc.brocku.ca/~rnishat/CCCG_2024_proceedings.pdf">More info &rarr;</a></p>
+  
+</div>
 
-</ul>
+<div class="item-card">
+  <div class="card-badges">
+    
+      
+        <span class="badge badge-talk">Talk</span>
+      
+    
+    <span class="badge badge-year">2024</span>
+  </div>
+  <p class="card-title"><span class="pub-number">14.</span> Three Random Talks in Combinatorics</p>
+  <p class="card-meta">Universitat de Barcelona, Barcelona, Spain &mdash; May 2024</p>
+  
+    <p class="card-meta">Talk: Classification of face-transitive surfaces</p>
+  
+  
+    <p class="card-meta" style="font-size:0.82em;"><a href="https://pageperso.lis-lab.fr/~kolja.knauer/3TiC/3TiC.html">More info &rarr;</a></p>
+  
+</div>
+
+<div class="item-card">
+  <div class="card-badges">
+    
+      
+        <span class="badge badge-prep">Organiser</span>
+      
+    
+    <span class="badge badge-year">2024</span>
+  </div>
+  <p class="card-title"><span class="pub-number">15.</span> Architectured Materials: Searching for Common Ground</p>
+  <p class="card-meta">RWTH Aachen University, Aachen, Germany &mdash; March 2024</p>
+  
+    <p class="card-meta">Organising Team</p>
+  
+  
+    <p class="card-meta" style="font-size:0.82em;"><a href="https://algebra.data.rwth-aachen.de/miniWS-Arch-material/">More info &rarr;</a></p>
+  
+</div>
+
+<div class="item-card">
+  <div class="card-badges">
+    
+      
+        <span class="badge badge-talk">Talk</span>
+      
+    
+    <span class="badge badge-year">2023</span>
+  </div>
+  <p class="card-title"><span class="pub-number">16.</span> Geometry & Topology Seminar</p>
+  <p class="card-meta">University of Sydney, Sydney, Australia &mdash; September 2023</p>
+  
+    <p class="card-meta">Talk: On face-transitive simplicial surfaces</p>
+  
+  
+    <p class="card-meta" style="font-size:0.82em;"><a href="https://www.maths.usyd.edu.au/s/scnitm/tillmann-Geometry-Topology-Reymond">More info &rarr;</a></p>
+  
+</div>
+
+<div class="item-card">
+  <div class="card-badges">
+    
+      
+        <span class="badge badge-talk">Talk</span>
+      
+    
+    <span class="badge badge-year">2023</span>
+  </div>
+  <p class="card-title"><span class="pub-number">17.</span> Centre for Innovative Structures and Materials (RMIT)</p>
+  <p class="card-meta">RMIT University, Melbourne, Australia &mdash; August 2023</p>
+  
+    <p class="card-meta">Talk: A Group-Theoretic Approach for Constructing Spherical-Interlocking Assemblies</p>
+  
+  
+</div>
+
+<div class="item-card">
+  <div class="card-badges">
+    
+      
+        <span class="badge badge-talk">Talk</span>
+      
+    
+    <span class="badge badge-year">2023</span>
+  </div>
+  <p class="card-title"><span class="pub-number">18.</span> MaPS Seminar</p>
+  <p class="card-meta">University of Sydney, Sydney, Australia &mdash; August 2023</p>
+  
+    <p class="card-meta">Talk: Simplicial Surfaces and their Face Graphs</p>
+  
+  
+</div>
+
+<div class="item-card">
+  <div class="card-badges">
+    
+      
+        <span class="badge badge-talk">Talk</span>
+      
+    
+    <span class="badge badge-year">2023</span>
+  </div>
+  <p class="card-title"><span class="pub-number">19.</span> IASS Symposium 2023</p>
+  <p class="card-meta">, Melbourne, Australia &mdash; July 2023</p>
+  
+    <p class="card-meta">Talk: A Group-Theoretic Approach for Constructing Spherical-Interlocking Assemblies</p>
+  
+  
+    <p class="card-meta" style="font-size:0.82em;"><a href="https://edisciplinas.usp.br/pluginfile.php/7885407/mod_resource/content/1/IASS2023-Program-Book.pdf">More info &rarr;</a></p>
+  
+</div>
+
+<div class="item-card">
+  <div class="card-badges">
+    
+      
+        <span class="badge badge-talk">Talk</span>
+      
+    
+    <span class="badge badge-year">2023</span>
+  </div>
+  <p class="card-title"><span class="pub-number">20.</span> Geometry & Topology Seminar</p>
+  <p class="card-meta">University of Sydney, Sydney, Australia &mdash; June 2023</p>
+  
+    <p class="card-meta">Talk: A Group-Theoretic Approach for Constructing Spherical-Interlocking Assemblies</p>
+  
+  
+    <p class="card-meta" style="font-size:0.82em;"><a href="https://www.maths.usyd.edu.au/u/tillmann/2015-geometricstructures/">More info &rarr;</a></p>
+  
+</div>
+
+<div class="item-card">
+  <div class="card-badges">
+    
+      
+        
+          <span class="badge badge-prep">Organiser</span>
+        
+      
+        
+          <span class="badge badge-talk">Talk</span>
+        
+      
+    
+    <span class="badge badge-year">2022</span>
+  </div>
+  <p class="card-title"><span class="pub-number">21.</span> Workshop "Symmetrie und Interlockings"</p>
+  <p class="card-meta">RWTH Aachen University, Aachen, Germany &mdash; November 2022</p>
+  
+    <p class="card-meta">Organising Team; Talk: Symmetrie und Verriegelungen</p>
+  
+  
+    <p class="card-meta" style="font-size:0.82em;"><a href="https://www.sfbtrr280.de/news/news/detail/schuelerworkshop-mit-dem-tp-a-04/">More info &rarr;</a></p>
+  
+</div>
+
+<div class="item-card">
+  <div class="card-badges">
+    
+      
+        <span class="badge badge-talk">Talk</span>
+      
+    
+    <span class="badge badge-year">2022</span>
+  </div>
+  <p class="card-title"><span class="pub-number">22.</span> GAP Days Summer 2022</p>
+  <p class="card-meta">, Aachen, Germany &mdash; October 2022</p>
+  
+    <p class="card-meta">Talk: GAP package SimplicialSurfaces</p>
+  
+  
+    <p class="card-meta" style="font-size:0.82em;"><a href="https://www.gapdays.de/gapdays2022-summer/program/">More info &rarr;</a></p>
+  
+</div>
+
+<div class="item-card">
+  <div class="card-badges">
+    
+      
+        <span class="badge badge-thesis">Attendee</span>
+      
+    
+    <span class="badge badge-year">2022</span>
+  </div>
+  <p class="card-title"><span class="pub-number">23.</span> LMS Research School on Knowledge Exchange</p>
+  <p class="card-meta">Lancaster University, Lancaster, UK &mdash; July 2022</p>
+  
+  
+</div>
+
+<div class="item-card">
+  <div class="card-badges">
+    
+      
+        <span class="badge badge-thesis">Attendee</span>
+      
+    
+    <span class="badge badge-year">2022</span>
+  </div>
+  <p class="card-title"><span class="pub-number">24.</span> Non-Linear Algebra Day</p>
+  <p class="card-meta">RWTH Aachen University, Aachen, Germany &mdash; April 2022</p>
+  
+  
+</div>
+
+<div class="item-card">
+  <div class="card-badges">
+    
+      
+        <span class="badge badge-thesis">Attendee</span>
+      
+    
+    <span class="badge badge-year">2022</span>
+  </div>
+  <p class="card-title"><span class="pub-number">25.</span> GAP-Days Winter 2022</p>
+  <p class="card-meta">RWTH Aachen University, Aachen, Germany &mdash; February 2022</p>
+  
+    <p class="card-meta">Work on GAP package SimplicialSurfaces</p>
+  
+  
+</div>
+
+<div class="item-card">
+  <div class="card-badges">
+    
+      
+        <span class="badge badge-talk">Talk</span>
+      
+    
+    <span class="badge badge-year">2022</span>
+  </div>
+  <p class="card-title"><span class="pub-number">26.</span> Oberseminar</p>
+  <p class="card-meta">RWTH Aachen University, Aachen, Germany &mdash; January 2022</p>
+  
+    <p class="card-meta">Talk: Octahedral-tetrahedral surfaces</p>
+  
+  
+</div>
+
+<div class="item-card">
+  <div class="card-badges">
+    
+      
+        <span class="badge badge-thesis">Attendee</span>
+      
+    
+    <span class="badge badge-year">2021</span>
+  </div>
+  <p class="card-title"><span class="pub-number">27.</span> CRC/TRR 280 Autumn Colloquium</p>
+  <p class="card-meta">RWTH Aachen University, Aachen, Germany &mdash; November 2021</p>
+  
+  
+</div>
+
+<div class="item-card">
+  <div class="card-badges">
+    
+      
+        <span class="badge badge-thesis">Attendee</span>
+      
+    
+    <span class="badge badge-year">2021</span>
+  </div>
+  <p class="card-title"><span class="pub-number">28.</span> CRC/TRR 280 Spring Colloquium</p>
+  <p class="card-meta">TU Dresden, Dresden, Germany &mdash; May 2021</p>
+  
+  
+</div>
+
+</div>
 
   </div>
 </div>

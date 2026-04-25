@@ -84,6 +84,12 @@
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
 </script>
+<script>
+  (function() {
+    var t = localStorage.getItem('theme');
+    if (t) document.documentElement.setAttribute('data-theme', t);
+  })();
+</script>
 
 <!-- Google Fonts: Inter -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -151,17 +157,33 @@
             <li class="masthead__menu-item"><a href="http://localhost:4000/publications/">Publications</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/talks/">Talks</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/talks/">Talks & Conferences</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/teaching/">Teaching</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/teaching/">Teaching and Supervision</a></li>
           
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
+    <button id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
   </div>
 </div>
+
+<script>
+(function() {
+  var btn = document.getElementById('theme-toggle');
+  var saved = localStorage.getItem('theme') || 'light';
+  if (btn) btn.textContent = saved === 'dark' ? '☀️' : '🌙';
+  if (btn) btn.addEventListener('click', function() {
+    var current = document.documentElement.getAttribute('data-theme') || 'light';
+    var next = current === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+    btn.textContent = next === 'dark' ? '☀️' : '🌙';
+  });
+})();
+</script>
 
     
 
@@ -660,6 +682,82 @@
 </p>
     
     
+    
+
+  </article>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/publication/fwcg2024" rel="permalink">On Inside-Out Dissections of Polygons and Polyhedra
+</a>
+      
+    </h2>
+    
+    
+
+        
+          <p>Published in <i>FWCG 2024</i>, 2024 </p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+    
+    
+    
+      <p><a href=" https://arxiv.org/abs/2411.06584 ">Download Paper</a></p>
+    
+
+  </article>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/publication/openproblems2024" rel="permalink">Open Problems of CCCG 2024
+</a>
+      
+    </h2>
+    
+    
+
+        
+          <p>Published in <i>CCCG 2024</i>, 2024 </p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+    
+    
+    
+      <p><a href=" https://cosc.brocku.ca/~rnishat/CCCG_2024_proceedings.pdf ">Download Paper</a></p>
     
 
   </article>
@@ -1409,7 +1507,223 @@
 
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="http://localhost:4000/talks/gapdays2022" rel="permalink">Simplicial Surfaces and their Face Graphs
+        <a href="http://localhost:4000/talks/crcspring2021" rel="permalink">CRC/TRR 280 Spring Colloquium
+</a>
+      
+    </h2>
+    
+    
+
+        
+         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2021-05-01T00:00:00-07:00">May 01, 2021</time></p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+    
+    
+    
+
+  </article>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/talks/crcautumn2021" rel="permalink">CRC/TRR 280 Autumn Colloquium
+</a>
+      
+    </h2>
+    
+    
+
+        
+         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2021-11-01T00:00:00-07:00">November 01, 2021</time></p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+    
+    
+    
+
+  </article>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/talks/oberseminar2022" rel="permalink">Oberseminar
+</a>
+      
+    </h2>
+    
+    
+
+        
+         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2022-01-01T00:00:00-08:00">January 01, 2022</time></p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+    
+    
+    
+
+  </article>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/talks/gapdayswinter2022" rel="permalink">GAP-Days Winter 2022
+</a>
+      
+    </h2>
+    
+    
+
+        
+         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2022-02-01T00:00:00-08:00">February 01, 2022</time></p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+    
+    
+    
+
+  </article>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/talks/nonlinearalgebra2022" rel="permalink">Non-Linear Algebra Day
+</a>
+      
+    </h2>
+    
+    
+
+        
+         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2022-04-01T00:00:00-07:00">April 01, 2022</time></p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+    
+    
+    
+
+  </article>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/talks/lmsresearch2022" rel="permalink">LMS Research School on Knowledge Exchange
+</a>
+      
+    </h2>
+    
+    
+
+        
+         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2022-07-01T00:00:00-07:00">July 01, 2022</time></p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+    
+    
+    
+
+  </article>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/talks/gapdays2022" rel="permalink">GAP Days Summer 2022
 </a>
       
     </h2>
@@ -1421,10 +1735,12 @@
         
 
     
-    <p class="archive__item-excerpt" itemprop="description"><p><a href="https://www.gapdays.de/gapdays2022-summer/">More information here</a></p>
+    <p class="archive__item-excerpt" itemprop="description">
 </p>
     
     
+    
+      <p><a href=" https://www.gapdays.de/gapdays2022-summer/program/ ">Download Paper</a></p>
     
 
   </article>
@@ -1445,7 +1761,7 @@
 
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="http://localhost:4000/talks/rwthworkshop" rel="permalink">Workshop - Symmetrie und Interlockings
+        <a href="http://localhost:4000/talks/rwthworkshop" rel="permalink">Workshop “Symmetrie und Interlockings”
 </a>
       
     </h2>
@@ -1457,20 +1773,12 @@
         
 
     
-    <p class="archive__item-excerpt" itemprop="description"><blockquote>
-  <p><strong>Description</strong>: The pupils of the advanced mathematics course at the Viktoriagymnasium in Aachen visited the ART 
-(Chair of Algebra and Representation Theory) and LfAZ (Algebra and Number Theory) chairs.<br />
-In the workshop “Symmetry and Interlockings”, the pupils received an introduction to symmetry and patterns in 
-mathematics. With a programme, they were allowed to produce their self-constructed building blocks that allow 
-interlocking and selected models were then printed in 3D.<br />
-Many thanks to Reymond Akpanya, Tom Görtzen, Vanishree Krishna Kirekod, Alice Niemeyer, Daniel Robertz 
-and Sascha Stüttgen!<br />
-This event took place within the context of the SFB/TRR280.</p>
-</blockquote>
-
+    <p class="archive__item-excerpt" itemprop="description">
 </p>
     
     
+    
+      <p><a href=" https://www.sfbtrr280.de/news/news/detail/schuelerworkshop-mit-dem-tp-a-04/ ">Download Paper</a></p>
     
 
   </article>
@@ -1491,7 +1799,7 @@ This event took place within the context of the SFB/TRR280.</p>
 
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="http://localhost:4000/talks/usyd" rel="permalink">A Group-Theoretic Approach for Constructing Spherical-Interlocking Assemblies
+        <a href="http://localhost:4000/talks/usyd-june2023" rel="permalink">Geometry &amp; Topology Seminar
 </a>
       
     </h2>
@@ -1503,10 +1811,12 @@ This event took place within the context of the SFB/TRR280.</p>
         
 
     
-    <p class="archive__item-excerpt" itemprop="description"><p><a href="https://www.maths.usyd.edu.au/u/tillmann/2015-geometricstructures/">More information here</a></p>
+    <p class="archive__item-excerpt" itemprop="description">
 </p>
     
     
+    
+      <p><a href=" https://www.maths.usyd.edu.au/u/tillmann/2015-geometricstructures/ ">Download Paper</a></p>
     
 
   </article>
@@ -1527,7 +1837,7 @@ This event took place within the context of the SFB/TRR280.</p>
 
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="http://localhost:4000/talks/IASS2023" rel="permalink">A Group-Theoretic Approach for Constructing Spherical-Interlocking Assemblies
+        <a href="http://localhost:4000/talks/IASS2023" rel="permalink">IASS Symposium 2023
 </a>
       
     </h2>
@@ -1539,24 +1849,12 @@ This event took place within the context of the SFB/TRR280.</p>
         
 
     
-    <p class="archive__item-excerpt" itemprop="description"><blockquote>
-  <p><strong>Abstract</strong>: A topological interlocking is an assembly of blocks constrained by a fixed frame such that 
-each set of blocks is kinematically constrained. Estrin et al. [3] provide a recent overview of progress 
-in the study of topologically interlocking assemblies. Using a group-theoretic approach, we construct 
-interlocking assemblies of different polygonal surfaces. Given such a polygonal surface, we can compute
-its automorphism group and check for identified faces, i.e., faces that are identified under the symmetry
-of the given surface. The number of classes of identified faces corresponds to the number of different 
-types of blocks in the resulting assembly. Next, we deform faces to obtain an interlocking structure. 
-In this paper, we give examples of interlocking assemblies which form platonic solids or tubular interlocking
-structures. For our examples we use an algorithmic approach that can be easily generalized to arbitrary 
-tessellations of spheres and tubes. Figure 1. Construction of a spherical interlocking assembly based on 
-the icosahedron by deforming the faces of the platonic solid, (left) an icosahedron, (middle) different 
-perspectives on the resulting interlocking block, (right) assembly of the 3D printed blocks to form the 
-topological interlocking assembly</p>
-</blockquote>
+    <p class="archive__item-excerpt" itemprop="description">
 </p>
     
     
+    
+      <p><a href=" https://edisciplinas.usp.br/pluginfile.php/7885407/mod_resource/content/1/IASS2023-Program-Book.pdf ">Download Paper</a></p>
     
 
   </article>
@@ -1577,7 +1875,7 @@ topological interlocking assembly</p>
 
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="http://localhost:4000/talks/maps" rel="permalink">Simplicial Surfaces and their Face Graphs
+        <a href="http://localhost:4000/talks/maps" rel="permalink">MaPS Seminar
 </a>
       
     </h2>
@@ -1589,16 +1887,7 @@ topological interlocking assembly</p>
         
 
     
-    <p class="archive__item-excerpt" itemprop="description"><blockquote>
-  <p><strong>Abstract</strong>: Simplicial surfaces describe the incidence relations of triangulated surfaces. Such a combinatoric
-structure can be linked to its dual graph (face graph) by observing the incidences between the faces and edges 
-of the given simplicial surface. Note, the resulting face graph is a bridgeless cubic 3-connected graph. In 
-general, it is not clear whether there exists a simplicial surface with a given cubic graph as face graph. In
-this talk, we discuss the task of constructing a simplicial surface with a given cubic graph as face graph. We
-introduce some basic notions and give examples of cubic graphs with corresponding simplicial surfaces. 
-Furthermore, we present classes of cubic graphs where the existence of corresponding simplicial surface
-can be established.</p>
-</blockquote>
+    <p class="archive__item-excerpt" itemprop="description">
 </p>
     
     
@@ -1622,7 +1911,7 @@ can be established.</p>
 
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="http://localhost:4000/talks/rmit" rel="permalink">A Group-Theoretic Approach for Constructing Spherical-Interlocking Assemblies
+        <a href="http://localhost:4000/talks/rmit" rel="permalink">Centre for Innovative Structures and Materials (RMIT)
 </a>
       
     </h2>
@@ -1634,15 +1923,7 @@ can be established.</p>
         
 
     
-    <p class="archive__item-excerpt" itemprop="description"><blockquote>
-  <p><strong>Abstract</strong>: The study of symmetric objects occurs in various branches of mathematics.  Periodic tessellations of the Euclidean 
-plane are examples of such structures.<br />
-In this talk, we discuss the idea of deforming tiles of a periodic tiling to construct topological interlocking 
-assemblies.  Here, a topological interlocking is an assembly of blocks constrained by a fixed frame such that 
-each block is kinematically constrained.  Based on this idea, we give examples of interlocking assemblies which
-form platonic solids or tubular interlocking structures.</p>
-</blockquote>
-
+    <p class="archive__item-excerpt" itemprop="description">
 </p>
     
     
@@ -1666,7 +1947,7 @@ form platonic solids or tubular interlocking structures.</p>
 
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="http://localhost:4000/talks/usyd" rel="permalink">On the classification of face-transitive surfaces
+        <a href="http://localhost:4000/talks/usyd-sept2023" rel="permalink">Geometry &amp; Topology Seminar
 </a>
       
     </h2>
@@ -1678,28 +1959,12 @@ form platonic solids or tubular interlocking structures.</p>
         
 
     
-    <p class="archive__item-excerpt" itemprop="description"><blockquote>
-  <p><strong>Abstract</strong>: A simplicial surface can be derived from the incidence geometry of a 
-triangulated three-dimensional polyhedron by denoting the relationships between 
-the corresponding vertices, edges and faces. We refer to a simplicial surface as 
-face-transitive if the corresponding automorphism group acts transitively on the 
-faces of the simplicial surface.<br />
-We link a simplicial surface to its dual graph, a cubic graph, by denoting the 
-incidences between its faces and edges. While translating a surface into a cubic 
-graph is straightforward, determining whether there exists a simplicial surface with 
-a given cubic graph as dual graph is a task of high complexity. However, when dealing 
-with vertex-transitive cubic graphs, there is some optimism in tackling this challenge.
-In this talk, we will discuss the computation of face-transitive surfaces that have 
-vertex-transitive cubic graphs as their dual graphs. We will demonstrate that, in the 
-case of a vertex-transitive cubic graph, the necessary information for this construction 
-can be recovered from the automorphism group of the cubic graph. Moreover, we will see 
-that there are exactly 11 different types of face-transitive surfaces that can occur and 
-also provide distinguishing invariants to tell them apart.</p>
-</blockquote>
-
+    <p class="archive__item-excerpt" itemprop="description">
 </p>
     
     
+    
+      <p><a href=" https://www.maths.usyd.edu.au/s/scnitm/tillmann-Geometry-Topology-Reymond ">Download Paper</a></p>
     
 
   </article>
@@ -1720,7 +1985,45 @@ also provide distinguishing invariants to tell them apart.</p>
 
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="http://localhost:4000/talks/UAB" rel="permalink">Classification of face-transitive surfaces
+        <a href="http://localhost:4000/talks/architecturedmaterials2024" rel="permalink">Architectured Materials: Searching for Common Ground
+</a>
+      
+    </h2>
+    
+    
+
+        
+         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2024-03-01T00:00:00-08:00">March 01, 2024</time></p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+    
+    
+    
+      <p><a href=" https://algebra.data.rwth-aachen.de/miniWS-Arch-material/ ">Download Paper</a></p>
+    
+
+  </article>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/talks/UAB" rel="permalink">Three Random Talks in Combinatorics
 </a>
       
     </h2>
@@ -1732,27 +2035,12 @@ also provide distinguishing invariants to tell them apart.</p>
         
 
     
-    <p class="archive__item-excerpt" itemprop="description"><blockquote>
-  <p><strong>Abstract</strong>: A simplicial surface is the combinatorial structure that results from examining the incidence relations 
-between the vertices, edges and faces of a triangulated polyhedron. We refer to such a simplicial surface 
-as face-transitive if the corresponding automorphism group acts transitively on the faces of the given 
-surface. Furthermore, a simplicial surface can be linked to its dual graph, a cubic graph, by denoting
-the incidences between its faces and edges. While translating a simplicial surface into a cubic graph
-is straightforward, determining whether there exists a simplicial surface with a given cubic graph as
-dual graph is a task of high complexity. In particular, this computation is achieved by computing a 
-cycle double cover of a given cubic graph, i.e. a collection of cycles of the graph such that every 
-edge of the graph is contained in exactly two cycles. However, when dealing with face-transitive surfaces, 
-there is some optimism in tackling this challenge. In this talk, we will discuss the computation of 
-face-transitive surfaces by providing suitable cycle double covers of vertex-transitive cubic graphs.
-We will demonstrate that the cycle double cover of a given cubic graph that yields a face-transitive 
-surface can be obtained by exploiting the automorphism group of the given graph.  Moreover, we will 
-see that there are exactly 7 different types of face-transitive surfaces and also provide an
-distinguishing invariant to tell them apart. This is a joint work with Jonathan Spreer.</p>
-</blockquote>
-
+    <p class="archive__item-excerpt" itemprop="description">
 </p>
     
     
+    
+      <p><a href=" https://pageperso.lis-lab.fr/~kolja.knauer/3TiC/3TiC.html ">Download Paper</a></p>
     
 
   </article>
@@ -1773,7 +2061,45 @@ distinguishing invariant to tell them apart. This is a joint work with Jonathan 
 
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="http://localhost:4000/talks/JuliaCon" rel="permalink">GeoCombSurfX - exploring properties of polygonal complexes
+        <a href="http://localhost:4000/talks/cccg2024conf" rel="permalink">Canadian Conference on Computational Geometry (CCCG 2024)
+</a>
+      
+    </h2>
+    
+    
+
+        
+         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2024-07-08T00:00:00-07:00">July 08, 2024</time></p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+    
+    
+    
+      <p><a href=" https://cosc.brocku.ca/~rnishat/CCCG_2024_proceedings.pdf ">Download Paper</a></p>
+    
+
+  </article>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/talks/JuliaCon" rel="permalink">JuliaCon 2024
 </a>
       
     </h2>
@@ -1785,17 +2111,12 @@ distinguishing invariant to tell them apart. This is a joint work with Jonathan 
         
 
     
-    <p class="archive__item-excerpt" itemprop="description"><blockquote>
-  <p><strong>Abstract</strong>: Polygonal complexes are combinatoric objects that arise from polyhedra and facilitate various combinatoric and geometric
-studies. In this talk, we present the Julia package GeoCombSurfX which enables the study of polygonal complexes and the
-construction of their corresponding embedding. Moreover, we demonstrate the usage of our package by targeting the problem
-of deciding whether a given asssembly of 3D-blocks gives rise to a topological interlocking.
-This talk was given together with Sascha Stüttgen.</p>
-</blockquote>
-
+    <p class="archive__item-excerpt" itemprop="description">
 </p>
     
     
+    
+      <p><a href=" https://pretalx.com/juliacon2024/talk/YDS7HF/ ">Download Paper</a></p>
     
 
   </article>
@@ -1816,7 +2137,7 @@ This talk was given together with Sascha Stüttgen.</p>
 
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="http://localhost:4000/talks/WCCM" rel="permalink">Mechanical Behaviour of Tubular Topological Interlocking Assemblies
+        <a href="http://localhost:4000/talks/WCCM" rel="permalink">World Congress on Computational Mechanics (WCCM) 2024
 </a>
       
     </h2>
@@ -1828,29 +2149,12 @@ This talk was given together with Sascha Stüttgen.</p>
         
 
     
-    <p class="archive__item-excerpt" itemprop="description"><blockquote>
-  <p><strong>Abstract</strong>: A topological interlocking assembly is an arrangement of several rigid blocks that are in contact
-with each other and are constrained by a fixed frame such that each subset of blocks is kinematically constrained
-and therefore cannot be removed from the whole assembly. The platonic solids are examples of convex blocks that
-allow such interlocking assemblies, see [1]. Exploiting topological interlocking enables the construction of large
-concrete structures without the usage of mortar as binding material. Over the years various blocks that give rise 
-to topological interlocking assemblies by assembling copies of a given block, have been proposed. Dyskin et al. 
-are notable pioneers in the field of topological interlocking [1]. In [2], the authors provide an recent overview
-of assemblies with interlocking properties. In this presentation, we discuss an algebraic construction method that
-facilitates the design of various topological interlocking assemblies. More precisely, we construct blocks whose
-copies can be assembled to form tubular structures with interlocking properties. This is achieved by exploiting 
-two dimensional crystallographic groups, i.e. the symmetries of periodic wall paper patterns. Here, we focus on 
-the design of tubular topological interlocking assemblies that prevent certain simultaneous movements of the 
-blocks in the assembly when the frame remains unfixed. The motions of interest are the simultaneous radially 
-outwards movement of every block. Hence, we generate examples of tubular interlocking assemblies that prevent
-the described motions and compare their structural behaviour to the behaviour of interlocking assemblies that
-do not prevent these movements when the frame is not fixed. In particular, we achieve this comparison by conducting
-several finite element studies. Moreover, we address the challenge of manufacturing the proposed structures with
-carbon reinforced concrete.</p>
-</blockquote>
+    <p class="archive__item-excerpt" itemprop="description">
 </p>
     
     
+    
+      <p><a href=" https://storage.googleapis.com/usacm_static_shared/wccm2024/WCCM%20Program%20-%20Website.pdf ">Download Paper</a></p>
     
 
   </article>
@@ -1871,7 +2175,7 @@ carbon reinforced concrete.</p>
 
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="http://localhost:4000/talks/concreteworkshop" rel="permalink">Constructing Topological Interlocking Assemblies (Workshop)
+        <a href="http://localhost:4000/talks/concreteworkshop" rel="permalink">Concrete Art Project 2024
 </a>
       
     </h2>
@@ -1883,22 +2187,12 @@ carbon reinforced concrete.</p>
         
 
     
-    <p class="archive__item-excerpt" itemprop="description"><blockquote>
-  <p><strong>Description</strong>: From August 5 to 9, 2024, children and young people were invited to experience a creative week at the
-Rolleferberg Youth Education Center. In cooperation with the Bleiberger Fabrik and the Werkwochen, this workshop 
-offered young people the opportunity to experiment with concrete and realize their own creative ideas under the 
-guidance of artists such as Andreas Robertz and Silke Franke.<br />
-The Concrete Art Project 2024 was enriched by the additional support of young scientists from the SFB/TRR280. These
-young experts from various disciplines, such as mathematics and structural engineering, imparted valuable knowledge
-to the participants. Hands-on experiments such as building a polyhedron out of paper, a hammer test for concrete 
-slabs and Q&amp;A sessions on bridge construction aroused interest in research and science. The aim of the CRC/TRR280
-is to introduce children and young people to scientific concepts in a playful way and to encourage a lasting 
-interest in these topics.</p>
-</blockquote>
-
+    <p class="archive__item-excerpt" itemprop="description">
 </p>
     
     
+    
+      <p><a href=" https://www.sfbtrr280.de/en/school/study/concrete-art-project-2024/ ">Download Paper</a></p>
     
 
   </article>
@@ -1919,7 +2213,7 @@ interest in these topics.</p>
 
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="http://localhost:4000/talks/IASS2024" rel="permalink">Constructing Topological Interlocking Assemblies Based on an Aperiodic Monotile
+        <a href="http://localhost:4000/talks/IASS2024" rel="permalink">IASS Symposium 2024
 </a>
       
     </h2>
@@ -1931,20 +2225,159 @@ interest in these topics.</p>
         
 
     
-    <p class="archive__item-excerpt" itemprop="description"><blockquote>
-  <p><strong>Abstract</strong>:The einstein problem asks whether there exists an aperiodic monotile, i.e. a tile whose copies can be only arranged
-as a nonperiodic tessellation of the Euclidean plane. In 2023, Smith et.\ al.\ proved the existence of such a tile 
-by constructing a tile, called “the hat”, and described the corresponding tiling of the plane. Moreover, they 
-describe a two-parameter family Tile(a,b) of such monotiles, where Tile(1,sqrt(3))is the hat. Modifying the edges of 
-Tile(1,1) in a certain way leads to a chiral aperiodic monotile, which is part of a family called “spectres”. Based
-on this construction, we propose blocks that can be arranged into infinite topological interlocking assemblies obeying
-the same assembly rule as the spectre tessellation. A topological interlocking assembly is an assembly of blocks that
-is constrained by a fixed frame such that each set of blocks is kinematically constrained. Our construction establishes
-the existence of aperiodic topological interlocking assemblies. In this paper, we present details of the proof that our
-constructed assemblies are indeed topological interlocking assemblies. We highlight the combinatoric and geometric 
-properties of our constructed blocks and discuss possibilities of constructing our topological interlocking assemblies
-without causing any collision of blocks during assembly.</p>
-</blockquote>
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+    
+    
+    
+      <p><a href=" https://iass2024.org/web/wp-content/uploads/2024/08/IASS2024_Papers-Programme_FULL_V2.2.pdf ">Download Paper</a></p>
+    
+
+  </article>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/talks/KOLKOM2024" rel="permalink">KOLKOM 2024 (Combinatorial Colloquium)
+</a>
+      
+    </h2>
+    
+    
+
+        
+         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2024-10-01T00:00:00-07:00">October 01, 2024</time></p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+    
+    
+    
+      <p><a href=" https://web.ifi.uni-heidelberg.de/media/Kolkom24_final_6c4aa4ef44.pdf ">Download Paper</a></p>
+    
+
+  </article>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/talks/magmaworkshop2025" rel="permalink">Magma Workshop on Groups and Graphs
+</a>
+      
+    </h2>
+    
+    
+
+        
+         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2025-07-01T00:00:00-07:00">July 01, 2025</time></p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+    
+    
+    
+      <p><a href=" https://www.art.rwth-aachen.de/go/id/boftog ">Download Paper</a></p>
+    
+
+  </article>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/talks/cgi2025" rel="permalink">Workshop on Combinatorics and Geometry
+</a>
+      
+    </h2>
+    
+    
+
+        
+         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2025-08-01T00:00:00-07:00">August 01, 2025</time></p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+    
+    
+    
+      <p><a href=" https://cg-istanbul.github.io/cgi2025/ ">Download Paper</a></p>
+    
+
+  </article>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/talks/concreteart2025" rel="permalink">Concrete Art Project 2025
+</a>
+      
+    </h2>
+    
+    
+
+        
+         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2025-08-15T00:00:00-07:00">August 15, 2025</time></p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description">
 </p>
     
     
@@ -1968,7 +2401,7 @@ without causing any collision of blocks during assembly.</p>
 
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="http://localhost:4000/talks/KOLKOM2024" rel="permalink">Constructing face-transitive surfaces via cycle double covers induced by automorphism groups
+        <a href="http://localhost:4000/talks/compalgusyd2025" rel="permalink">Computational Algebra Seminar
 </a>
       
     </h2>
@@ -1976,24 +2409,119 @@ without causing any collision of blocks during assembly.</p>
     
 
         
-         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2024-09-29T00:00:00-07:00">September 29, 2024</time></p>
+         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2025-11-01T00:00:00-07:00">November 01, 2025</time></p>
         
 
     
-    <p class="archive__item-excerpt" itemprop="description"><blockquote>
-  <p><strong>Abstract</strong>: A (simplicial) surface can be seen as the incidence geometry of the vertices, edges and faces of a
-triangulated 2-manifold. We call such a surface face-transitive if its automorphism group acts transitively
-on the faces of the given surface. Linking a given simplicial surface to a cubic graph is achieved by 
-recording the incidences between the corresponding faces and edges. Note that the resulting cubic graph
-does not directly contain any information on the vertices of the corresponding surface. This missing 
-information is obtained by constructing a cycle double cover (CDC) of the corresponding cubic graph, 
-i.e. a collection of cycles of the graph such that every edge of the graph is contained in exactly 
-two cycles. In this talk, we discuss the construction of face-transitive surfaces by providing suitable 
-CDCs of vertex-transitive cubic graphs. We demonstrate that the CDC of a given cubic graph corresponding
-to a face-transitive surface can be constructed by exploiting suitable subgroups of the automorphism
-group of the given cubic graph. This is a joint work with Jonathan Spreer (Usyd).<br /><br /></p>
-</blockquote>
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+    
+    
+    
 
+  </article>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/talks/australianalgebra2025" rel="permalink">9th Australian Algebra Conference
+</a>
+      
+    </h2>
+    
+    
+
+        
+         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2025-11-15T00:00:00-08:00">November 15, 2025</time></p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+    
+    
+    
+
+  </article>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/talks/austms2025" rel="permalink">AustMS 2025
+</a>
+      
+    </h2>
+    
+    
+
+        
+         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2025-12-01T00:00:00-08:00">December 01, 2025</time></p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+    
+    
+    
+
+  </article>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/talks/learningseminar2026" rel="permalink">Learning Seminar
+</a>
+      
+    </h2>
+    
+    
+
+        
+         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2026-02-01T00:00:00-08:00">February 01, 2026</time></p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description">
 </p>
     
     
@@ -2026,80 +2554,6 @@ group of the given cubic graph. This is a joint work with Jonathan Spreer (Usyd)
 
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="http://localhost:4000/teaching/2014-spring-teaching-1" rel="permalink">Teaching experience 1
-</a>
-      
-    </h2>
-    
-    
-
-        
-          <p> Undergraduate course, <i>University 1, Department</i>, 2014 </p>
-        
-
-    
-    <p class="archive__item-excerpt" itemprop="description"><p>This is a description of a teaching experience. You can use markdown like any other post.</p>
-
-</p>
-    
-    
-    
-
-  </article>
-</div>
-
-    
-  
-    
-      
-
-
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    
-
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="http://localhost:4000/teaching/2015-spring-teaching-1" rel="permalink">Teaching experience 2
-</a>
-      
-    </h2>
-    
-    
-
-        
-          <p> Workshop, <i>University 1, Department</i>, 2015 </p>
-        
-
-    
-    <p class="archive__item-excerpt" itemprop="description"><p>This is a description of a teaching experience. You can use markdown like any other post.</p>
-
-</p>
-    
-    
-    
-
-  </article>
-</div>
-
-    
-  
-    
-      
-
-
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    
-
-    <h2 class="archive__item-title" itemprop="headline">
-      
         <a href="http://localhost:4000/teaching/studenthoma" rel="permalink">Student Assistant for Höhere Mathematik I-II (Informatik &amp; Elektrotechnik)
 </a>
       
@@ -2109,42 +2563,6 @@ group of the given cubic graph. This is a joint work with Jonathan Spreer (Usyd)
 
         
           <p> Undergraduate course, <i>RWTH Aachen University</i>, 2019 </p>
-        
-
-    
-    <p class="archive__item-excerpt" itemprop="description">
-</p>
-    
-    
-    
-
-  </article>
-</div>
-
-    
-  
-    
-      
-
-
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    
-
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="http://localhost:4000/teaching/gap2019" rel="permalink">Student Assistant for programming in GAP
-</a>
-      
-    </h2>
-    
-    
-
-        
-          <p> Programming, <i>RWTH Aachen University</i>, 2019 </p>
         
 
     
@@ -2316,6 +2734,42 @@ group of the given cubic graph. This is a joint work with Jonathan Spreer (Usyd)
 
     <h2 class="archive__item-title" itemprop="headline">
       
+        <a href="http://localhost:4000/teaching/carinawings2022" rel="permalink">Permutationsgruppen und vertex-transitive Graphen
+</a>
+      
+    </h2>
+    
+    
+
+        
+          <p> Supervision, <i>RWTH Aachen University</i>, 2022 </p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+    
+    
+    
+
+  </article>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
         <a href="http://localhost:4000/teaching/fachpraktikum2022" rel="permalink">Graduate Assistant for Fachpraktikum Algebra
 </a>
       
@@ -2325,6 +2779,150 @@ group of the given cubic graph. This is a joint work with Jonathan Spreer (Usyd)
 
         
           <p> Undergraduate course, <i>RWTH Aachen University</i>, 2022 </p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+    
+    
+    
+
+  </article>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/teaching/annikagageik2023" rel="permalink">Perfekte Matchings vom Face Graph simplizialer Flächen
+</a>
+      
+    </h2>
+    
+    
+
+        
+          <p> Supervision, <i>RWTH Aachen University</i>, 2023 </p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+    
+    
+    
+
+  </article>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/teaching/meikeweiss2023" rel="permalink">Embeddings of Cubic Graphs on Simplicial Surfaces
+</a>
+      
+    </h2>
+    
+    
+
+        
+          <p> Supervision, <i>RWTH Aachen University</i>, 2023 </p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+    
+    
+    
+
+  </article>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/teaching/flynnfehre2023" rel="permalink">Work on GAP package SimplicialSurfaces and GaPic
+</a>
+      
+    </h2>
+    
+    
+
+        
+          <p> Supervision, <i>RWTH Aachen University</i>, 2023 </p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+    
+    
+    
+
+  </article>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/teaching/lukasschnelle2023" rel="permalink">Work on GAP package SimplicialSurfaces and GaPic
+</a>
+      
+    </h2>
+    
+    
+
+        
+          <p> Supervision, <i>RWTH Aachen University</i>, 2024 </p>
         
 
     
@@ -2388,6 +2986,42 @@ group of the given cubic graph. This is a joint work with Jonathan Spreer (Usyd)
 
     <h2 class="archive__item-title" itemprop="headline">
       
+        <a href="http://localhost:4000/teaching/lukasschnelle2024" rel="permalink">Topological Interlocking and Three-dimensional Crystallographic Groups
+</a>
+      
+    </h2>
+    
+    
+
+        
+          <p> Supervision, <i>RWTH Aachen University</i>, 2024 </p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+    
+    
+    
+
+  </article>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
         <a href="http://localhost:4000/teaching/diskretestrukturen2021" rel="permalink">Graduate Assistant for Diskrete Strukturen
 </a>
       
@@ -2397,6 +3031,402 @@ group of the given cubic graph. This is a joint work with Jonathan Spreer (Usyd)
 
         
           <p> Undergraduate course, <i>RWTH Aachen University</i>, 2024 </p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+    
+    
+    
+
+  </article>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/teaching/mathI2024" rel="permalink">Graduate Assistant for Mathematics I (for Mechanical Engineering students)
+</a>
+      
+    </h2>
+    
+    
+
+        
+          <p> Undergraduate course, <i>RWTH Aachen University</i>, 2024 </p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+    
+    
+    
+
+  </article>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/teaching/mevlude2024" rel="permalink">Simplicial surfaces and their applications in civil engineering
+</a>
+      
+    </h2>
+    
+    
+
+        
+          <p> Supervision, <i>RWTH Aachen University</i>, 2024 </p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+    
+    
+    
+
+  </article>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/teaching/seminargraphtheory2024" rel="permalink">Graduate Assistant for Seminar on Graph Theory I (for Mathematics students)
+</a>
+      
+    </h2>
+    
+    
+
+        
+          <p> Undergraduate course, <i>RWTH Aachen University</i>, 2024 </p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+    
+    
+    
+
+  </article>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/teaching/jonapalm2024" rel="permalink">Simplicial surfaces and their applications in civil engineering
+</a>
+      
+    </h2>
+    
+    
+
+        
+          <p> Supervision, <i>RWTH Aachen University</i>, 2024 </p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+    
+    
+    
+
+  </article>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/teaching/leonardsattler2025" rel="permalink">Cubic graphs and Permutation groups
+</a>
+      
+    </h2>
+    
+    
+
+        
+          <p> Supervision, <i>RWTH Aachen University</i>, 2024 </p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+    
+    
+    
+
+  </article>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/teaching/ugodetaille2025" rel="permalink">Cycle double covers of cubic graphs with given automorphism group
+</a>
+      
+    </h2>
+    
+    
+
+        
+          <p> Supervision, <i>RWTH Aachen University</i>, 2025 </p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+    
+    
+    
+
+  </article>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/teaching/mevlude2025" rel="permalink">Two-faced simplicial surfaces
+</a>
+      
+    </h2>
+    
+    
+
+        
+          <p> Supervision, <i>RWTH Aachen University</i>, 2025 </p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+    
+    
+    
+
+  </article>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/teaching/enyaleroy2025" rel="permalink">Simplicial surfaces and their applications in civil engineering
+</a>
+      
+    </h2>
+    
+    
+
+        
+          <p> Supervision, <i>RWTH Aachen University</i>, 2025 </p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+    
+    
+    
+
+  </article>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/teaching/m1080_2026" rel="permalink">Project Supervision in M1080 Research and Communication in Mathematical Sciences
+</a>
+      
+    </h2>
+    
+    
+
+        
+          <p> Undergraduate course, <i>University of Sydney</i>, 2026 </p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+    
+    
+    
+
+  </article>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/teaching/supervision" rel="permalink">Flips and Graph Encodings: Testing Barnette’s conjecture
+</a>
+      
+    </h2>
+    
+    
+
+        
+          <p> Supervision, <i>The University of Sydney</i>, 2026 </p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+    
+    
+    
+
+  </article>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/teaching/supervision" rel="permalink">Constructing Polyhedral Embeddings of Simplcial Surfaces
+</a>
+      
+    </h2>
+    
+    
+
+        
+          <p> Supervision, <i>RWTH Aachen University (Remote)</i>, 2026 </p>
         
 
     
