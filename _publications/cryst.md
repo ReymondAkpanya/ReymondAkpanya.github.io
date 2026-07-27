@@ -4,7 +4,7 @@ collection: publications
 category: mathematics
 permalink: /publication/cryst.md
 coauthors: "with Lukas Schnelle and Alice C. Niemeyer"
-citation_info: "In preparation"
+citation_info: "submitted"
 venue: "Journal"
 date: 2026-12-25
 ---

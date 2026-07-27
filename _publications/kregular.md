@@ -4,6 +4,6 @@ collection: publications
 category: mathematics
 permalink: /publication/polyhedral.md
 coauthors: "with Tom Goertzen and Meike Weiß"
-citation_info: "In preparation"
-date: 2026-12-30
+citation_info: "submitted"
+date: 2026-07-30
 ---

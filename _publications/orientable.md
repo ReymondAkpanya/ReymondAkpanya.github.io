@@ -6,5 +6,5 @@ permalink: /publication/orientable.md
 coauthors: "with Meike Weiss and Alice C. Niemeyer"
 citation_info: "Submitted, Preprint on arxiv"
 venue: "Journal"
-date: 2026-09-18
+date: 2025-09-18
 ---

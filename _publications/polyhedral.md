@@ -4,6 +4,6 @@ collection: publications
 category: mathematics
 permalink: /publication/polyhedral.md
 coauthors: "with Ugo Detaille, Meike Weiß, and Alice C. Niemeyer"         
-citation_info: "In preparation"
+citation_info: "Submitted"
 date: 2026-12-30
 ---
