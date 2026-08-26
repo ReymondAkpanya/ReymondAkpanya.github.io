@@ -12,30 +12,13 @@ redirect_from:
 
 <div class="news-box">
   <p class="news-box-header">News</p>
+  {% assign latest_news = site.data.news | sort: "date" | reverse %}
+  {% for item in latest_news limit: 3 %}
   <div class="news-item">
-    <span class="news-date">Jul 2026</span>
-    <span class="news-text">Awarded the <strong>Borchers' Medal</strong>, RWTH Aachen University</span>
+    <span class="news-date">{{ item.date | date: "%b %Y" }}</span>
+    <span class="news-text">{{ item.text }}</span>
   </div>
-  <div class="news-item">
-    <span class="news-date">Dec 2025</span>
-    <span class="news-text">Talk at <strong>AustMS 2025</strong>, La Trobe University, Melbourne</span>
-  </div>
-  <div class="news-item">
-    <span class="news-date">Sep 2025</span>
-    <span class="news-text">Received the <strong>GAP Excellence Award</strong></span>
-  </div>
-  <div class="news-item">
-    <span class="news-date">Sep 2025</span>
-    <span class="news-text">Joined the <strong>Magma Group</strong> at the University of Sydney as a Magma Research Associate</span>
-  </div>
-  <div class="news-item">
-    <span class="news-date">Jul 2025</span>
-    <span class="news-text">Paper published in <em>Journal of Algebraic Combinatorics</em>: <em>Surfaces with given automorphism group</em></span>
-  </div>
-  <div class="news-item">
-    <span class="news-date">May 2025</span>
-    <span class="news-text">PhD thesis defended: <em>Constructing Symmetric Simplicial Surfaces</em>, RWTH Aachen University</span>
-  </div>
+  {% endfor %}
 </div>
 
 I am a Magma Research Associate at the [Magma Group](https://magma.maths.usyd.edu.au/magma/), within the School of Mathematics and Statistics at the [University of Sydney](https://www.sydney.edu.au/), working with John Voight.
