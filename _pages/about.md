@@ -13,8 +13,16 @@ redirect_from:
 <div class="news-box">
   <p class="news-box-header">News</p>
   <div class="news-item">
+    <span class="news-date">Jul 2026</span>
+    <span class="news-text">Awarded the <strong>Borchers' Medal</strong>, RWTH Aachen University</span>
+  </div>
+  <div class="news-item">
     <span class="news-date">Dec 2025</span>
     <span class="news-text">Talk at <strong>AustMS 2025</strong>, La Trobe University, Melbourne</span>
+  </div>
+  <div class="news-item">
+    <span class="news-date">Sep 2025</span>
+    <span class="news-text">Received the <strong>GAP Excellence Award</strong></span>
   </div>
   <div class="news-item">
     <span class="news-date">Sep 2025</span>

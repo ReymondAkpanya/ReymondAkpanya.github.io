@@ -54,6 +54,26 @@ redirect_from:
 
 </div>
 
+<h2 class="section-label" style="margin-top:2.5em;">Awards</h2>
+<div class="card-grid">
+
+  <div class="item-card">
+    <div class="card-badges">
+      <span class="badge badge-year">Jul 2026</span>
+    </div>
+    <p class="card-title"><a href="https://www.rwth-aachen.de/cms/root/wir/rwth-events/wuerdigung-unserer-absolvierenden-und-un/~beizxo/borchers-plakette/?lidx=1">Borchers' Medal</a></p>
+    <p class="card-venue">RWTH Aachen University</p>
+  </div>
+
+  <div class="item-card">
+    <div class="card-badges">
+      <span class="badge badge-year">Sep 2025</span>
+    </div>
+    <p class="card-title"><a href="https://www.gap-system.org/award/">GAP Excellence Award</a></p>
+  </div>
+
+</div>
+
 <h2 class="section-label" style="margin-top:2.5em;">Experience Abroad</h2>
 <div class="card-grid">
 
