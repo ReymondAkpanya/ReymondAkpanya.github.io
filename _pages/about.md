@@ -12,12 +12,21 @@ redirect_from:
 
 <div class="news-box">
   <p class="news-box-header">News</p>
-  {% assign latest_news = site.data.news | sort: "date" | reverse %}
-  {% for item in latest_news limit: 3 %}
-  <div class="news-item">
-    <span class="news-date">{{ item.date | date: "%b %Y" }}</span>
-    <span class="news-text">{{ item.text }}</span>
-  </div>
+  {% assign nl = "
+" %}
+  {% capture talk_lines %}{% for t in site.talks %}{{ t.date | date: "%Y-%m-%d" }}|talk|{{ t.title }}|{{ t.venue }}|{{ t.location }}{{ nl }}{% endfor %}{% endcapture %}
+  {% capture data_lines %}{% for n in site.data.news %}{{ n.date | date: "%Y-%m-%d" }}|news|{{ n.text }}{{ nl }}{% endfor %}{% endcapture %}
+  {% assign all_lines = talk_lines | append: data_lines | split: nl | sort | reverse %}
+  {% assign shown = 0 %}
+  {% for line in all_lines %}
+    {% if line != "" and shown < 3 %}
+      {% assign parts = line | split: "|" %}
+      {% assign shown = shown | plus: 1 %}
+      <div class="news-item">
+        <span class="news-date">{{ parts[0] | date: "%b %Y" }}</span>
+        <span class="news-text">{% if parts[1] == "talk" %}Talk at <strong>{{ parts[2] }}</strong>{% if parts[3] != "" and parts[3] != "Remote" %}, {{ parts[3] }}{% endif %}, {{ parts[4] }}{% else %}{{ parts[2] }}{% endif %}</span>
+      </div>
+    {% endif %}
   {% endfor %}
 </div>
 
